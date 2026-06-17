@@ -1,0 +1,11 @@
+{
+  "name": "awesun-competitor-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/daily_collect.mjs",
+    "collect:free": "python3 scripts/free_collect.py",
+    "serve": "python3 -m http.server 4173"
+  }
+}

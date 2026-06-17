@@ -1,0 +1,293 @@
+{
+  "markets": ["US", "TW", "Global"],
+  "locationCode": 2840,
+  "languageCode": "en",
+  "device": "desktop",
+  "serpDepth": 20,
+  "semrushDatabase": "us",
+  "ownedDomains": ["awesun.com", "aweray.com"],
+  "serpMarkets": {
+    "US": {
+      "gl": "us",
+      "hl": "en",
+      "num": 20,
+      "keywordTemplates": ["{brand}"]
+    },
+    "TW": {
+      "gl": "tw",
+      "hl": "zh-tw",
+      "num": 20,
+      "keywordTemplates": ["{brand}"]
+    }
+  },
+  "keywords": [
+    "remote desktop software",
+    "free remote access app",
+    "unattended remote access",
+    "remote support for business",
+    "low latency remote desktop"
+  ],
+  "competitors": [
+    {
+      "id": "teamviewer",
+      "name": "TeamViewer",
+      "website": "https://www.teamviewer.com/",
+      "storeLink": "https://apps.apple.com/",
+      "market": "Global",
+      "priority": "High",
+      "platforms": ["Web", "App Store", "Google Play", "Ads", "Social"],
+      "notes": "企业远程支持与跨设备访问的强势品牌。",
+      "primaryDomain": "teamviewer.com",
+      "domains": ["teamviewer.com"],
+      "appStore": {
+        "iosAppId": "692035811",
+        "googlePackage": "com.teamviewer.teamviewer.market.mobile",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["TeamViewer"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "TeamViewer",
+        "youtubeChannelId": "UCW6qiNOl537wiLUSr9H7ZFw"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://www.teamviewer.com/en/resources/" }
+      ],
+      "websitePages": [
+        "https://www.teamviewer.com/",
+        "https://www.teamviewer.com/en/pricing/",
+        "https://www.teamviewer.com/en/download/"
+      ]
+    },
+    {
+      "id": "anydesk",
+      "name": "AnyDesk",
+      "website": "https://anydesk.com/",
+      "storeLink": "https://play.google.com/",
+      "market": "Global",
+      "priority": "High",
+      "platforms": ["Web", "App Store", "Google Play", "Ads", "Social"],
+      "notes": "强调轻量、低延迟和快速连接。",
+      "primaryDomain": "anydesk.com",
+      "domains": ["anydesk.com"],
+      "appStore": {
+        "iosAppId": "1176131273",
+        "googlePackage": "com.anydesk.anydeskandroid",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["AnyDesk"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "AnyDesk",
+        "youtubeChannelId": "UCFkLwT67lnyruZWVw78-NjA"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://anydesk.com/en/blog" }
+      ],
+      "websitePages": [
+        "https://anydesk.com/",
+        "https://anydesk.com/en/pricing",
+        "https://anydesk.com/en/downloads"
+      ]
+    },
+    {
+      "id": "splashtop",
+      "name": "Splashtop",
+      "website": "https://www.splashtop.com/",
+      "storeLink": "https://apps.apple.com/",
+      "market": "US",
+      "priority": "High",
+      "platforms": ["Web", "App Store", "Google Play", "Ads", "Social"],
+      "notes": "教育、企业 IT 与 MSP 场景较强。",
+      "primaryDomain": "splashtop.com",
+      "domains": ["splashtop.com"],
+      "appStore": {
+        "iosAppId": "650739354",
+        "googlePackage": "com.splashtop.remote.business",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["Splashtop"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "splashtop",
+        "youtubeChannelId": "UCjWY3alTITsc6X-RoD5PQ6A"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://www.splashtop.com/blog" }
+      ],
+      "websitePages": [
+        "https://www.splashtop.com/",
+        "https://www.splashtop.com/pricing",
+        "https://www.splashtop.com/blog"
+      ]
+    },
+    {
+      "id": "remotepc",
+      "name": "RemotePC",
+      "website": "https://www.remotepc.com/",
+      "storeLink": "https://play.google.com/",
+      "market": "US",
+      "priority": "Medium",
+      "platforms": ["Web", "App Store", "Google Play", "Ads"],
+      "notes": "价格型定位明显，常用折扣促销拉动转化。",
+      "primaryDomain": "remotepc.com",
+      "domains": ["remotepc.com"],
+      "appStore": {
+        "iosAppId": "405038711",
+        "googlePackage": "com.prosoftnet.rpcnew",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["RemotePC"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "RemotePC",
+        "youtubeChannelId": "UCzbS4gvw9nkuaiqUfo096bQ"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://www.remotepc.com/blog" }
+      ],
+      "websitePages": [
+        "https://www.remotepc.com/",
+        "https://www.remotepc.com/pricing",
+        "https://www.remotepc.com/download"
+      ]
+    },
+    {
+      "id": "rustdesk",
+      "name": "RustDesk",
+      "website": "https://rustdesk.com/",
+      "storeLink": "https://play.google.com/",
+      "market": "Global",
+      "priority": "Medium",
+      "platforms": ["Web", "Google Play", "Social"],
+      "notes": "开源、自托管和开发者社区心智突出。",
+      "primaryDomain": "rustdesk.com",
+      "domains": ["rustdesk.com"],
+      "appStore": {
+        "iosAppId": "1581225015",
+        "googlePackage": "",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["RustDesk"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "rustdesk",
+        "youtubeChannelId": "UCX82fQGgg7_JT_zl7q0tCEw"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://rustdesk.com/blog/" }
+      ],
+      "websitePages": [
+        "https://rustdesk.com/",
+        "https://rustdesk.com/pricing.html",
+        "https://rustdesk.com/blog/"
+      ]
+    },
+    {
+      "id": "chrome-remote-desktop",
+      "name": "Chrome Remote Desktop",
+      "website": "https://remotedesktop.google.com/",
+      "storeLink": "https://chromewebstore.google.com/",
+      "market": "Global",
+      "priority": "Medium",
+      "platforms": ["Web", "Social"],
+      "notes": "免费与 Google 生态入口带来高自然认知。",
+      "primaryDomain": "remotedesktop.google.com",
+      "domains": ["remotedesktop.google.com", "google.com"],
+      "appStore": {
+        "iosAppId": "",
+        "googlePackage": "",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["Chrome Remote Desktop"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "googlechrome",
+        "youtubeChannelId": "UCnUYZLuoy1rq1aVMwx4aTzw"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://blog.google/products/chrome/" }
+      ],
+      "websitePages": ["https://remotedesktop.google.com/"]
+    },
+    {
+      "id": "zoho-assist",
+      "name": "Zoho Assist",
+      "website": "https://www.zoho.com/assist/",
+      "storeLink": "https://apps.apple.com/",
+      "market": "US",
+      "priority": "Medium",
+      "platforms": ["Web", "App Store", "Google Play", "Ads", "Social"],
+      "notes": "远程支持与 ITSM 工具链联动清晰。",
+      "primaryDomain": "zoho.com",
+      "domains": ["zoho.com"],
+      "appStore": {
+        "iosAppId": "582922932",
+        "googlePackage": "com.zoho.assist",
+        "country": "US"
+      },
+      "meta": {
+        "searchTerms": ["Zoho Assist"],
+        "country": "US"
+      },
+      "social": {
+        "xHandle": "zohoassist",
+        "youtubeChannelId": "UC2K5SZ4Q2gdhwIa1oOeqHCg"
+      },
+      "contentSources": [
+        { "type": "resources", "url": "https://www.zoho.com/assist/resources/" }
+      ],
+      "websitePages": [
+        "https://www.zoho.com/assist/",
+        "https://www.zoho.com/assist/pricing.html",
+        "https://www.zoho.com/assist/resources/"
+      ]
+    },
+    {
+      "id": "deskin",
+      "name": "DeskIn",
+      "website": "https://www.deskin.io/",
+      "storeLink": "https://play.google.com/store/apps/details?id=com.zuler.deskin",
+      "market": "TW",
+      "priority": "Medium",
+      "platforms": ["Web", "App Store", "Google Play", "Ads", "Social"],
+      "notes": "面向个人和团队的远程桌面工具，台湾市场纳入重点观察。",
+      "primaryDomain": "deskin.io",
+      "domains": ["deskin.io"],
+      "appStore": {
+        "iosAppId": "1617419574",
+        "googlePackage": "com.zuler.deskin",
+        "country": "TW"
+      },
+      "meta": {
+        "searchTerms": ["DeskIn"],
+        "country": "TW"
+      },
+      "social": {
+        "xHandle": "",
+        "youtubeChannelId": "UCAzPICBOJ57i-zNmC8c6ClA"
+      },
+      "contentSources": [
+        { "type": "blog", "url": "https://deskin.io/resource/blog" }
+      ],
+      "websitePages": [
+        "https://www.deskin.io/",
+        "https://deskin.io/pricing/deskin-personal",
+        "https://deskin.io/download/deskin-personal",
+        "https://deskin.io/resource/blog"
+      ]
+    }
+  ]
+}

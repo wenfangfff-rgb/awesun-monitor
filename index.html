@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesun 竞品监控驾驶舱</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="竞品管理">
+        <div class="brand">
+          <div class="brand-mark">A</div>
+          <div>
+            <p class="eyebrow">Awesun Overseas</p>
+            <h1>竞品监控</h1>
+          </div>
+        </div>
+
+        <button class="primary-action" id="openAddModal" type="button">
+          <span aria-hidden="true">+</span>
+          添加竞品
+        </button>
+
+        <div class="side-section">
+          <div class="side-title">
+            <span>监控对象</span>
+            <strong id="competitorCount">0</strong>
+          </div>
+          <div class="competitor-list" id="competitorList"></div>
+        </div>
+
+        <div class="side-section compact">
+          <div class="side-title">
+            <span>快速筛选</span>
+          </div>
+          <div class="filter-stack" id="platformFilters"></div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">每日运营驾驶舱</p>
+            <h2>海外远程控制软件市场动作监控</h2>
+          </div>
+          <div class="topbar-actions">
+            <div class="segmented" aria-label="市场筛选" role="radiogroup">
+              <label>
+                <input type="radio" name="market" value="US" checked />
+                <span>美国</span>
+              </label>
+              <label>
+                <input type="radio" name="market" value="TW" />
+                <span>台湾</span>
+              </label>
+              <label>
+                <input type="radio" name="market" value="Global" />
+                <span>全球</span>
+              </label>
+            </div>
+            <button class="ghost-button" id="exportReport" type="button">导出周报</button>
+          </div>
+        </header>
+
+        <section class="live-strip" aria-label="实时状态">
+          <div>
+            <span class="pulse"></span>
+            <span>每日汇总监控</span>
+          </div>
+          <p>最后刷新：<time id="lastUpdated">--:--:--</time></p>
+        </section>
+
+        <section class="metric-grid" id="metricGrid" aria-label="核心指标"></section>
+
+        <section class="dashboard-grid">
+          <article class="panel signal-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Market Signals</p>
+                <h3>推广动作时间线</h3>
+              </div>
+              <button class="text-button" id="refreshSignals" type="button">刷新</button>
+            </div>
+            <div class="timeline" id="signalTimeline"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Ranking Radar</p>
+                <h3>应用商店排名变化</h3>
+              </div>
+              <span class="panel-note">App Store / Google Play</span>
+            </div>
+            <div class="ranking-table" id="rankingTable"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">SEO Matrix</p>
+                <h3>关键词机会矩阵</h3>
+              </div>
+              <span class="panel-note">Awesun vs 竞品</span>
+            </div>
+            <div class="keyword-grid" id="keywordGrid"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Creative Watch</p>
+                <h3>广告素材与投放主题</h3>
+              </div>
+            </div>
+            <div class="creative-wall" id="creativeWall"></div>
+          </article>
+
+          <article class="panel wide-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">SERP Changes</p>
+                <h3>搜索结果变化雷达</h3>
+              </div>
+              <span class="panel-note">Google 前 2 页 / 美国 + 台湾</span>
+            </div>
+            <div class="change-list" id="serpChangeList"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Content Pulse</p>
+                <h3>内容产出与效果</h3>
+              </div>
+            </div>
+            <div class="content-list" id="contentChangeList"></div>
+          </article>
+
+          <article class="panel wide-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Insight Engine</p>
+                <h3>Awesun 机会洞察</h3>
+              </div>
+              <span class="panel-note">基于模拟信号生成</span>
+            </div>
+            <div class="insight-grid" id="insightGrid"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Sentiment</p>
+                <h3>口碑舆情与痛点</h3>
+              </div>
+            </div>
+            <div class="sentiment-box" id="sentimentBox"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+    <aside class="detail-drawer" id="detailDrawer" aria-label="详情抽屉" aria-hidden="true">
+      <div class="drawer-header">
+        <div>
+          <p class="eyebrow" id="drawerKicker">Competitor</p>
+          <h3 id="drawerTitle">详情</h3>
+        </div>
+        <button class="icon-button" id="closeDrawer" type="button" aria-label="关闭详情">×</button>
+      </div>
+      <div class="tab-bar" id="tabBar"></div>
+      <div class="drawer-body" id="drawerBody"></div>
+    </aside>
+
+    <div class="modal-backdrop" id="modalBackdrop" hidden>
+      <form class="modal" id="competitorForm">
+        <div class="modal-heading">
+          <div>
+            <p class="eyebrow">Competitor Setup</p>
+            <h3 id="modalTitle">添加竞品</h3>
+          </div>
+          <button class="icon-button" id="closeModal" type="button" aria-label="关闭弹窗">×</button>
+        </div>
+
+        <input type="hidden" id="competitorId" name="competitorId" />
+        <label>
+          <span>名称</span>
+          <input id="nameInput" name="name" required placeholder="例如 TeamViewer" />
+        </label>
+        <label>
+          <span>官网</span>
+          <input id="websiteInput" name="website" type="url" placeholder="https://example.com" />
+        </label>
+        <label>
+          <span>应用商店链接</span>
+          <input id="storeInput" name="storeLink" type="url" placeholder="App Store / Google Play 链接" />
+        </label>
+        <div class="form-row">
+          <label>
+            <span>重点市场</span>
+            <select id="marketInput" name="market">
+              <option value="US">美国</option>
+              <option value="TW">台湾</option>
+              <option value="Global">全球</option>
+            </select>
+          </label>
+          <label>
+            <span>优先级</span>
+            <select id="priorityInput" name="priority">
+              <option value="High">高</option>
+              <option value="Medium">中</option>
+              <option value="Low">低</option>
+            </select>
+          </label>
+        </div>
+        <fieldset>
+          <legend>监控平台</legend>
+          <label><input type="checkbox" name="platforms" value="Web" checked /> Web</label>
+          <label><input type="checkbox" name="platforms" value="App Store" checked /> App Store</label>
+          <label><input type="checkbox" name="platforms" value="Google Play" checked /> Google Play</label>
+          <label><input type="checkbox" name="platforms" value="Ads" checked /> Ads</label>
+          <label><input type="checkbox" name="platforms" value="Social" checked /> Social</label>
+        </fieldset>
+        <label>
+          <span>备注</span>
+          <textarea id="notesInput" name="notes" rows="3" placeholder="例如：重点关注企业远程支持套餐"></textarea>
+        </label>
+        <div class="modal-actions">
+          <button class="ghost-button" id="cancelModal" type="button">取消</button>
+          <button class="primary-action" type="submit">保存竞品</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
