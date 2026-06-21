@@ -70,6 +70,9 @@ def main() -> int:
     brand_serp_changes = brand_serp["changes"] or previous.get("brandSerpChanges", [])
     source_signals.extend(brand_serp["signals"])
 
+    website = collect_website_pages(competitors, previous)
+    integrations["websitePages"] = website["status"]
+
     content = collect_content_sources(config, competitors, previous, brand_serp_snapshots)
     integrations["contentSources"] = content["status"]
     source_signals.extend(content["signals"])
@@ -87,7 +90,10 @@ def main() -> int:
     signals = build_operational_signals(
         competitors,
         source_signals,
+        website["changes"],
+        website["snapshots"],
         content["changes"],
+        content["items"],
         app_data["reviewSignals"],
         brand_serp_changes,
     )
@@ -114,6 +120,7 @@ def main() -> int:
         "creativeThemes": creative_themes,
         "brandSerpSnapshots": brand_serp_snapshots,
         "brandSerpChanges": brand_serp_changes,
+        "websiteSnapshots": website["snapshots"],
         "contentItems": content["items"],
         "contentChanges": content["changes"],
         "socialSignals": social_signals,
@@ -435,6 +442,139 @@ def serp_changes_to_signals(
     return signals
 
 
+def collect_website_pages(competitors: list[dict[str, Any]], previous: dict[str, Any]) -> dict[str, Any]:
+    previous_snapshots = previous.get("websiteSnapshots", {})
+    snapshots: dict[str, dict[str, Any]] = {}
+    changes: list[dict[str, Any]] = []
+    errors = 0
+
+    for competitor in competitors:
+        pages = competitor.get("websitePages") or [competitor.get("website", "")]
+        competitor_snapshots: dict[str, Any] = {}
+        old_competitor_snapshots = previous_snapshots.get(competitor["id"], {})
+        for url in [page for page in pages if page]:
+            try:
+                snapshot = collect_website_snapshot(url)
+            except Exception as exc:  # noqa: BLE001
+                errors += 1
+                snapshot = {
+                    "url": url,
+                    "ok": False,
+                    "status": None,
+                    "title": "",
+                    "h1": "",
+                    "description": str(exc)[:180],
+                    "hash": "",
+                    "size": 0,
+                    "keywords": [],
+                    "collectedAt": utc_now(),
+                }
+            competitor_snapshots[url] = snapshot
+            old_snapshot = old_competitor_snapshots.get(url)
+            if not old_snapshot:
+                changes.append(build_website_change("baseline", competitor, snapshot, None))
+            elif snapshot.get("ok") and old_snapshot.get("ok") and snapshot.get("hash") != old_snapshot.get("hash"):
+                changes.append(build_website_change("changed", competitor, snapshot, old_snapshot))
+        snapshots[competitor["id"]] = competitor_snapshots
+
+    status = f"ok_pages_{sum(len(pages) for pages in snapshots.values())}"
+    if errors:
+        status += f"_errors_{errors}"
+    return {"status": status, "snapshots": snapshots, "changes": changes}
+
+
+def collect_website_snapshot(url: str) -> dict[str, Any]:
+    request = urllib.request.Request(url, headers={"User-Agent": "AwesunFreeCollector/0.1"})
+    with urllib.request.urlopen(request, timeout=10) as response:
+        html = response.read().decode("utf-8", errors="ignore")
+        status = getattr(response, "status", 200)
+    text = clean_html(html)
+    return {
+        "url": url,
+        "ok": 200 <= status < 400,
+        "status": status,
+        "title": extract_html_tag(html, "title"),
+        "h1": extract_html_tag(html, "h1"),
+        "description": extract_meta_description(html),
+        "hash": hash_text(text[:120000]),
+        "size": len(html),
+        "keywords": detect_page_themes(text),
+        "collectedAt": utc_now(),
+    }
+
+
+def extract_html_tag(html: str, tag: str) -> str:
+    match = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", html, flags=re.I | re.S)
+    return clean_html(match.group(1))[:180] if match else ""
+
+
+def extract_meta_description(html: str) -> str:
+    patterns = (
+        r"<meta[^>]+name=[\"']description[\"'][^>]+content=[\"']([^\"']+)[\"']",
+        r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]+name=[\"']description[\"']",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, html, flags=re.I | re.S)
+        if match:
+            return clean_html(match.group(1))[:240]
+    return ""
+
+
+def detect_page_themes(text: str) -> list[str]:
+    lower = text.lower()
+    rules = [
+        ("pricing", "价格/套餐"),
+        ("price", "价格/套餐"),
+        ("discount", "折扣"),
+        ("off", "折扣"),
+        ("coupon", "折扣"),
+        ("download", "下载入口"),
+        ("free trial", "免费试用"),
+        ("trial", "免费试用"),
+        ("enterprise", "企业版"),
+        ("business", "企业版"),
+        ("security", "安全"),
+        ("remote support", "远程支持"),
+        ("unattended", "无人值守"),
+        ("ai", "AI"),
+    ]
+    themes = []
+    for needle, label in rules:
+        if needle in lower and label not in themes:
+            themes.append(label)
+    return themes
+
+
+def build_website_change(
+    change_type: str,
+    competitor: dict[str, Any],
+    snapshot: dict[str, Any],
+    previous_snapshot: dict[str, Any] | None,
+) -> dict[str, Any]:
+    return {
+        "type": change_type,
+        "competitorId": competitor["id"],
+        "competitorName": competitor["name"],
+        "url": snapshot.get("url"),
+        "title": snapshot.get("title") or snapshot.get("h1") or title_from_url(snapshot.get("url", "")),
+        "previousTitle": (previous_snapshot or {}).get("title"),
+        "description": snapshot.get("description") or snapshot.get("h1") or "",
+        "keywords": snapshot.get("keywords") or [],
+        "status": snapshot.get("status"),
+        "impact": score_website_change(change_type, snapshot),
+        "detectedAt": snapshot.get("collectedAt") or utc_now(),
+    }
+
+
+def score_website_change(change_type: str, snapshot: dict[str, Any]) -> str:
+    themes = set(snapshot.get("keywords") or [])
+    if themes & {"价格/套餐", "折扣", "下载入口", "免费试用"}:
+        return "High" if change_type == "changed" else "Medium"
+    if change_type == "changed":
+        return "Medium"
+    return "Low"
+
+
 def collect_content_sources(
     config: dict[str, Any],
     competitors: list[dict[str, Any]],
@@ -559,7 +699,9 @@ def extract_links(html: str, base_url: str) -> list[dict[str, str]]:
 
 
 def looks_like_content_url(url: str) -> bool:
-    lower = url.lower()
+    lower = urllib.parse.urlparse(url).path.lower()
+    if "subscribe" in lower or "/newsletter" in lower:
+        return False
     return any(token in lower for token in ("/blog", "/resource", "/resources", "/news", "/article"))
 
 
@@ -601,6 +743,7 @@ def is_generic_content_title(title: str) -> bool:
         "blog",
         "news",
         "newsletter",
+        "subscribe",
         "events",
         "news and insights",
         "success stories",
@@ -706,17 +849,44 @@ def content_change_to_signal(change: dict[str, Any]) -> dict[str, Any]:
 def build_operational_signals(
     competitors: list[dict[str, Any]],
     source_signals: list[dict[str, Any]],
+    website_changes: list[dict[str, Any]],
+    website_snapshots: dict[str, Any],
     content_changes: list[dict[str, Any]],
+    content_items: list[dict[str, Any]],
     app_reviews: list[dict[str, Any]],
     serp_changes: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     competitor_names = {competitor["id"]: competitor["name"] for competitor in competitors}
+    competitors_by_id = {competitor["id"]: competitor for competitor in competitors}
     output: list[dict[str, Any]] = []
 
+    website_ops = [
+        website_change_to_operational_signal(change)
+        for change in website_changes
+        if change.get("type") == "changed" or change.get("impact") != "Low"
+    ]
+    website_ops.extend(
+        website_snapshot_to_operational_signal(competitors_by_id.get(competitor_id), snapshot)
+        for competitor_id, pages in website_snapshots.items()
+        for snapshot in pages.values()
+        if snapshot.get("ok")
+    )
+    output.extend(take_balanced(website_ops, lambda item: item.get("competitorId"), per_key=2, total=16))
+
+    content_ops: list[dict[str, Any]] = []
     for change in content_changes:
         if change.get("type") == "baseline_content":
             continue
-        output.append(content_change_to_operational_signal(change))
+        content_ops.append(content_change_to_operational_signal(change))
+    content_ops.extend(
+        content_item_to_operational_signal(item)
+        for item in sorted(
+            content_items,
+            key=lambda item: item.get("publishedDate") or item.get("collectedAt") or "",
+            reverse=True,
+        )
+    )
+    output.extend(take_balanced(content_ops, lambda item: item.get("competitorId"), per_key=2, total=16))
 
     recent_reviews = [
         review
@@ -726,12 +896,89 @@ def build_operational_signals(
     for review in recent_reviews:
         output.append(review_to_operational_signal(review, competitor_names))
 
+    serp_ops: list[dict[str, Any]] = []
     for change in serp_changes:
-        if change.get("impact") != "High":
-            continue
-        output.append(serp_change_to_operational_signal(change))
+        if change.get("impact") in {"High", "Medium"} or (
+            change.get("type") == "baseline" and (change.get("currentPosition") or 99) <= 5
+        ):
+            serp_ops.append(serp_change_to_operational_signal(change))
+    output.extend(
+        take_balanced(
+            serp_ops,
+            lambda item: f"{item.get('competitorId')}|{item.get('market')}",
+            per_key=2,
+            total=32,
+        )
+    )
 
     return dedupe_recent_signals(output)
+
+
+def take_balanced(items: list[dict[str, Any]], key_fn, per_key: int, total: int) -> list[dict[str, Any]]:
+    picked: list[dict[str, Any]] = []
+    counts: dict[Any, int] = {}
+    for item in items:
+        key = key_fn(item)
+        if counts.get(key, 0) >= per_key:
+            continue
+        picked.append(item)
+        counts[key] = counts.get(key, 0) + 1
+        if len(picked) >= total:
+            return picked
+
+    picked_ids = {id(item) for item in picked}
+    for item in items:
+        if id(item) in picked_ids:
+            continue
+        picked.append(item)
+        if len(picked) >= total:
+            break
+    return picked
+
+
+def website_change_to_operational_signal(change: dict[str, Any]) -> dict[str, Any]:
+    competitor_name = change.get("competitorName") or "竞品"
+    themes = "、".join(change.get("keywords") or []) or "页面文案/结构"
+    changed = change.get("type") == "changed"
+    title = (
+        f"{competitor_name} 官网重点页发生变化：{change.get('title')}"
+        if changed
+        else f"{competitor_name} 官网重点页进入监控：{change.get('title')}"
+    )
+    previous = f"上一标题：{change.get('previousTitle')}。" if changed and change.get("previousTitle") else ""
+    return {
+        "id": f"op-website-{change.get('competitorId')}-{hash_text(str(change.get('url')) + str(change.get('type')))[:8]}",
+        "competitorId": change.get("competitorId"),
+        "type": "官网动作",
+        "source": "Official Website",
+        "impact": change.get("impact") or "Medium",
+        "title": title,
+        "url": change.get("url") or "",
+        "summary": f"{previous}识别主题：{themes}。{change.get('description') or change.get('url') or ''}",
+        "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
+        "time": "页面变化" if changed else "监控基线",
+        "detectedAt": change.get("detectedAt") or utc_now(),
+    }
+
+
+def website_snapshot_to_operational_signal(competitor: dict[str, Any] | None, snapshot: dict[str, Any]) -> dict[str, Any]:
+    competitor_id = competitor.get("id") if competitor else ""
+    competitor_name = competitor.get("name") if competitor else "竞品"
+    themes = "、".join(snapshot.get("keywords") or []) or "页面文案/结构"
+    title = snapshot.get("title") or snapshot.get("h1") or title_from_url(snapshot.get("url", ""))
+    return {
+        "id": f"op-website-snapshot-{competitor_id}-{hash_text(str(snapshot.get('url')))[:8]}",
+        "competitorId": competitor_id,
+        "type": "官网动作",
+        "source": "Official Website",
+        "impact": "Medium" if set(snapshot.get("keywords") or []) & {"价格/套餐", "折扣", "下载入口", "免费试用"} else "Low",
+        "title": f"{competitor_name} 官网重点页进入监控：{title}",
+        "url": snapshot.get("url") or "",
+        "summary": f"当前页面主题：{themes}。{snapshot.get('description') or snapshot.get('h1') or snapshot.get('url') or ''}",
+        "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+        "time": "监控基线",
+        "detectedAt": snapshot.get("collectedAt") or utc_now(),
+    }
 
 
 def content_change_to_operational_signal(change: dict[str, Any]) -> dict[str, Any]:
@@ -762,6 +1009,28 @@ def content_change_to_operational_signal(change: dict[str, Any]) -> dict[str, An
         "recommendation": "复核标题、目标关键词、CTA 和竞品主张，判断 Awesun 是否需要跟进同类选题或对比页。",
         "time": time_label,
         "detectedAt": change.get("detectedAt") or utc_now(),
+    }
+
+
+def content_item_to_operational_signal(item: dict[str, Any]) -> dict[str, Any]:
+    competitor_name = item.get("competitorName") or "竞品"
+    title = item.get("title") or title_from_url(item.get("url", ""))
+    published = item.get("publishedDate")
+    ranked = item.get("rankedKeywords") or []
+    date_text = f"识别到发布时间 {published}。" if published else "未识别到明确发布时间，按内容资产基线展示。"
+    serp_text = f"已进入 {len(ranked)} 个监控 SERP。" if ranked else "暂未进入监控 SERP。"
+    return {
+        "id": f"op-content-item-{item.get('competitorId')}-{hash_text(item.get('url') or title)[:8]}",
+        "competitorId": item.get("competitorId"),
+        "type": "内容动作",
+        "source": "Website Content",
+        "impact": "Medium" if ranked else "Low",
+        "title": f"{competitor_name} 内容资产进入监控：{title}",
+        "url": item.get("url") or "",
+        "summary": f"{date_text}{serp_text}来源列表页：{item.get('sourceUrl') or '未记录'}",
+        "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
+        "time": published or "监控基线",
+        "detectedAt": item.get("publishedDate") or item.get("collectedAt") or utc_now(),
     }
 
 
@@ -807,17 +1076,32 @@ def serp_change_to_operational_signal(change: dict[str, Any]) -> dict[str, Any]:
     market_label = {"US": "美国", "TW": "台湾", "Global": "全球"}.get(change.get("market"), change.get("market"))
     competitor_name = change.get("competitorName") or "竞品"
     keyword = change.get("keyword") or ""
+    change_type = change.get("type")
+    title_map = {
+        "baseline": "建立搜索基线",
+        "new": "新增搜索结果",
+        "gone": "搜索结果消失",
+        "up": "搜索排名上升",
+        "down": "搜索排名下降",
+        "title_changed": "搜索标题变化",
+    }
+    position_text = (
+        f"当前位置 {change.get('currentPosition')}"
+        if change_type == "baseline"
+        else f"位置 {change.get('previousPosition')} -> {change.get('currentPosition')}"
+    )
     return {
-        "id": f"op-serp-{change.get('competitorId')}-{change.get('market')}-{hash_text(keyword + str(change.get('url')))[:8]}",
+        "id": f"op-serp-{change.get('competitorId')}-{change.get('market')}-{hash_text(keyword + str(change.get('url')) + str(change_type))[:8]}",
         "competitorId": change.get("competitorId"),
+        "market": change.get("market"),
         "type": "搜索动作",
         "source": "Google SERP",
         "impact": change.get("impact") or "Medium",
-        "title": f"{competitor_name} 在 {market_label} Google 搜索结果发生变化",
+        "title": f"{competitor_name} 在 {market_label} Google {title_map.get(change_type, '搜索结果变化')}",
         "url": change.get("url") or "",
-        "summary": f"关键词 {keyword}，结果「{change.get('title') or change.get('url')}」位置 {change.get('previousPosition')} -> {change.get('currentPosition')}。",
+        "summary": f"关键词 {keyword}，结果「{change.get('title') or change.get('url')}」{position_text}。",
         "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-        "time": display_date(change.get("detectedAt")) or "本次采集",
+        "time": "搜索基线" if change_type == "baseline" else display_date(change.get("detectedAt")) or "本次采集",
         "detectedAt": change.get("detectedAt") or utc_now(),
     }
 
