@@ -47,7 +47,7 @@ def main() -> int:
     now = utc_now()
 
     integrations: dict[str, str] = dict(previous.get("integrations", {}))
-    signals: list[dict[str, Any]] = list(previous.get("signals", []))
+    signals: list[dict[str, Any]] = []
     metrics: dict[str, dict[str, Any]] = dict(previous.get("metrics", {}))
     keyword_insights = list(previous.get("keywordInsights", []))
     creative_themes = list(previous.get("creativeThemes", []))
@@ -61,28 +61,36 @@ def main() -> int:
         creative_themes = merge_unique(serp["creativeThemes"], creative_key)
     else:
         creative_themes = merge_unique(creative_themes + serp["creativeThemes"], creative_key)
-    signals.extend(serp["signals"])
+    source_signals: list[dict[str, Any]] = []
+    source_signals.extend(serp["signals"])
 
     brand_serp = collect_brand_serp(config, competitors, previous)
     integrations["brandSerp"] = brand_serp["status"]
     brand_serp_snapshots = brand_serp["snapshots"] or previous.get("brandSerpSnapshots", {})
     brand_serp_changes = brand_serp["changes"] or previous.get("brandSerpChanges", [])
-    signals.extend(brand_serp["signals"])
+    source_signals.extend(brand_serp["signals"])
 
     content = collect_content_sources(config, competitors, previous, brand_serp_snapshots)
     integrations["contentSources"] = content["status"]
-    signals.extend(content["signals"])
+    source_signals.extend(content["signals"])
 
     app_data = collect_apps(competitors, review_count=args.review_count)
     integrations.update(app_data["statuses"])
     metrics = merge_metrics(metrics, app_data["metrics"])
     review_signals = merge_unique(app_data["reviewSignals"] + review_signals, review_signal_key)
-    signals.extend(review_to_market_signals(app_data["reviewSignals"]))
+    source_signals.extend(review_to_market_signals(app_data["reviewSignals"]))
 
     youtube = collect_youtube(competitors)
     integrations["youtubeFree"] = youtube["status"]
     social_signals = merge_unique(social_signals + youtube["socialSignals"], signal_key)
-    signals.extend(social_to_market_signals(youtube["socialSignals"]))
+    source_signals.extend(social_to_market_signals(youtube["socialSignals"]))
+    signals = build_operational_signals(
+        competitors,
+        source_signals,
+        content["changes"],
+        app_data["reviewSignals"],
+        brand_serp_changes,
+    )
 
     sentiment_pain_points = build_sentiment_pain_points(review_signals + social_signals)
     insights = build_free_insights(
@@ -693,6 +701,145 @@ def content_change_to_signal(change: dict[str, Any]) -> dict[str, Any]:
         "time": change.get("publishedDate") or "首次发现",
         "detectedAt": change["detectedAt"],
     }
+
+
+def build_operational_signals(
+    competitors: list[dict[str, Any]],
+    source_signals: list[dict[str, Any]],
+    content_changes: list[dict[str, Any]],
+    app_reviews: list[dict[str, Any]],
+    serp_changes: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    competitor_names = {competitor["id"]: competitor["name"] for competitor in competitors}
+    output: list[dict[str, Any]] = []
+
+    for change in content_changes:
+        if change.get("type") == "baseline_content":
+            continue
+        output.append(content_change_to_operational_signal(change))
+
+    recent_reviews = [
+        review
+        for review in app_reviews
+        if review.get("source") == "Google Play" and is_recent_iso(review.get("publishedAt"), days=7)
+    ]
+    for review in recent_reviews:
+        output.append(review_to_operational_signal(review, competitor_names))
+
+    for change in serp_changes:
+        if change.get("impact") != "High":
+            continue
+        output.append(serp_change_to_operational_signal(change))
+
+    return dedupe_recent_signals(output)
+
+
+def content_change_to_operational_signal(change: dict[str, Any]) -> dict[str, Any]:
+    competitor_name = change.get("competitorName") or "竞品"
+    published = change.get("publishedDate")
+    title = change.get("title") or title_from_url(change.get("url", ""))
+    ranked = change.get("rankedKeywords") or []
+    if published and is_recent_iso(published, days=7):
+        action_title = f"{competitor_name} 发布新内容：{title}"
+        time_label = published
+        impact = "High"
+        summary_prefix = f"识别到近 7 天内容更新，发布时间 {published}。"
+    else:
+        action_title = f"{competitor_name} 新发现内容资产：{title}"
+        time_label = "首次发现"
+        impact = "Medium" if ranked else "Low"
+        summary_prefix = "本次采集首次发现该内容资产，尚未确认真实发布日期。"
+    serp_text = f"已进入 {len(ranked)} 个监控 SERP。" if ranked else "暂未进入监控 SERP。"
+    return {
+        "id": f"op-content-{change.get('competitorId')}-{hash_text(change.get('url') or title)[:8]}",
+        "competitorId": change.get("competitorId"),
+        "type": "内容动作",
+        "source": "Website Content",
+        "impact": impact,
+        "title": action_title,
+        "url": change.get("url") or "",
+        "summary": f"{summary_prefix}{serp_text}来源列表页：{change.get('sourceUrl') or '未记录'}",
+        "recommendation": "复核标题、目标关键词、CTA 和竞品主张，判断 Awesun 是否需要跟进同类选题或对比页。",
+        "time": time_label,
+        "detectedAt": change.get("detectedAt") or utc_now(),
+    }
+
+
+def review_to_operational_signal(review: dict[str, Any], competitor_names: dict[str, str]) -> dict[str, Any]:
+    competitor_id = review.get("competitorId")
+    competitor_name = competitor_names.get(competitor_id, "竞品")
+    rating = review.get("rating")
+    version = review.get("version")
+    summary = review.get("summary") or ""
+    low_rating = (rating or 5) <= 2
+    pain_point = infer_review_pain_point(summary)
+    title = (
+        f"{competitor_name} 出现低星评论：{pain_point}"
+        if low_rating
+        else f"{competitor_name} 新增 Google Play 用户反馈"
+    )
+    meta = "；".join(
+        value
+        for value in (
+            f"版本 {version}" if version else "",
+            f"评分 {rating} 星" if rating is not None else "",
+            f"评论日期 {display_date(review.get('publishedAt'))}" if review.get("publishedAt") else "",
+        )
+        if value
+    )
+    return {
+        "id": f"op-review-{competitor_id}-{hash_text(summary + str(review.get('publishedAt')))[:8]}",
+        "competitorId": competitor_id,
+        "type": "口碑动作",
+        "source": "Google Play",
+        "impact": "High" if low_rating else "Medium",
+        "title": title,
+        "url": "",
+        "summary": f"{meta}。{summary}（来源：Google Play scraper，暂无直达链接）",
+        "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+        "time": display_date(review.get("publishedAt")) or "未知日期",
+        "detectedAt": review.get("publishedAt") or utc_now(),
+        "sourceNote": "来源：Google Play scraper，暂无直达链接",
+    }
+
+
+def serp_change_to_operational_signal(change: dict[str, Any]) -> dict[str, Any]:
+    market_label = {"US": "美国", "TW": "台湾", "Global": "全球"}.get(change.get("market"), change.get("market"))
+    competitor_name = change.get("competitorName") or "竞品"
+    keyword = change.get("keyword") or ""
+    return {
+        "id": f"op-serp-{change.get('competitorId')}-{change.get('market')}-{hash_text(keyword + str(change.get('url')))[:8]}",
+        "competitorId": change.get("competitorId"),
+        "type": "搜索动作",
+        "source": "Google SERP",
+        "impact": change.get("impact") or "Medium",
+        "title": f"{competitor_name} 在 {market_label} Google 搜索结果发生变化",
+        "url": change.get("url") or "",
+        "summary": f"关键词 {keyword}，结果「{change.get('title') or change.get('url')}」位置 {change.get('previousPosition')} -> {change.get('currentPosition')}。",
+        "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+        "time": display_date(change.get("detectedAt")) or "本次采集",
+        "detectedAt": change.get("detectedAt") or utc_now(),
+    }
+
+
+def infer_review_pain_point(text: str) -> str:
+    lower = text.lower()
+    rules = [
+        ("login", "登录体验"),
+        ("slow", "速度慢"),
+        ("lag", "延迟卡顿"),
+        ("disconnect", "连接中断"),
+        ("freeze", "卡死"),
+        ("crash", "崩溃"),
+        ("account", "账号限制"),
+        ("free", "免费限制"),
+        ("price", "价格/套餐"),
+        ("support", "客服支持"),
+    ]
+    for needle, label in rules:
+        if needle in lower:
+            return label
+    return "用户体验问题"
 
 
 def collect_apps(competitors: list[dict[str, Any]], review_count: int) -> dict[str, Any]:
