@@ -33,15 +33,18 @@ python3 -m pip install -r requirements-free.txt
 
 缺少 API key 或 Python 包时，脚本不会中断，会在 `data/latest.json` 的 `integrations` 里标记为 `not_configured`、`skipped_*` 或 missing package。
 
-## 每日定时
+## 每日自动更新
 
-macOS/Linux 可以用 cron 每天跑一次：
+仓库已配置 GitHub Actions：`.github/workflows/daily-update.yml`。它会在每天北京时间 09:00 自动运行免费采集脚本，更新 `data/latest.json`，提交回 `main`，同步 `gh-pages`，并部署 GitHub Pages。
 
-```bash
-0 9 * * * cd /Users/peng/Documents/测试开发一个网页 && /usr/local/bin/node scripts/daily_collect.mjs
-```
+需要在 GitHub 仓库配置 Secrets：
 
-如果本机 Node 路径不同，先用 `which node` 查看后替换。当前脚本不依赖 npm 包。
+- `SERPAPI_KEY`：用于 Google SERP/广告/地区搜索结果变化。
+- `YOUTUBE_API_KEY`：可选，用于 YouTube 频道更新。
+
+配置路径：GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret。
+
+也可以在 Actions 页面手动点 `Daily competitor data update` → `Run workflow`，立即跑一次。
 
 ## 后续 API 接入位
 
