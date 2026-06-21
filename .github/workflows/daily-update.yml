@@ -39,7 +39,7 @@ jobs:
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python scripts/free_collect.py
+        run: python scripts/free_collect.py --review-count 5
 
       - name: Commit updated daily data
         id: commit

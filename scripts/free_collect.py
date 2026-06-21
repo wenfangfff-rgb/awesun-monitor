@@ -64,9 +64,11 @@ def main() -> int:
 
     brand_serp = collect_brand_serp(config, competitors, previous)
     integrations["brandSerp"] = brand_serp["status"]
+    brand_serp_snapshots = brand_serp["snapshots"] or previous.get("brandSerpSnapshots", {})
+    brand_serp_changes = brand_serp["changes"] or previous.get("brandSerpChanges", [])
     signals.extend(brand_serp["signals"])
 
-    content = collect_content_sources(config, competitors, previous, brand_serp["snapshots"])
+    content = collect_content_sources(config, competitors, previous, brand_serp_snapshots)
     integrations["contentSources"] = content["status"]
     signals.extend(content["signals"])
 
@@ -87,7 +89,7 @@ def main() -> int:
         creative_themes,
         social_signals,
         review_signals,
-        brand_serp["changes"],
+        brand_serp_changes,
         content["changes"],
     )
 
@@ -101,8 +103,8 @@ def main() -> int:
         "signals": dedupe_recent_signals(signals),
         "keywordInsights": keyword_insights,
         "creativeThemes": creative_themes,
-        "brandSerpSnapshots": brand_serp["snapshots"],
-        "brandSerpChanges": brand_serp["changes"],
+        "brandSerpSnapshots": brand_serp_snapshots,
+        "brandSerpChanges": brand_serp_changes,
         "contentItems": content["items"],
         "contentChanges": content["changes"],
         "socialSignals": social_signals,
@@ -495,6 +497,7 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
     base_domain = normalize_domain(domain_from_url(url))
     links = extract_links(html, url)
     items = []
+    detail_date_fetches = 0
     for link in links:
         normalized = normalize_url(link["url"])
         if not normalized or normalize_domain(domain_from_url(normalized)) != base_domain:
@@ -504,7 +507,8 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
         if not looks_like_content_url(normalized):
             continue
         published_date = detect_content_published_date(normalized, link["title"], link.get("context", ""))
-        if not published_date:
+        if not published_date and detail_date_fetches < 2:
+            detail_date_fetches += 1
             published_date = fetch_content_published_date(normalized)
         items.append(
             {
@@ -569,7 +573,7 @@ def detect_content_published_date(*values: str) -> str | None:
 
 def fetch_content_published_date(url: str) -> str | None:
     try:
-        html = fetch_text(url)
+        html = fetch_text(url, timeout=6)
     except Exception:
         return None
 
@@ -851,9 +855,9 @@ def fetch_json(base_url: str, params: dict[str, Any]) -> dict[str, Any]:
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_text(url: str) -> str:
+def fetch_text(url: str, timeout: int = 20) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": "AwesunFreeCollector/0.1"})
-    with urllib.request.urlopen(request, timeout=20) as response:
+    with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8", errors="ignore")
 
 

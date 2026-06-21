@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-17",
-  "generatedAt": "2026-06-17T05:12:38.300199Z",
+  "date": "2026-06-21",
+  "generatedAt": "2026-06-21T11:20:20.801020Z",
   "source": "free-collector",
   "competitors": [
     {
@@ -217,14 +217,14 @@
       "ads": 86,
       "social": 73,
       "sentiment": 78,
-      "version": "15.77.140",
-      "lastReleaseDate": "2026-06-10T09:24:21+00:00"
+      "version": "15.78.176",
+      "lastReleaseDate": "2026-06-19T09:29:05+00:00"
     },
     "anydesk": {
       "rank": 5,
       "delta": 0,
       "rating": 2.8,
-      "reviews": 3489,
+      "reviews": 3492,
       "keywords": 179,
       "ads": 72,
       "social": 64,
@@ -236,7 +236,7 @@
       "rank": 8,
       "delta": 0,
       "rating": 4.7,
-      "reviews": 739,
+      "reviews": 740,
       "keywords": 136,
       "ads": 68,
       "social": 52,
@@ -260,13 +260,13 @@
       "rank": 16,
       "delta": 0,
       "rating": 4.1,
-      "reviews": 68,
+      "reviews": 67,
       "keywords": 81,
       "ads": 20,
       "social": 58,
       "sentiment": 70,
-      "version": "1.4.7",
-      "lastReleaseDate": "2026-06-03T19:04:24Z"
+      "version": "1.4.8",
+      "lastReleaseDate": "2026-06-20T20:36:31Z"
     },
     "chrome-remote-desktop": {
       "rank": 2,
@@ -2474,6 +2474,201 @@
       "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
       "time": "今日",
       "detectedAt": "2026-01-02T23:33:30+00:00"
+    },
+    {
+      "id": "content-splashtop-dcbdfa4b",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://splashtop.com/blog/how-to-prevent-missed-patches",
+      "summary": "未识别到明确发布时间。Learn More - https://splashtop.com/blog/how-to-prevent-missed-patches",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:20:40.509721Z"
+    },
+    {
+      "id": "review-google-play-teamviewer-dd92cb51",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "15.78.176",
+      "url": "",
+      "summary": "I'm having trouble doing anything because to make a ticket or to use Team Viewer on another phone or anything to contact Team Viewer, I need to sign in through the browser. The browser is not in effect and is not allowing it, despite me being authenticated on the device level. I get there's some anti-scam measures because it won't send me my authentication emails. I'm literally dead in the water.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T16:05:27+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-b885423a",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "15.77.140",
+      "url": "",
+      "summary": "The session keeps closing, please fix that.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T03:32:21+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-5ffb1d2b",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "15.78.163",
+      "url": "",
+      "summary": "Horrible service! Humans are non-existent here, and they're running the company into the ground. Find a better alternative.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T02:51:46+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-379e4301",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "15.78.176",
+      "url": "",
+      "summary": "no account , no entry and doesn't even connect even with account also（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T02:17:32+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-e06fa31b",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "15.78.163",
+      "url": "",
+      "summary": "Corr wow（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T19:53:22+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-624d026d",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play review",
+      "url": "",
+      "summary": "very good（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T08:16:45+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-4476f93a",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "8.3.4",
+      "url": "",
+      "summary": "It's supposed to be free for private use. But it locks you out every 3 minutes while a 15 minute timer counts down. Don't bother downloading because it isn't usable. Saying it is free without mentioning the ridiculous time limit is dishonest.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T07:38:51+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-75666233",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "8.3.4",
+      "url": "",
+      "summary": "hardly functional if you want to to anything other that view your desktop. use chrome remote desktop if thats an option for you（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T23:21:37+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-54bd66a9",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "8.3.4",
+      "url": "",
+      "summary": "Connection is ok, but recently there is a red label on top say for non professional use, I only use for home. Think the label should remove, the red label make viewing unpleasant. Also the button right button can come with lable, easier to execute task.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T11:21:38+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-9a949a6d",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "8.3.4",
+      "url": "",
+      "summary": "free license for private use is not working properly（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T04:24:27+00:00"
+    },
+    {
+      "id": "review-google-play-remotepc-66fb2f6e",
+      "competitorId": "remotepc",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "5.9.2",
+      "url": "",
+      "summary": "Keeps on showing The connection lost. Trying to reconnect. Trying to login into my mac from Android. It used to work flawlessly earlier. Stopped working completely.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T13:36:55+00:00"
+    },
+    {
+      "id": "review-google-play-remotepc-da62c6e2",
+      "competitorId": "remotepc",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play review",
+      "url": "",
+      "summary": "awesome tool for remote work（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-16",
+      "detectedAt": "2026-06-16T14:08:18+00:00"
+    },
+    {
+      "id": "review-google-play-remotepc-31dee0cb",
+      "competitorId": "remotepc",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play review",
+      "url": "",
+      "summary": "i have been using this app for past 2 years. really good 💯（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-15",
+      "detectedAt": "2026-06-15T13:51:46+00:00"
+    },
+    {
+      "id": "review-google-play-deskin-ddca8520",
+      "competitorId": "deskin",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "3.3.4.8",
+      "url": "",
+      "summary": "best app I had ever have（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-17",
+      "detectedAt": "2026-06-17T00:14:25+00:00"
     }
   ],
   "keywordInsights": [
@@ -2533,12 +2728,12 @@
     {
       "title": "内容产出与效果",
       "level": "High",
-      "body": "当前发现 47 条新增内容，其中 0 条已在监控 SERP 中出现；优先跟进进入前 20 的竞品内容。"
+      "body": "当前发现 1 条新增内容，其中 0 条已在监控 SERP 中出现；优先跟进进入前 20 的竞品内容。"
     },
     {
       "title": "免费商店与社媒监控",
       "level": "High",
-      "body": "当前累计 127 条评论和 0 条 YouTube 动态；低星评论可沉淀为 Awesun 反击卖点。"
+      "body": "当前累计 140 条评论和 0 条 YouTube 动态；低星评论可沉淀为 Awesun 反击卖点。"
     }
   ],
   "socialSignals": [],
@@ -3558,6 +3753,123 @@
       "summary": "best of the best highly recommend",
       "rating": 5,
       "publishedAt": "2026-04-06T13:11:07+00:00"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "15.78.176",
+      "summary": "I'm having trouble doing anything because to make a ticket or to use Team Viewer on another phone or anything to contact Team Viewer, I need to sign in through the browser. The browser is not in effect and is not allowing it, despite me being authenticated on the device level. I get there's some anti-scam measures because it won't send me my authentication emails. I'm literally dead in the water.",
+      "rating": 2,
+      "publishedAt": "2026-06-20T16:05:27+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "15.77.140",
+      "summary": "The session keeps closing, please fix that.",
+      "rating": 1,
+      "publishedAt": "2026-06-20T03:32:21+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "15.78.163",
+      "summary": "Horrible service! Humans are non-existent here, and they're running the company into the ground. Find a better alternative.",
+      "rating": 1,
+      "publishedAt": "2026-06-20T02:51:46+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "15.78.176",
+      "summary": "no account , no entry and doesn't even connect even with account also",
+      "rating": 1,
+      "publishedAt": "2026-06-20T02:17:32+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "15.78.163",
+      "summary": "Corr wow",
+      "rating": 5,
+      "publishedAt": "2026-06-19T19:53:22+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play review",
+      "summary": "very good",
+      "rating": 5,
+      "publishedAt": "2026-06-20T08:16:45+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "8.3.4",
+      "summary": "It's supposed to be free for private use. But it locks you out every 3 minutes while a 15 minute timer counts down. Don't bother downloading because it isn't usable. Saying it is free without mentioning the ridiculous time limit is dishonest.",
+      "rating": 1,
+      "publishedAt": "2026-06-20T07:38:51+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "8.3.4",
+      "summary": "hardly functional if you want to to anything other that view your desktop. use chrome remote desktop if thats an option for you",
+      "rating": 1,
+      "publishedAt": "2026-06-19T23:21:37+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "8.3.4",
+      "summary": "Connection is ok, but recently there is a red label on top say for non professional use, I only use for home. Think the label should remove, the red label make viewing unpleasant. Also the button right button can come with lable, easier to execute task.",
+      "rating": 3,
+      "publishedAt": "2026-06-19T11:21:38+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "8.3.4",
+      "summary": "free license for private use is not working properly",
+      "rating": 1,
+      "publishedAt": "2026-06-19T04:24:27+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "remotepc",
+      "source": "Google Play",
+      "title": "5.9.2",
+      "summary": "Keeps on showing The connection lost. Trying to reconnect. Trying to login into my mac from Android. It used to work flawlessly earlier. Stopped working completely.",
+      "rating": 2,
+      "publishedAt": "2026-06-19T13:36:55+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "remotepc",
+      "source": "Google Play",
+      "title": "Google Play review",
+      "summary": "awesome tool for remote work",
+      "rating": 5,
+      "publishedAt": "2026-06-16T14:08:18+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "deskin",
+      "source": "Google Play",
+      "title": "3.3.4.8",
+      "summary": "best app I had ever have",
+      "rating": 5,
+      "publishedAt": "2026-06-17T00:14:25+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
     }
   ],
   "sentimentPainPoints": [
@@ -3988,12 +4300,12 @@
     "metaAds": "not_configured",
     "youtube": "not_configured",
     "x": "not_configured",
-    "serpApi": "ok_keywords_5",
+    "serpApi": "not_configured",
     "appStoreScraper": "ok_ios_apps_7",
     "googlePlayScraper": "ok_google_apps_6",
     "youtubeFree": "not_configured",
-    "brandSerp": "ok_searches_16",
-    "contentSources": "ok_items_47_errors_3"
+    "brandSerp": "not_configured",
+    "contentSources": "ok_items_46_errors_3"
   },
   "brandSerpSnapshots": {
     "US|teamviewer|TeamViewer": {
@@ -6168,8 +6480,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Resources",
       "url": "https://teamviewer.com/en/resources",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.059554Z",
+      "collectedAt": "2026-06-21T11:20:28.266811Z",
       "rankedKeywords": []
     },
     {
@@ -6179,8 +6492,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "TeamViewer named a leader in DEX TeamViewer named a Leader in 2026 Gartner® Magic Quadrant™ DEX tools.",
       "url": "https://teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060057Z",
+      "collectedAt": "2026-06-21T11:20:32.356058Z",
       "rankedKeywords": []
     },
     {
@@ -6190,8 +6504,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Success stories Explore results achieved by TeamViewer customers.",
       "url": "https://teamviewer.com/en/resources/success-stories",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060469Z",
+      "collectedAt": "2026-06-21T11:20:32.357069Z",
       "rankedKeywords": []
     },
     {
@@ -6201,8 +6516,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "News and insights",
       "url": "https://teamviewer.com/en/resources/news-insights",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060497Z",
+      "collectedAt": "2026-06-21T11:20:32.357148Z",
       "rankedKeywords": []
     },
     {
@@ -6212,8 +6528,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Events and webinars",
       "url": "https://teamviewer.com/en/resources/events",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060521Z",
+      "collectedAt": "2026-06-21T11:20:32.357253Z",
       "rankedKeywords": []
     },
     {
@@ -6223,8 +6540,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Trust Center",
       "url": "https://teamviewer.com/en/resources/trust-center",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060535Z",
+      "collectedAt": "2026-06-21T11:20:32.357308Z",
       "rankedKeywords": []
     },
     {
@@ -6234,8 +6552,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Why TeamViewer",
       "url": "https://teamviewer.com/en/resources/compare",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060550Z",
+      "collectedAt": "2026-06-21T11:20:32.357347Z",
       "rankedKeywords": []
     },
     {
@@ -6245,8 +6564,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "TeamViewer User Focus Program",
       "url": "https://teamviewer.com/en/resources/teamviewer-user-focus-program",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.061957Z",
+      "collectedAt": "2026-06-21T11:20:32.359485Z",
       "rankedKeywords": []
     },
     {
@@ -6256,8 +6576,9 @@
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Newsletter",
       "url": "https://teamviewer.com/en/newsletter",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.061989Z",
+      "collectedAt": "2026-06-21T11:20:32.359543Z",
       "rankedKeywords": []
     },
     {
@@ -6267,8 +6588,9 @@
       "sourceUrl": "https://www.splashtop.com/blog",
       "title": "Skip to main content",
       "url": "https://splashtop.com/blog",
+      "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-17T05:14:18.265953Z",
+      "collectedAt": "2026-06-21T11:20:38.013808Z",
       "rankedKeywords": []
     },
     {
@@ -6278,8 +6600,21 @@
       "sourceUrl": "https://www.splashtop.com/blog",
       "title": "Resources",
       "url": "https://splashtop.com/resources",
+      "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-17T05:14:18.266626Z",
+      "collectedAt": "2026-06-21T11:20:40.506238Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "Learn More",
+      "url": "https://splashtop.com/blog/how-to-prevent-missed-patches",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:20:40.507074Z",
       "rankedKeywords": []
     },
     {
@@ -6289,8 +6624,9 @@
       "sourceUrl": "https://rustdesk.com/blog/",
       "title": "Enhanced ACL in RustDesk Server Pro 1.5.0! »",
       "url": "https://rustdesk.com/blog/2025/02/enhanced-acl-in-rustdesk-server-pro-1-5-0",
+      "publishedDate": "2025-02-01",
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669497Z",
+      "collectedAt": "2026-06-21T11:20:43.156732Z",
       "rankedKeywords": []
     },
     {
@@ -6300,8 +6636,9 @@
       "sourceUrl": "https://rustdesk.com/blog/",
       "title": "Blog",
       "url": "https://rustdesk.com/blog",
+      "publishedDate": "2025-02-19",
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669729Z",
+      "collectedAt": "2026-06-21T11:20:45.806405Z",
       "rankedKeywords": []
     },
     {
@@ -6311,8 +6648,9 @@
       "sourceUrl": "https://rustdesk.com/blog/",
       "title": "How To Make Flutter 3 24 Run On Windows 7",
       "url": "https://rustdesk.com/blog/2024/12/how-to-make-flutter-3-24-run-on-windows-7",
+      "publishedDate": "2024-12-01",
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669865Z",
+      "collectedAt": "2026-06-21T11:20:45.806632Z",
       "rankedKeywords": []
     },
     {
@@ -6322,8 +6660,9 @@
       "sourceUrl": "https://rustdesk.com/blog/",
       "title": "Rustdesk Web Client V2 Preview",
       "url": "https://rustdesk.com/blog/2024/10/rustdesk-web-client-v2-preview",
+      "publishedDate": "2024-10-01",
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669928Z",
+      "collectedAt": "2026-06-21T11:20:45.806715Z",
       "rankedKeywords": []
     },
     {
@@ -6333,8 +6672,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Skip to main content",
       "url": "https://blog.google/products/chrome",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180343Z",
+      "collectedAt": "2026-06-21T11:20:50.123439Z",
       "rankedKeywords": []
     },
     {
@@ -6344,8 +6684,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "The Keyword",
       "url": "https://blog.google",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180384Z",
+      "collectedAt": "2026-06-21T11:20:52.016275Z",
       "rankedKeywords": []
     },
     {
@@ -6355,8 +6696,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Google DeepMind",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180481Z",
+      "collectedAt": "2026-06-21T11:20:52.016582Z",
       "rankedKeywords": []
     },
     {
@@ -6366,8 +6708,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Google Research",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180500Z",
+      "collectedAt": "2026-06-21T11:20:52.016657Z",
       "rankedKeywords": []
     },
     {
@@ -6377,8 +6720,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Google Labs",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180518Z",
+      "collectedAt": "2026-06-21T11:20:52.016740Z",
       "rankedKeywords": []
     },
     {
@@ -6388,8 +6732,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Gemini models",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180536Z",
+      "collectedAt": "2026-06-21T11:20:52.016814Z",
       "rankedKeywords": []
     },
     {
@@ -6399,8 +6744,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Quantum computing",
       "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180554Z",
+      "collectedAt": "2026-06-21T11:20:52.016888Z",
       "rankedKeywords": []
     },
     {
@@ -6410,8 +6756,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "See all",
       "url": "https://blog.google/innovation-and-ai/models-and-research",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180573Z",
+      "collectedAt": "2026-06-21T11:20:52.016951Z",
       "rankedKeywords": []
     },
     {
@@ -6421,8 +6768,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Developer tools",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180595Z",
+      "collectedAt": "2026-06-21T11:20:52.017016Z",
       "rankedKeywords": []
     },
     {
@@ -6432,8 +6780,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Gemini app",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180617Z",
+      "collectedAt": "2026-06-21T11:20:52.017087Z",
       "rankedKeywords": []
     },
     {
@@ -6443,8 +6792,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "NotebookLM",
       "url": "https://blog.google/innovation-and-ai/products/notebooklm",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180632Z",
+      "collectedAt": "2026-06-21T11:20:52.017156Z",
       "rankedKeywords": []
     },
     {
@@ -6454,8 +6804,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "See all",
       "url": "https://blog.google/innovation-and-ai/products",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180647Z",
+      "collectedAt": "2026-06-21T11:20:52.017217Z",
       "rankedKeywords": []
     },
     {
@@ -6465,8 +6816,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Global network",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180663Z",
+      "collectedAt": "2026-06-21T11:20:52.017282Z",
       "rankedKeywords": []
     },
     {
@@ -6476,8 +6828,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Google Cloud",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180678Z",
+      "collectedAt": "2026-06-21T11:20:52.017340Z",
       "rankedKeywords": []
     },
     {
@@ -6487,8 +6840,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "See all",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180693Z",
+      "collectedAt": "2026-06-21T11:20:52.017454Z",
       "rankedKeywords": []
     },
     {
@@ -6498,8 +6852,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Safety & Security",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180761Z",
+      "collectedAt": "2026-06-21T11:20:52.017521Z",
       "rankedKeywords": []
     },
     {
@@ -6509,8 +6864,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "Health",
       "url": "https://blog.google/innovation-and-ai/technology/health",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180776Z",
+      "collectedAt": "2026-06-21T11:20:52.017581Z",
       "rankedKeywords": []
     },
     {
@@ -6520,8 +6876,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "See all",
       "url": "https://blog.google/innovation-and-ai/technology",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180790Z",
+      "collectedAt": "2026-06-21T11:20:52.017631Z",
       "rankedKeywords": []
     },
     {
@@ -6531,8 +6888,9 @@
       "sourceUrl": "https://blog.google/products/chrome/",
       "title": "See all AI updates",
       "url": "https://blog.google/innovation-and-ai",
+      "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180846Z",
+      "collectedAt": "2026-06-21T11:20:52.017847Z",
       "rankedKeywords": []
     },
     {
@@ -6542,8 +6900,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "Rustdesk Alternative",
       "url": "https://deskin.io/resource/blog/rustdesk-alternative",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789290Z",
+      "collectedAt": "2026-06-21T11:20:57.196625Z",
       "rankedKeywords": []
     },
     {
@@ -6553,8 +6912,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "Why Should You Choose DeskIn Remote Desktop Instead Of Anydesk?",
       "url": "https://deskin.io/resource/blog/why-should-you-choose-deskin-remote-desktop-instead-of-anydesk",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789345Z",
+      "collectedAt": "2026-06-21T11:20:59.156796Z",
       "rankedKeywords": []
     },
     {
@@ -6564,8 +6924,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "The Best Alternative To TeamViewer And AnyDesk —— DeskIn Remote Desktop",
       "url": "https://deskin.io/resource/blog/the-best-alternative-to-teamviewer-and-anydesk-deskin-remote-desktop",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789366Z",
+      "collectedAt": "2026-06-21T11:20:59.156979Z",
       "rankedKeywords": []
     },
     {
@@ -6575,8 +6936,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "DeskIn vs Chrome Remote Desktop: Which One Fits Your Workflow Best?",
       "url": "https://deskin.io/resource/blog/deskin-vs-chrome-remote-desktop",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789390Z",
+      "collectedAt": "2026-06-21T11:20:59.157060Z",
       "rankedKeywords": []
     },
     {
@@ -6586,8 +6948,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "Chrome Remote Desktop Alternative Free & Paid: Which One Is Best for You?",
       "url": "https://deskin.io/resource/blog/chrome-remote-desktop-alternative",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789404Z",
+      "collectedAt": "2026-06-21T11:20:59.157114Z",
       "rankedKeywords": []
     },
     {
@@ -6597,8 +6960,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "Rdp Alternative",
       "url": "https://deskin.io/resource/blog/rdp-alternative",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789424Z",
+      "collectedAt": "2026-06-21T11:20:59.157168Z",
       "rankedKeywords": []
     },
     {
@@ -6608,8 +6972,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "RDP Security 101: Keep Remote Desktop Safe [Tips & Alternatives]",
       "url": "https://deskin.io/resource/blog/rdp-security",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789443Z",
+      "collectedAt": "2026-06-21T11:20:59.157231Z",
       "rankedKeywords": []
     },
     {
@@ -6619,8 +6984,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "Top Splashtop Alternative Tools for Faster, More Reliable Remote Access",
       "url": "https://deskin.io/resource/blog/splashtop-alternative",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789523Z",
+      "collectedAt": "2026-06-21T11:20:59.157602Z",
       "rankedKeywords": []
     },
     {
@@ -6630,8 +6996,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "Why Is DeskIn Remote Desktop Better Than Splashtop?",
       "url": "https://deskin.io/resource/blog/why-is-deskin-remote-desktop-better-than-splashtop",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789537Z",
+      "collectedAt": "2026-06-21T11:20:59.157675Z",
       "rankedKeywords": []
     },
     {
@@ -6641,8 +7008,9 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "best remote desktop",
       "url": "https://deskin.io/resource/blog/the-best-remote-desktop-software-for-stable-connection-and-low-latency-deskin-remote-desktop",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789579Z",
+      "collectedAt": "2026-06-21T11:20:59.157793Z",
       "rankedKeywords": []
     },
     {
@@ -6652,641 +7020,27 @@
       "sourceUrl": "https://deskin.io/resource/blog",
       "title": "free remote desktop",
       "url": "https://deskin.io/resource/blog/comparison-of-3-free-remote-desktop-software",
+      "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789636Z",
+      "collectedAt": "2026-06-21T11:20:59.158040Z",
       "rankedKeywords": []
     }
   ],
   "contentChanges": [
     {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Resources",
-      "url": "https://teamviewer.com/en/resources",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.059554Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.062762Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "TeamViewer named a leader in DEX TeamViewer named a Leader in 2026 Gartner® Magic Quadrant™ DEX tools.",
-      "url": "https://teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060057Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.063049Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Success stories Explore results achieved by TeamViewer customers.",
-      "url": "https://teamviewer.com/en/resources/success-stories",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060469Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.063305Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "News and insights",
-      "url": "https://teamviewer.com/en/resources/news-insights",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060497Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.063553Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Events and webinars",
-      "url": "https://teamviewer.com/en/resources/events",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060521Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.063800Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Trust Center",
-      "url": "https://teamviewer.com/en/resources/trust-center",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060535Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.064046Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Why TeamViewer",
-      "url": "https://teamviewer.com/en/resources/compare",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.060550Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.064294Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "TeamViewer User Focus Program",
-      "url": "https://teamviewer.com/en/resources/teamviewer-user-focus-program",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.061957Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.064787Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Newsletter",
-      "url": "https://teamviewer.com/en/newsletter",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:16.061989Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:16.065036Z"
-    },
-    {
-      "type": "new_content",
+      "type": "first_seen_content",
       "competitorId": "splashtop",
       "competitorName": "Splashtop",
       "sourceType": "blog",
       "sourceUrl": "https://www.splashtop.com/blog",
-      "title": "Skip to main content",
-      "url": "https://splashtop.com/blog",
+      "title": "Learn More",
+      "url": "https://splashtop.com/blog/how-to-prevent-missed-patches",
+      "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-17T05:14:18.265953Z",
+      "collectedAt": "2026-06-21T11:20:40.507074Z",
       "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:18.268817Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.splashtop.com/blog",
-      "title": "Resources",
-      "url": "https://splashtop.com/resources",
-      "market": "US",
-      "collectedAt": "2026-06-17T05:14:18.266626Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:18.269132Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "rustdesk",
-      "competitorName": "RustDesk",
-      "sourceType": "blog",
-      "sourceUrl": "https://rustdesk.com/blog/",
-      "title": "Enhanced ACL in RustDesk Server Pro 1.5.0! »",
-      "url": "https://rustdesk.com/blog/2025/02/enhanced-acl-in-rustdesk-server-pro-1-5-0",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669497Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:20.671275Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "rustdesk",
-      "competitorName": "RustDesk",
-      "sourceType": "blog",
-      "sourceUrl": "https://rustdesk.com/blog/",
-      "title": "Blog",
-      "url": "https://rustdesk.com/blog",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669729Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:20.671692Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "rustdesk",
-      "competitorName": "RustDesk",
-      "sourceType": "blog",
-      "sourceUrl": "https://rustdesk.com/blog/",
-      "title": "How To Make Flutter 3 24 Run On Windows 7",
-      "url": "https://rustdesk.com/blog/2024/12/how-to-make-flutter-3-24-run-on-windows-7",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669865Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:20.672038Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "rustdesk",
-      "competitorName": "RustDesk",
-      "sourceType": "blog",
-      "sourceUrl": "https://rustdesk.com/blog/",
-      "title": "Rustdesk Web Client V2 Preview",
-      "url": "https://rustdesk.com/blog/2024/10/rustdesk-web-client-v2-preview",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:20.669928Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:20.672383Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Skip to main content",
-      "url": "https://blog.google/products/chrome",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180343Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.183412Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "The Keyword",
-      "url": "https://blog.google",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180384Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.183732Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Google DeepMind",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180481Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.184030Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Google Research",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180500Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.184385Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Google Labs",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180518Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.184735Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Gemini models",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180536Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.185005Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Quantum computing",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180554Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.185269Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "See all",
-      "url": "https://blog.google/innovation-and-ai/models-and-research",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180573Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.185538Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Developer tools",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180595Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.185791Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180617Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.186047Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "NotebookLM",
-      "url": "https://blog.google/innovation-and-ai/products/notebooklm",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180632Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.186302Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "See all",
-      "url": "https://blog.google/innovation-and-ai/products",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180647Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.186554Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Global network",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180663Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.186808Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Google Cloud",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180678Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.187064Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "See all",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180693Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.187318Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Safety & Security",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180761Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.187574Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "Health",
-      "url": "https://blog.google/innovation-and-ai/technology/health",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180776Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.187827Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "See all",
-      "url": "https://blog.google/innovation-and-ai/technology",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180790Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.188088Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "sourceType": "blog",
-      "sourceUrl": "https://blog.google/products/chrome/",
-      "title": "See all AI updates",
-      "url": "https://blog.google/innovation-and-ai",
-      "market": "Global",
-      "collectedAt": "2026-06-17T05:14:23.180846Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:23.188343Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Rustdesk Alternative",
-      "url": "https://deskin.io/resource/blog/rustdesk-alternative",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789290Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.792513Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Why Should You Choose DeskIn Remote Desktop Instead Of Anydesk?",
-      "url": "https://deskin.io/resource/blog/why-should-you-choose-deskin-remote-desktop-instead-of-anydesk",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789345Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.792800Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "The Best Alternative To TeamViewer And AnyDesk —— DeskIn Remote Desktop",
-      "url": "https://deskin.io/resource/blog/the-best-alternative-to-teamviewer-and-anydesk-deskin-remote-desktop",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789366Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.793064Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "DeskIn vs Chrome Remote Desktop: Which One Fits Your Workflow Best?",
-      "url": "https://deskin.io/resource/blog/deskin-vs-chrome-remote-desktop",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789390Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.793340Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Chrome Remote Desktop Alternative Free & Paid: Which One Is Best for You?",
-      "url": "https://deskin.io/resource/blog/chrome-remote-desktop-alternative",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789404Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.793610Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Rdp Alternative",
-      "url": "https://deskin.io/resource/blog/rdp-alternative",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789424Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.793877Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "RDP Security 101: Keep Remote Desktop Safe [Tips & Alternatives]",
-      "url": "https://deskin.io/resource/blog/rdp-security",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789443Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.794137Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Top Splashtop Alternative Tools for Faster, More Reliable Remote Access",
-      "url": "https://deskin.io/resource/blog/splashtop-alternative",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789523Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.794396Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Why Is DeskIn Remote Desktop Better Than Splashtop?",
-      "url": "https://deskin.io/resource/blog/why-is-deskin-remote-desktop-better-than-splashtop",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789537Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.794649Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "best remote desktop",
-      "url": "https://deskin.io/resource/blog/the-best-remote-desktop-software-for-stable-connection-and-low-latency-deskin-remote-desktop",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789579Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.794904Z"
-    },
-    {
-      "type": "new_content",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "free remote desktop",
-      "url": "https://deskin.io/resource/blog/comparison-of-3-free-remote-desktop-software",
-      "market": "TW",
-      "collectedAt": "2026-06-17T05:14:25.789636Z",
-      "rankedKeywords": [],
-      "impact": "Medium",
-      "detectedAt": "2026-06-17T05:14:25.795153Z"
+      "impact": "Low",
+      "detectedAt": "2026-06-21T11:20:40.509721Z"
     }
   ]
 }
