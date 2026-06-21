@@ -358,14 +358,23 @@ function visibleCompetitors() {
 
 function signalsForVisibleCompetitors() {
   const ids = new Set(visibleCompetitors().map((competitor) => competitor.id));
-  return liveSignals.filter((signal) => ids.has(signal.competitorId) && signalFitsDisplayWindow(signal));
+  return sortSignals(liveSignals.filter((signal) => ids.has(signal.competitorId) && signalFitsDisplayWindow(signal)));
 }
 
 function signalFitsDisplayWindow(signal) {
-  if (signal.source === "Google Play" && signal.type === "口碑舆情") {
+  if (signal.type === "口碑舆情") {
     return isRecentDate(signal.detectedAt || signal.time, 7);
   }
   return true;
+}
+
+function sortSignals(signals) {
+  return [...signals].sort((a, b) => signalTimestamp(b) - signalTimestamp(a));
+}
+
+function signalTimestamp(signal) {
+  const date = parseDateOnly(signal.detectedAt || signal.publishedAt || signal.time);
+  return date ? date.getTime() : 0;
 }
 
 function getCompetitor(id) {
@@ -845,17 +854,26 @@ function renderTabs() {
 }
 
 function signalListForDrawer(competitorId) {
-  const signals = liveSignals.filter((signal) => signal.competitorId === competitorId);
+  const signals = sortSignals(liveSignals.filter((signal) => signal.competitorId === competitorId && signalFitsDisplayWindow(signal)));
   if (!signals.length) return `<article class="detail-card"><h4>暂无推广动作</h4><p>当前模拟数据还没有记录该竞品的新动作。</p></article>`;
   return signals
-    .map(
-      (signal) => `
+    .map((signal) => {
+      const sourceUrl = sourceUrlForSignal(signal);
+      return `
         <article class="detail-card">
           <h4>${signal.title}</h4>
+          <p class="tiny-meta"><span>${signal.time}</span><span>${signal.source}</span><span>${signal.impact}</span></p>
           <p>${signal.summary}</p>
+          ${
+            sourceUrl
+              ? `<p><a class="detail-link" href="${sourceUrl}" target="_blank" rel="noopener noreferrer">查看来源</a></p>`
+              : signal.sourceNote
+              ? `<p class="tiny-meta"><span>${signal.sourceNote}</span></p>`
+              : ""
+          }
         </article>
-      `,
-    )
+      `;
+    })
     .join("");
 }
 

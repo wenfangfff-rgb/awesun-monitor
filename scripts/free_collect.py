@@ -982,7 +982,22 @@ def build_sentiment_pain_points(items: list[dict[str, Any]]) -> list[str]:
 
 
 def dedupe_recent_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    return merge_unique(items[-200:], signal_key)
+    seen = set()
+    newest = []
+    for item in reversed(items):
+        key = signal_key(item)
+        if key in seen:
+            continue
+        seen.add(key)
+        newest.append(item)
+    newest.sort(key=signal_sort_value, reverse=True)
+    return newest[:200]
+
+
+def signal_sort_value(item: dict[str, Any]) -> str:
+    value = item.get("detectedAt") or item.get("publishedAt") or item.get("time") or ""
+    parsed = parse_iso_date(value)
+    return parsed.isoformat() if parsed else str(value)
 
 
 def strip_runtime_config(competitors: list[dict[str, Any]]) -> list[dict[str, Any]]:
