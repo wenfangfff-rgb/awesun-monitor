@@ -309,6 +309,8 @@ function normalizeMetrics(metrics) {
 }
 
 function normalizeSignal(signal) {
+  const sourceNote = signal.sourceNote || (signal.source === "Google Play" && !signal.url ? "来源：Google Play scraper，暂无直达链接" : "");
+  const summary = signal.summary || "";
   return {
     id: signal.id || `signal-${Date.now()}-${Math.random().toString(16).slice(2)}`,
     competitorId: signal.competitorId,
@@ -316,9 +318,12 @@ function normalizeSignal(signal) {
     source: signal.source || "Daily Collector",
     impact: signal.impact || "Medium",
     title: signal.title || "发现新的市场动作",
-    summary: signal.summary || "",
+    summary: sourceNote && !summary.includes(sourceNote) ? `${summary}（${sourceNote}）` : summary,
     recommendation: signal.recommendation || "建议人工复核该变化，并判断是否需要跟进内容、商店或投放动作。",
-    time: signal.time || signal.detectedAt || "今日",
+    time: normalizeSignalTime(signal),
+    detectedAt: signal.detectedAt || signal.publishedAt || "",
+    sourceNote,
+    url: signal.url || "",
   };
 }
 
@@ -353,7 +358,14 @@ function visibleCompetitors() {
 
 function signalsForVisibleCompetitors() {
   const ids = new Set(visibleCompetitors().map((competitor) => competitor.id));
-  return liveSignals.filter((signal) => ids.has(signal.competitorId));
+  return liveSignals.filter((signal) => ids.has(signal.competitorId) && signalFitsDisplayWindow(signal));
+}
+
+function signalFitsDisplayWindow(signal) {
+  if (signal.source === "Google Play" && signal.type === "口碑舆情") {
+    return isRecentDate(signal.detectedAt || signal.time, 7);
+  }
+  return true;
 }
 
 function getCompetitor(id) {
@@ -453,7 +465,7 @@ function renderMetrics() {
     { label: "竞品活跃度", value: `${Math.round(totalAds / Math.max(1, competitors.length))}`, change: "广告/社媒综合指数", accent: "var(--green)" },
     { label: "排名最大波动", value: topMover.delta > 0 ? `+${topMover.delta}` : `${topMover.delta}`, change: topMover.name, accent: "var(--coral)" },
     { label: "SEO机会词", value: highKeywords, change: "高优先级内容缺口", accent: "var(--amber)" },
-    { label: "今日新增动作", value: signals.length + state.tick, change: "官网/商店/广告/社媒", accent: "var(--cyan)" },
+    { label: "本次采集动作", value: signals.length, change: "来自当前 daily JSON", accent: "var(--cyan)" },
   ];
 
   els.metricGrid.innerHTML = metrics
@@ -598,6 +610,7 @@ function renderSerpChanges() {
             <span>${marketLabel(change.market)}</span>
             <span>${change.competitorName || getCompetitor(change.competitorId)?.name || "Unknown"}</span>
             <span>${change.type}</span>
+            ${change.url ? `<a class="detail-link" href="${change.url}" target="_blank" rel="noopener noreferrer">打开结果</a>` : ""}
           </div>
         </article>
       `;
@@ -607,31 +620,94 @@ function renderSerpChanges() {
 
 function renderContentChanges() {
   const visibleIds = new Set(visibleCompetitors().map((competitor) => competitor.id));
-  const changes = liveContentChanges.filter((change) => visibleIds.has(change.competitorId)).slice(0, 6);
+  const changes = liveContentChanges.filter((change) => visibleIds.has(change.competitorId));
   if (!changes.length) {
-    els.contentChangeList.innerHTML = `<div class="empty-state">当前筛选下暂无新增内容。</div>`;
+    els.contentChangeList.innerHTML = `<div class="empty-state">当前筛选下暂无内容发现。</div>`;
     return;
   }
 
-  els.contentChangeList.innerHTML = changes
-    .map((change) => {
-      const ranked = change.rankedKeywords?.length ? `已进入 ${change.rankedKeywords.length} 个监控 SERP` : "暂未进入监控 SERP";
-      return `
-        <article class="content-card">
-          <div class="keyword-top">
-            <span class="content-title">${change.title}</span>
-            <span class="badge ${change.rankedKeywords?.length ? "good" : ""}">${ranked}</span>
-          </div>
-          <p>${change.url}</p>
-          <div class="tiny-meta">
-            <span>${change.competitorName}</span>
-            <span>${marketLabel(change.market)}</span>
-            <span>${change.sourceType}</span>
-          </div>
-        </article>
-      `;
-    })
-    .join("");
+  const suspectedNew = changes.filter((change) => contentChangeKind(change) === "suspectedNew").slice(0, 4);
+  const firstSeen = changes.filter((change) => contentChangeKind(change) !== "suspectedNew").slice(0, 6);
+  const renderGroup = (title, items, emptyText) => `
+    <div class="content-group">
+      <div class="tiny-meta content-group-title"><span>${title}</span></div>
+      ${
+        items.length
+          ? items.map(renderContentCard).join("")
+          : `<div class="empty-state compact-empty">${emptyText}</div>`
+      }
+    </div>
+  `;
+
+  els.contentChangeList.innerHTML = [
+    renderGroup("疑似新发布内容", suspectedNew, "未识别到最近 7 天发布的内容。"),
+    renderGroup("首次发现 / 监控基线", firstSeen, "暂无首次发现内容。"),
+  ].join("");
+}
+
+function renderContentCard(change) {
+  const ranked = change.rankedKeywords?.length ? `已进入 ${change.rankedKeywords.length} 个监控 SERP` : "暂未进入监控 SERP";
+  const published = change.publishedDate ? `发布 ${formatDateOnly(change.publishedDate)}` : "未识别发布时间";
+  const kind = contentChangeKind(change);
+  const typeLabel = kind === "suspectedNew" ? "疑似新发布" : kind === "baseline" ? "监控基线" : "首次发现";
+  const contentLink = change.url
+    ? `<a class="detail-link" href="${change.url}" target="_blank" rel="noopener noreferrer">${change.url}</a>`
+    : "";
+  const sourceLink = change.sourceUrl
+    ? `<a class="detail-link" href="${change.sourceUrl}" target="_blank" rel="noopener noreferrer">来源列表页</a>`
+    : "";
+  return `
+    <article class="content-card">
+      <div class="keyword-top">
+        <span class="content-title">${change.title}</span>
+        <span class="badge ${kind === "suspectedNew" ? "good" : ""}">${typeLabel}</span>
+      </div>
+      <p>${contentLink}</p>
+      <div class="tiny-meta">
+        <span>${change.competitorName}</span>
+        <span>${marketLabel(change.market)}</span>
+        <span>${change.sourceType}</span>
+        <span>${published}</span>
+        <span>${ranked}</span>
+        ${sourceLink}
+      </div>
+    </article>
+  `;
+}
+
+function contentChangeKind(change) {
+  if (change.type === "suspected_new_content") return "suspectedNew";
+  if (change.type === "baseline_content") return "baseline";
+  if (change.type === "new_content" && !change.publishedDate) return "baseline";
+  if (isRecentDate(change.publishedDate, 7)) return "suspectedNew";
+  return "firstSeen";
+}
+
+function isRecentDate(value, days) {
+  const date = parseDateOnly(value);
+  if (!date) return false;
+  const today = parseDateOnly(state.dataGeneratedAt) || new Date();
+  const dateUtc = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+  const todayUtc = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+  const diffDays = Math.floor((todayUtc - dateUtc) / 86400000);
+  return diffDays >= 0 && diffDays <= days;
+}
+
+function parseDateOnly(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function formatDateOnly(value) {
+  const date = parseDateOnly(value);
+  return date ? date.toLocaleDateString("zh-CN", { hour12: false }) : "";
+}
+
+function normalizeSignalTime(signal) {
+  if (signal.time && signal.time !== "今日") return signal.time;
+  const date = signal.publishedAt || signal.detectedAt;
+  return formatDateOnly(date) || signal.time || "本次采集";
 }
 
 function renderInsights() {

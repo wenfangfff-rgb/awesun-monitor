@@ -594,6 +594,16 @@ button {
   gap: 10px;
 }
 
+.content-group {
+  display: grid;
+  gap: 8px;
+}
+
+.content-group-title {
+  font-weight: 850;
+  color: var(--ink);
+}
+
 .change-card,
 .content-card {
   display: grid;
@@ -957,6 +967,11 @@ button {
   border-radius: 8px;
   color: var(--muted);
   text-align: center;
+}
+
+.compact-empty {
+  padding: 12px;
+  font-size: 13px;
 }
 
 .toast {

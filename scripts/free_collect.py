@@ -18,6 +18,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -431,6 +432,7 @@ def collect_content_sources(
 ) -> dict[str, Any]:
     previous_items = previous.get("contentItems", [])
     previous_urls = {normalize_url(item.get("url")) for item in previous_items}
+    has_content_baseline = bool(previous_items)
     items: list[dict[str, Any]] = []
     changes: list[dict[str, Any]] = []
     signals: list[dict[str, Any]] = []
@@ -449,14 +451,23 @@ def collect_content_sources(
                 item["rankedKeywords"] = find_content_serp_presence(item["url"], serp_snapshots)
                 items.append(item)
                 if normalize_url(item["url"]) not in previous_urls:
+                    recent_published = is_recent_iso(item.get("publishedDate"), days=7)
+                    change_type = (
+                        "suspected_new_content"
+                        if recent_published
+                        else "first_seen_content"
+                        if has_content_baseline
+                        else "baseline_content"
+                    )
                     change = {
-                        "type": "new_content",
+                        "type": change_type,
                         **item,
-                        "impact": "High" if item["rankedKeywords"] else "Medium",
+                        "impact": "High" if recent_published or item["rankedKeywords"] else "Low",
                         "detectedAt": utc_now(),
                     }
                     changes.append(change)
-                    signals.append(content_change_to_signal(change))
+                    if change_type != "baseline_content":
+                        signals.append(content_change_to_signal(change))
 
     status = f"ok_items_{len(items)}"
     if errors:
@@ -492,6 +503,9 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
             continue
         if not looks_like_content_url(normalized):
             continue
+        published_date = detect_content_published_date(normalized, link["title"], link.get("context", ""))
+        if not published_date:
+            published_date = fetch_content_published_date(normalized)
         items.append(
             {
                 "competitorId": competitor["id"],
@@ -500,6 +514,7 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
                 "sourceUrl": url,
                 "title": link["title"] or title_from_url(normalized),
                 "url": normalized,
+                "publishedDate": published_date,
                 "market": competitor.get("market", "Global"),
                 "collectedAt": utc_now(),
             }
@@ -509,16 +524,65 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
 
 def extract_links(html: str, base_url: str) -> list[dict[str, str]]:
     links = []
-    for match in __import__("re").finditer(r"<a[^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", html, flags=__import__("re").I | __import__("re").S):
+    for match in re.finditer(r"<a[^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", html, flags=re.I | re.S):
         href = urllib.parse.urljoin(base_url, match.group(1))
         title = clean_html(match.group(2))
-        links.append({"url": href, "title": title})
+        context = html[max(0, match.start() - 240) : match.end() + 240]
+        links.append({"url": href, "title": title, "context": clean_html(context)})
     return links
 
 
 def looks_like_content_url(url: str) -> bool:
     lower = url.lower()
     return any(token in lower for token in ("/blog", "/resource", "/resources", "/news", "/article"))
+
+
+def detect_content_published_date(*values: str) -> str | None:
+    text = " ".join(str(value or "") for value in values)
+    for pattern in (
+        r"\b(20\d{2})[-/](0?[1-9]|1[0-2])[-/](0?[1-9]|[12]\d|3[01])\b",
+        r"\b(20\d{2})/(0?[1-9]|1[0-2])\b",
+    ):
+        match = re.search(pattern, text)
+        if match:
+            year, month = int(match.group(1)), int(match.group(2))
+            day = int(match.group(3)) if len(match.groups()) >= 3 else 1
+            try:
+                return dt.date(year, month, day).isoformat()
+            except ValueError:
+                continue
+
+    month_pattern = (
+        r"\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+        r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+        r"\s+([0-3]?\d),?\s+(20\d{2})\b"
+    )
+    match = re.search(month_pattern, text, flags=re.I)
+    if match:
+        for fmt in ("%B %d %Y", "%b %d %Y"):
+            try:
+                return dt.datetime.strptime(" ".join(match.groups()), fmt).date().isoformat()
+            except ValueError:
+                continue
+    return None
+
+
+def fetch_content_published_date(url: str) -> str | None:
+    try:
+        html = fetch_text(url)
+    except Exception:
+        return None
+
+    candidates = []
+    for pattern in (
+        r"<meta[^>]+(?:property|name)=[\"'](?:article:published_time|date|publishdate|pubdate|datePublished)[\"'][^>]+content=[\"']([^\"']+)[\"']",
+        r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]+(?:property|name)=[\"'](?:article:published_time|date|publishdate|pubdate|datePublished)[\"']",
+        r"<time[^>]+datetime=[\"']([^\"']+)[\"']",
+        r"\"datePublished\"\s*:\s*\"([^\"]+)\"",
+        r"\"dateModified\"\s*:\s*\"([^\"]+)\"",
+    ):
+        candidates.extend(re.findall(pattern, html, flags=re.I))
+    return detect_content_published_date(url, " ".join(candidates))
 
 
 def find_content_serp_presence(url: str, serp_snapshots: dict[str, Any]) -> list[dict[str, Any]]:
@@ -538,17 +602,20 @@ def find_content_serp_presence(url: str, serp_snapshots: dict[str, Any]) -> list
 
 
 def content_change_to_signal(change: dict[str, Any]) -> dict[str, Any]:
+    is_suspected_new = change["type"] == "suspected_new_content"
+    title = "疑似新发布内容" if is_suspected_new else "首次发现内容"
+    summary_date = f"发布时间：{change['publishedDate']}。" if change.get("publishedDate") else "未识别到明确发布时间。"
     return {
         "id": f"content-{change['competitorId']}-{hash_text(change['url'])[:8]}",
         "competitorId": change["competitorId"],
         "type": "内容产出",
         "source": "Website Content",
         "impact": change["impact"],
-        "title": f"{change['competitorName']} 新增内容",
+        "title": f"{change['competitorName']} {title}",
         "url": change["url"],
-        "summary": f"{change['title']} - {change['url']}",
+        "summary": f"{summary_date}{change['title']} - {change['url']}",
         "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
-        "time": "今日",
+        "time": change.get("publishedDate") or "首次发现",
         "detectedAt": change["detectedAt"],
     }
 
@@ -682,8 +749,10 @@ def collect_google_play(
             "summary": row.get("content") or "",
             "rating": row.get("score"),
             "publishedAt": to_iso(row.get("at")),
+            "sourceNote": "来源：Google Play scraper，暂无直达链接",
         }
         for row in review_rows
+        if is_recent_iso(to_iso(row.get("at")), days=7)
     ]
     return metrics, signals
 
@@ -808,23 +877,31 @@ def merge_unique(items: list[dict[str, Any]], key_fn) -> list[dict[str, Any]]:
 
 
 def review_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    return [
-        {
-            "id": f"review-{item.get('source', '').lower().replace(' ', '-')}-{item.get('competitorId')}-{hash_text(item.get('summary') or item.get('title') or '')[:8]}",
-            "competitorId": item.get("competitorId"),
-            "type": "口碑舆情",
-            "source": item.get("source"),
-            "impact": "High" if (item.get("rating") or 5) <= 2 else "Medium",
-            "title": item.get("title") or "发现新评论",
-            "url": item.get("url") or "",
-            "summary": item.get("summary") or "",
-            "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-            "time": "今日",
-            "detectedAt": item.get("publishedAt") or utc_now(),
-        }
-        for item in items
-        if item.get("summary") or item.get("title")
-    ]
+    signals = []
+    for item in items:
+        if not (item.get("summary") or item.get("title")):
+            continue
+        published_at = item.get("publishedAt")
+        source_note = item.get("sourceNote") if not item.get("url") else ""
+        summary = item.get("summary") or ""
+        if source_note and source_note not in summary:
+            summary = f"{summary}（{source_note}）".strip()
+        signals.append(
+            {
+                "id": f"review-{item.get('source', '').lower().replace(' ', '-')}-{item.get('competitorId')}-{hash_text(item.get('summary') or item.get('title') or '')[:8]}",
+                "competitorId": item.get("competitorId"),
+                "type": "口碑舆情",
+                "source": item.get("source"),
+                "impact": "High" if (item.get("rating") or 5) <= 2 else "Medium",
+                "title": item.get("title") or "发现新评论",
+                "url": item.get("url") or "",
+                "summary": summary,
+                "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+                "time": display_date(published_at) or "未知日期",
+                "detectedAt": published_at or utc_now(),
+            }
+        )
+    return signals
 
 
 def social_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -997,6 +1074,34 @@ def normalize_url(value: str | None) -> str:
 
 def clean_compare(value: str | None) -> str:
     return " ".join(str(value or "").lower().split())
+
+
+def parse_iso_date(value: Any) -> dt.date | None:
+    if not value:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+    try:
+        return dt.datetime.fromisoformat(text.replace("Z", "+00:00")).date()
+    except ValueError:
+        detected = detect_content_published_date(text)
+        if detected:
+            return dt.date.fromisoformat(detected)
+    return None
+
+
+def is_recent_iso(value: Any, days: int) -> bool:
+    parsed = parse_iso_date(value)
+    if not parsed:
+        return False
+    today = dt.datetime.now(dt.timezone.utc).date()
+    return dt.timedelta(days=0) <= today - parsed <= dt.timedelta(days=days)
+
+
+def display_date(value: Any) -> str | None:
+    parsed = parse_iso_date(value)
+    return parsed.isoformat() if parsed else None
 
 
 def clean_html(value: str) -> str:
