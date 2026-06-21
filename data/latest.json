@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "generatedAt": "2026-06-21T11:28:04.388459Z",
+  "generatedAt": "2026-06-21T11:44:24.327010Z",
   "source": "free-collector",
   "competitors": [
     {
@@ -314,7 +314,7 @@
       "summary": "HTTP Error 403: Forbidden",
       "recommendation": "检查 API key、请求额度、配置字段或网络状态。",
       "time": "今日",
-      "detectedAt": "2026-06-21T11:28:38.732772Z"
+      "detectedAt": "2026-06-21T11:45:24.834463Z"
     },
     {
       "id": "integration-remotepc-7beaffc1",
@@ -326,7 +326,7 @@
       "summary": "HTTP Error 404: Not Found",
       "recommendation": "检查 API key、请求额度、配置字段或网络状态。",
       "time": "今日",
-      "detectedAt": "2026-06-21T11:28:27.152764Z"
+      "detectedAt": "2026-06-21T11:44:53.653656Z"
     },
     {
       "id": "integration-anydesk-61d55afd",
@@ -338,7 +338,7 @@
       "summary": "HTTP Error 403: Forbidden",
       "recommendation": "检查 API key、请求额度、配置字段或网络状态。",
       "time": "今日",
-      "detectedAt": "2026-06-21T11:28:19.252865Z"
+      "detectedAt": "2026-06-21T11:44:44.033516Z"
     },
     {
       "id": "content-splashtop-dcbdfa4b",
@@ -352,6 +352,370 @@
       "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
       "time": "首次发现",
       "detectedAt": "2026-06-21T11:20:40.509721Z"
+    },
+    {
+      "id": "content-teamviewer-3e40f18f",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources",
+      "summary": "未识别到明确发布时间。Resources - https://www.teamviewer.com/en/resources",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.286821Z"
+    },
+    {
+      "id": "content-teamviewer-6cbd22f0",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
+      "summary": "未识别到明确发布时间。TeamViewer named a leader in DEX TeamViewer named a Leader in 2026 Gartner® Magic Quadrant™ DEX tools. - https://www.teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.287732Z"
+    },
+    {
+      "id": "content-teamviewer-318368c8",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/success-stories",
+      "summary": "未识别到明确发布时间。Success stories Explore results achieved by TeamViewer customers. - https://www.teamviewer.com/en/resources/success-stories",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.288605Z"
+    },
+    {
+      "id": "content-teamviewer-5157516b",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/news-insights",
+      "summary": "未识别到明确发布时间。News and insights - https://www.teamviewer.com/en/resources/news-insights",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.289433Z"
+    },
+    {
+      "id": "content-teamviewer-cfe6d4ab",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/events",
+      "summary": "未识别到明确发布时间。Events and webinars - https://www.teamviewer.com/en/resources/events",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.290222Z"
+    },
+    {
+      "id": "content-teamviewer-c761f2d6",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/trust-center",
+      "summary": "未识别到明确发布时间。Trust Center - https://www.teamviewer.com/en/resources/trust-center",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.290964Z"
+    },
+    {
+      "id": "content-teamviewer-b2327a03",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/compare",
+      "summary": "未识别到明确发布时间。Why TeamViewer - https://www.teamviewer.com/en/resources/compare",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.291722Z"
+    },
+    {
+      "id": "content-teamviewer-ca5b24e3",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/resources/teamviewer-user-focus-program",
+      "summary": "未识别到明确发布时间。TeamViewer User Focus Program - https://www.teamviewer.com/en/resources/teamviewer-user-focus-program",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.292523Z"
+    },
+    {
+      "id": "content-teamviewer-65b47734",
+      "competitorId": "teamviewer",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "TeamViewer 首次发现内容",
+      "url": "https://www.teamviewer.com/en/newsletter",
+      "summary": "未识别到明确发布时间。Newsletter - https://www.teamviewer.com/en/newsletter",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:41:53.293436Z"
+    },
+    {
+      "id": "content-splashtop-225220ed",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/how-to-prevent-missed-patches",
+      "summary": "发布时间：2026-06-11。Learn More - https://www.splashtop.com/blog/how-to-prevent-missed-patches",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "2026-06-11",
+      "detectedAt": "2026-06-21T11:42:03.673419Z"
+    },
+    {
+      "id": "content-splashtop-46fc9a61",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "High",
+      "title": "Splashtop 疑似新发布内容",
+      "url": "https://www.splashtop.com/blog/why-it-stuck-reactive-endpoint-management",
+      "summary": "发布时间：2026-06-17。Learn More - https://www.splashtop.com/blog/why-it-stuck-reactive-endpoint-management",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "2026-06-17",
+      "detectedAt": "2026-06-21T11:42:03.674250Z"
+    },
+    {
+      "id": "content-splashtop-846b82e2",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/foxpass/blog/simplifying-certificate-based-wifi-for-managed-chromebooks",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/foxpass/blog/simplifying-certificate-based-wifi-for-managed-chromebooks",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.674991Z"
+    },
+    {
+      "id": "content-splashtop-35d7ba88",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/teamviewer-13-14-eol",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/teamviewer-13-14-eol",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.675964Z"
+    },
+    {
+      "id": "content-splashtop-71e4a3a1",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/patch-tuesday-june-2026",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/patch-tuesday-june-2026",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.676760Z"
+    },
+    {
+      "id": "content-splashtop-369f7593",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/how-to-enforce-device-security-policies-remotely",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/how-to-enforce-device-security-policies-remotely",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.677617Z"
+    },
+    {
+      "id": "content-splashtop-57b701be",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/how-to-manage-windows-event-logs-remotely",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/how-to-manage-windows-event-logs-remotely",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.678462Z"
+    },
+    {
+      "id": "content-splashtop-89a5bdb8",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/powershell-scripts-remotely-unattended-devices",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/powershell-scripts-remotely-unattended-devices",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.679297Z"
+    },
+    {
+      "id": "content-splashtop-a1c4cc4a",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/how-to-automate-third-party-app-updates-on-managed-devices",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/how-to-automate-third-party-app-updates-on-managed-devices",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.680074Z"
+    },
+    {
+      "id": "content-splashtop-2d399eeb",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/teams-slack-remote-support",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/teams-slack-remote-support",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.680808Z"
+    },
+    {
+      "id": "content-splashtop-dfe8e07d",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/how-it-set-up-remote-access-for-home-office-users",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/how-it-set-up-remote-access-for-home-office-users",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.681534Z"
+    },
+    {
+      "id": "content-splashtop-a18ddab7",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/blog/what-is-silent-patch-installation",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/blog/what-is-silent-patch-installation",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.682262Z"
+    },
+    {
+      "id": "content-splashtop-3a94292c",
+      "competitorId": "splashtop",
+      "type": "内容产出",
+      "source": "Website Content",
+      "impact": "Low",
+      "title": "Splashtop 首次发现内容",
+      "url": "https://www.splashtop.com/foxpass/blog/what-is-a-certificate-authority",
+      "summary": "未识别到明确发布时间。Learn More - https://www.splashtop.com/foxpass/blog/what-is-a-certificate-authority",
+      "recommendation": "复核该内容主题、目标关键词、CTA 和是否进入 Google 前 20，判断 Awesun 是否需要跟进同类内容。",
+      "time": "首次发现",
+      "detectedAt": "2026-06-21T11:42:03.683011Z"
+    },
+    {
+      "id": "review-google-play-anydesk-4476f93a",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：8.3.4；评分：1 星。It's supposed to be free for private use. But it locks you out every 3 minutes while a 15 minute timer counts down. Don't bother downloading because it isn't usable. Saying it is free without mentioning the ridiculous time limit is dishonest.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T07:38:51+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-624d026d",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play 新评论",
+      "url": "",
+      "summary": "评分：5 星。very good（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T08:16:45+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-379e4301",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：15.78.176；评分：1 星。no account , no entry and doesn't even connect even with account also（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T02:17:32+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-5ffb1d2b",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：15.78.163；评分：1 星。Horrible service! Humans are non-existent here, and they're running the company into the ground. Find a better alternative.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T02:51:46+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-b885423a",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：15.77.140；评分：1 星。The session keeps closing, please fix that.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T03:32:21+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-dd92cb51",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：15.78.176；评分：2 星。I'm having trouble doing anything because to make a ticket or to use Team Viewer on another phone or anything to contact Team Viewer, I need to sign in through the browser. The browser is not in effect and is not allowing it, despite me being authenticated on the device level. I get there's some anti-scam measures because it won't send me my authentication emails. I'm literally dead in the water.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-20",
+      "detectedAt": "2026-06-20T16:05:27+00:00"
     },
     {
       "id": "review-google-play-anydesk-4476f93a",
@@ -437,6 +801,71 @@
       "type": "口碑舆情",
       "source": "Google Play",
       "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：5.9.2；评分：2 星。Keeps on showing The connection lost. Trying to reconnect. Trying to login into my mac from Android. It used to work flawlessly earlier. Stopped working completely.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T13:36:55+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-9a949a6d",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：8.3.4；评分：1 星。free license for private use is not working properly（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T04:24:27+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-54bd66a9",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play 新评论",
+      "url": "",
+      "summary": "版本：8.3.4；评分：3 星。Connection is ok, but recently there is a red label on top say for non professional use, I only use for home. Think the label should remove, the red label make viewing unpleasant. Also the button right button can come with lable, easier to execute task.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T11:21:38+00:00"
+    },
+    {
+      "id": "review-google-play-anydesk-75666233",
+      "competitorId": "anydesk",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "Google Play 低星评论",
+      "url": "",
+      "summary": "版本：8.3.4；评分：1 星。hardly functional if you want to to anything other that view your desktop. use chrome remote desktop if thats an option for you（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T23:21:37+00:00"
+    },
+    {
+      "id": "review-google-play-teamviewer-e06fa31b",
+      "competitorId": "teamviewer",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play 新评论",
+      "url": "",
+      "summary": "版本：15.78.163；评分：5 星。Corr wow（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-19",
+      "detectedAt": "2026-06-19T19:53:22+00:00"
+    },
+    {
+      "id": "review-google-play-remotepc-66fb2f6e",
+      "competitorId": "remotepc",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "High",
       "title": "5.9.2",
       "url": "",
       "summary": "Keeps on showing The connection lost. Trying to reconnect. Trying to login into my mac from Android. It used to work flawlessly earlier. Stopped working completely.（来源：Google Play scraper，暂无直达链接）",
@@ -495,6 +924,19 @@
       "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
       "time": "2026-06-19",
       "detectedAt": "2026-06-19T19:53:22+00:00"
+    },
+    {
+      "id": "review-google-play-deskin-ddca8520",
+      "competitorId": "deskin",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play 新评论",
+      "url": "",
+      "summary": "版本：3.3.4.8；评分：5 星。best app I had ever have（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-17",
+      "detectedAt": "2026-06-17T00:14:25+00:00"
     },
     {
       "id": "review-google-play-deskin-ddca8520",
@@ -1210,6 +1652,19 @@
       "type": "口碑舆情",
       "source": "Google Play",
       "impact": "Medium",
+      "title": "Google Play 新评论",
+      "url": "",
+      "summary": "评分：5 星。awesome tool for remote work（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-16",
+      "detectedAt": "2026-06-16T14:08:18+00:00"
+    },
+    {
+      "id": "review-google-play-remotepc-da62c6e2",
+      "competitorId": "remotepc",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
       "title": "Google Play review",
       "url": "",
       "summary": "awesome tool for remote work（来源：Google Play scraper，暂无直达链接）",
@@ -1240,6 +1695,19 @@
       "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
       "time": "今日",
       "detectedAt": "2026-06-16T09:25:25+00:00"
+    },
+    {
+      "id": "review-google-play-remotepc-31dee0cb",
+      "competitorId": "remotepc",
+      "type": "口碑舆情",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "Google Play 新评论",
+      "url": "",
+      "summary": "评分：5 星。i have been using this app for past 2 years. really good 💯（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
+      "time": "2026-06-15",
+      "detectedAt": "2026-06-15T13:51:46+00:00"
     },
     {
       "id": "review-google-play-remotepc-31dee0cb",
@@ -2333,342 +2801,6 @@
       "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
       "time": "今日",
       "detectedAt": "2026-04-05T23:48:04+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-6da92659",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "5.8.6",
-      "summary": "CANNOT View phone from PC, Remote PC does not meet googles AUTH requirements to login from www so features and access is INHIBITED",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-04-04T14:23:10+00:00"
-    },
-    {
-      "id": "review-google-play-splashtop-fbd68b6d",
-      "competitorId": "splashtop",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.8.0.19",
-      "summary": "This app is allowing me to connect remotely to my computer with no problems since I started using it, would recommend to anyone who wants remote work done.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-04-01T03:46:06+00:00"
-    },
-    {
-      "id": "review-google-play-splashtop-83064193",
-      "competitorId": "splashtop",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "3.8.0.19",
-      "summary": "cant do copy paste",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-28T15:29:39+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-da653e55",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.7.8",
-      "summary": "Love it. Always reliable",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-25T23:54:57+00:00"
-    },
-    {
-      "id": "review-google-play-splashtop-9beee9ff",
-      "competitorId": "splashtop",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.8.0.19",
-      "summary": "it just plain works.. where RDP and others have issues, Splashtop always comes through for me, on all platforms.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-25T23:54:08+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-b1ed9a60",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.8.5",
-      "summary": "super helpful",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-24T11:58:40+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-7ee4ab63",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.8.4",
-      "summary": "I feel that the INTERACTIONS between the 2 computers could be smother",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-19T19:27:10+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-0e0af7d1",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "5.8.4",
-      "summary": "It's a trial version that can't be used. There's no option to add a server.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-14T15:53:36+00:00"
-    },
-    {
-      "id": "review-google-play-splashtop-98e6693e",
-      "competitorId": "splashtop",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.8.0.19",
-      "summary": "I have been using this for more than 10 years. it is one of the fastest remote control software that you can use. I use it on Android and Windows, it just works.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-12T16:10:15+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-cc941c70",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "3.28.6",
-      "summary": "right click won't work",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-09T19:48:36+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-0a312018",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "Google Play review",
-      "summary": "I've to uninstall it from my smartphone. it's restricting me to using the SBI Yono App. Please make necessary coordination with SBI as both are indigenous apps and somehow both should understand the risks, limitation and user needs. please fix it as soon as possible. thanks",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-08T13:23:07+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-995b9fc5",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.8.4",
-      "summary": "awesome tool",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-07T06:42:50+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-6d41b52f",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "Google Play review",
-      "summary": "mouse clicks don't work",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-02T15:43:23+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-9a818533",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.28.5",
-      "summary": "Astro talk sessions with pandit ji are honest and practical. Panchang updates and Dosha remedies are clearly mentioned. Paid consultation feels worth every rupee.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-03-01T22:04:59+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-96cae26f",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.8.4",
-      "summary": "Great software.... until the latest mouse update. Ruined mouse movement very badly. What us users need is the original movement back at least as a selectable option plus movable on-screen mouse buttons and a way to drag more easily in touch screen mode.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-02-27T05:20:52+00:00"
-    },
-    {
-      "id": "review-google-play-splashtop-28a7a940",
-      "competitorId": "splashtop",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.7.4.24",
-      "summary": "I love using Splashtop. It has helped me help my clients and is easy to use.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-02-26T23:49:58+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-54728c1c",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.8.4",
-      "summary": "Good app over all , is there a way to remove the start menu Ctrl alt delete taskbar?",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-02-24T21:37:31+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-0d9ba897",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "Google Play review",
-      "summary": "шоб користуватися цим, просить залогінитися, втф",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-02-23T14:00:03+00:00"
-    },
-    {
-      "id": "review-google-play-remotepc-34bf187c",
-      "competitorId": "remotepc",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "5.8.3",
-      "summary": "looses settings looses remote printer so I have to uninstall and reinstall can't display a list of all PCs can easily find a way to contact support ,(why does it have to be hidden?) there is more put I have to get to eork",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-02-19T20:45:17+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-c31e1ff5",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "3.28.2",
-      "summary": "tried using this software to connect to my elderly father's pc to help. doesn't connect - just says waiting on my phone, but the unattended pc shows connected",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-02-02T05:06:38+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-465cf532",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "3.28.2",
-      "summary": "was awesome! now I get lag. on any computer i attend. not great for critical operations. takes long to connect/load.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-01-29T02:12:16+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-770e6076",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.28.2",
-      "summary": "good",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-01-27T20:34:18+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-b49cf1a4",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "Google Play review",
-      "summary": "I have a remote don't need this",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-01-25T09:39:35+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-e243f8f5",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "3.28.2",
-      "summary": "More problems than it's worth most of the time.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-01-17T15:36:33+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-bd4d4d38",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.27.1",
-      "summary": "Totally pleased with this software. Very high quality! I have accepted NO incentive for this review.",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-01-04T23:15:56+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-770e6076",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "Google Play review",
-      "summary": "good",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2026-01-02T23:33:30+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-d8bf56e0",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "Google Play review",
-      "summary": "Great app",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2025-12-30T12:19:09+00:00"
-    },
-    {
-      "id": "review-google-play-zoho-assist-87765da6",
-      "competitorId": "zoho-assist",
-      "type": "口碑舆情",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "3.27.1",
-      "summary": "great",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ 或投放反击素材。",
-      "time": "今日",
-      "detectedAt": "2025-12-30T13:23:05+00:00"
     }
   ],
   "keywordInsights": [
@@ -2738,6 +2870,146 @@
   ],
   "socialSignals": [],
   "reviewSignals": [
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "I'm having trouble doing anything because to make a ticket or to use Team Viewer on another phone or anything to contact Team Viewer, I need to sign in through the browser. The browser is not in effect and is not allowing it, despite me being authenticated on the device level. I get there's some anti-scam measures because it won't send me my authentication emails. I'm literally dead in the water.",
+      "rating": 2,
+      "version": "15.78.176",
+      "publishedAt": "2026-06-20T16:05:27+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "The session keeps closing, please fix that.",
+      "rating": 1,
+      "version": "15.77.140",
+      "publishedAt": "2026-06-20T03:32:21+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "Horrible service! Humans are non-existent here, and they're running the company into the ground. Find a better alternative.",
+      "rating": 1,
+      "version": "15.78.163",
+      "publishedAt": "2026-06-20T02:51:46+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "no account , no entry and doesn't even connect even with account also",
+      "rating": 1,
+      "version": "15.78.176",
+      "publishedAt": "2026-06-20T02:17:32+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "Corr wow",
+      "rating": 5,
+      "version": "15.78.163",
+      "publishedAt": "2026-06-19T19:53:22+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "very good",
+      "rating": 5,
+      "version": null,
+      "publishedAt": "2026-06-20T08:16:45+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "It's supposed to be free for private use. But it locks you out every 3 minutes while a 15 minute timer counts down. Don't bother downloading because it isn't usable. Saying it is free without mentioning the ridiculous time limit is dishonest.",
+      "rating": 1,
+      "version": "8.3.4",
+      "publishedAt": "2026-06-20T07:38:51+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "hardly functional if you want to to anything other that view your desktop. use chrome remote desktop if thats an option for you",
+      "rating": 1,
+      "version": "8.3.4",
+      "publishedAt": "2026-06-19T23:21:37+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "Connection is ok, but recently there is a red label on top say for non professional use, I only use for home. Think the label should remove, the red label make viewing unpleasant. Also the button right button can come with lable, easier to execute task.",
+      "rating": 3,
+      "version": "8.3.4",
+      "publishedAt": "2026-06-19T11:21:38+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "free license for private use is not working properly",
+      "rating": 1,
+      "version": "8.3.4",
+      "publishedAt": "2026-06-19T04:24:27+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "remotepc",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "Keeps on showing The connection lost. Trying to reconnect. Trying to login into my mac from Android. It used to work flawlessly earlier. Stopped working completely.",
+      "rating": 2,
+      "version": "5.9.2",
+      "publishedAt": "2026-06-19T13:36:55+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "remotepc",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "awesome tool for remote work",
+      "rating": 5,
+      "version": null,
+      "publishedAt": "2026-06-16T14:08:18+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "remotepc",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "i have been using this app for past 2 years. really good 💯",
+      "rating": 5,
+      "version": null,
+      "publishedAt": "2026-06-15T13:51:46+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "deskin",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "best app I had ever have",
+      "rating": 5,
+      "version": "3.3.4.8",
+      "publishedAt": "2026-06-17T00:14:25+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
     {
       "competitorId": "teamviewer",
       "source": "App Store",
@@ -3253,14 +3525,6 @@
     {
       "competitorId": "remotepc",
       "source": "Google Play",
-      "title": "Google Play review",
-      "summary": "i have been using this app for past 2 years. really good 💯",
-      "rating": 5,
-      "publishedAt": "2026-06-15T13:51:46+00:00"
-    },
-    {
-      "competitorId": "remotepc",
-      "source": "Google Play",
       "title": "5.9.0",
       "summary": "Really well thought out tool.",
       "rating": 5,
@@ -3753,123 +4017,6 @@
       "summary": "best of the best highly recommend",
       "rating": 5,
       "publishedAt": "2026-04-06T13:11:07+00:00"
-    },
-    {
-      "competitorId": "teamviewer",
-      "source": "Google Play",
-      "title": "15.78.176",
-      "summary": "I'm having trouble doing anything because to make a ticket or to use Team Viewer on another phone or anything to contact Team Viewer, I need to sign in through the browser. The browser is not in effect and is not allowing it, despite me being authenticated on the device level. I get there's some anti-scam measures because it won't send me my authentication emails. I'm literally dead in the water.",
-      "rating": 2,
-      "publishedAt": "2026-06-20T16:05:27+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "teamviewer",
-      "source": "Google Play",
-      "title": "15.77.140",
-      "summary": "The session keeps closing, please fix that.",
-      "rating": 1,
-      "publishedAt": "2026-06-20T03:32:21+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "teamviewer",
-      "source": "Google Play",
-      "title": "15.78.163",
-      "summary": "Horrible service! Humans are non-existent here, and they're running the company into the ground. Find a better alternative.",
-      "rating": 1,
-      "publishedAt": "2026-06-20T02:51:46+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "teamviewer",
-      "source": "Google Play",
-      "title": "15.78.176",
-      "summary": "no account , no entry and doesn't even connect even with account also",
-      "rating": 1,
-      "publishedAt": "2026-06-20T02:17:32+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "teamviewer",
-      "source": "Google Play",
-      "title": "15.78.163",
-      "summary": "Corr wow",
-      "rating": 5,
-      "publishedAt": "2026-06-19T19:53:22+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
-      "title": "Google Play review",
-      "summary": "very good",
-      "rating": 5,
-      "publishedAt": "2026-06-20T08:16:45+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
-      "title": "8.3.4",
-      "summary": "It's supposed to be free for private use. But it locks you out every 3 minutes while a 15 minute timer counts down. Don't bother downloading because it isn't usable. Saying it is free without mentioning the ridiculous time limit is dishonest.",
-      "rating": 1,
-      "publishedAt": "2026-06-20T07:38:51+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
-      "title": "8.3.4",
-      "summary": "hardly functional if you want to to anything other that view your desktop. use chrome remote desktop if thats an option for you",
-      "rating": 1,
-      "publishedAt": "2026-06-19T23:21:37+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
-      "title": "8.3.4",
-      "summary": "Connection is ok, but recently there is a red label on top say for non professional use, I only use for home. Think the label should remove, the red label make viewing unpleasant. Also the button right button can come with lable, easier to execute task.",
-      "rating": 3,
-      "publishedAt": "2026-06-19T11:21:38+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
-      "title": "8.3.4",
-      "summary": "free license for private use is not working properly",
-      "rating": 1,
-      "publishedAt": "2026-06-19T04:24:27+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "remotepc",
-      "source": "Google Play",
-      "title": "5.9.2",
-      "summary": "Keeps on showing The connection lost. Trying to reconnect. Trying to login into my mac from Android. It used to work flawlessly earlier. Stopped working completely.",
-      "rating": 2,
-      "publishedAt": "2026-06-19T13:36:55+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "remotepc",
-      "source": "Google Play",
-      "title": "Google Play review",
-      "summary": "awesome tool for remote work",
-      "rating": 5,
-      "publishedAt": "2026-06-16T14:08:18+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "deskin",
-      "source": "Google Play",
-      "title": "3.3.4.8",
-      "summary": "best app I had ever have",
-      "rating": 5,
-      "publishedAt": "2026-06-17T00:14:25+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
     }
   ],
   "sentimentPainPoints": [
@@ -4305,7 +4452,7 @@
     "googlePlayScraper": "ok_google_apps_6",
     "youtubeFree": "not_configured",
     "brandSerp": "not_configured",
-    "contentSources": "ok_items_46_errors_3"
+    "contentSources": "ok_items_49_errors_3"
   },
   "brandSerpSnapshots": {
     "US|teamviewer|TeamViewer": {
@@ -6478,59 +6625,11 @@
       "competitorName": "TeamViewer",
       "sourceType": "blog",
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Resources",
-      "url": "https://teamviewer.com/en/resources",
-      "publishedDate": null,
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:13.590388Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "TeamViewer named a leader in DEX TeamViewer named a Leader in 2026 Gartner® Magic Quadrant™ DEX tools.",
-      "url": "https://teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
+      "url": "https://www.teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.187221Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Success stories Explore results achieved by TeamViewer customers.",
-      "url": "https://teamviewer.com/en/resources/success-stories",
-      "publishedDate": null,
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.187873Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "News and insights",
-      "url": "https://teamviewer.com/en/resources/news-insights",
-      "publishedDate": null,
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.187926Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Events and webinars",
-      "url": "https://teamviewer.com/en/resources/events",
-      "publishedDate": null,
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.187992Z",
+      "collectedAt": "2026-06-21T11:44:31.197027Z",
       "rankedKeywords": []
     },
     {
@@ -6539,22 +6638,10 @@
       "sourceType": "blog",
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "Trust Center",
-      "url": "https://teamviewer.com/en/resources/trust-center",
+      "url": "https://www.teamviewer.com/en/resources/trust-center",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.188026Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Why TeamViewer",
-      "url": "https://teamviewer.com/en/resources/compare",
-      "publishedDate": null,
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.188063Z",
+      "collectedAt": "2026-06-21T11:44:36.446131Z",
       "rankedKeywords": []
     },
     {
@@ -6563,22 +6650,10 @@
       "sourceType": "blog",
       "sourceUrl": "https://www.teamviewer.com/en/resources/",
       "title": "TeamViewer User Focus Program",
-      "url": "https://teamviewer.com/en/resources/teamviewer-user-focus-program",
+      "url": "https://www.teamviewer.com/en/resources/teamviewer-user-focus-program",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.190627Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "sourceType": "blog",
-      "sourceUrl": "https://www.teamviewer.com/en/resources/",
-      "title": "Newsletter",
-      "url": "https://teamviewer.com/en/newsletter",
-      "publishedDate": null,
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:18.190682Z",
+      "collectedAt": "2026-06-21T11:44:43.005416Z",
       "rankedKeywords": []
     },
     {
@@ -6586,11 +6661,11 @@
       "competitorName": "Splashtop",
       "sourceType": "blog",
       "sourceUrl": "https://www.splashtop.com/blog",
-      "title": "Skip to main content",
-      "url": "https://splashtop.com/blog",
-      "publishedDate": null,
+      "title": "How To Prevent Missed Patches",
+      "url": "https://www.splashtop.com/blog/how-to-prevent-missed-patches",
+      "publishedDate": "2026-06-11",
       "market": "US",
-      "collectedAt": "2026-06-21T11:28:23.246987Z",
+      "collectedAt": "2026-06-21T11:44:47.476618Z",
       "rankedKeywords": []
     },
     {
@@ -6598,11 +6673,11 @@
       "competitorName": "Splashtop",
       "sourceType": "blog",
       "sourceUrl": "https://www.splashtop.com/blog",
-      "title": "Resources",
-      "url": "https://splashtop.com/resources",
-      "publishedDate": null,
+      "title": "Why It Stuck Reactive Endpoint Management",
+      "url": "https://www.splashtop.com/blog/why-it-stuck-reactive-endpoint-management",
+      "publishedDate": "2026-06-17",
       "market": "US",
-      "collectedAt": "2026-06-21T11:28:25.825343Z",
+      "collectedAt": "2026-06-21T11:44:48.955786Z",
       "rankedKeywords": []
     },
     {
@@ -6610,11 +6685,131 @@
       "competitorName": "Splashtop",
       "sourceType": "blog",
       "sourceUrl": "https://www.splashtop.com/blog",
-      "title": "Learn More",
-      "url": "https://splashtop.com/blog/how-to-prevent-missed-patches",
+      "title": "Simplifying Certificate Based Wifi For Managed Chromebooks",
+      "url": "https://www.splashtop.com/foxpass/blog/simplifying-certificate-based-wifi-for-managed-chromebooks",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-21T11:28:25.826382Z",
+      "collectedAt": "2026-06-21T11:44:49.877700Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "Teamviewer 13 14 Eol",
+      "url": "https://www.splashtop.com/blog/teamviewer-13-14-eol",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:50.814430Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "Patch Tuesday June 2026",
+      "url": "https://www.splashtop.com/blog/patch-tuesday-june-2026",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:51.714582Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "How To Enforce Device Security Policies Remotely",
+      "url": "https://www.splashtop.com/blog/how-to-enforce-device-security-policies-remotely",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.534812Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "How To Manage Windows Event Logs Remotely",
+      "url": "https://www.splashtop.com/blog/how-to-manage-windows-event-logs-remotely",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.534984Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "Powershell Scripts Remotely Unattended Devices",
+      "url": "https://www.splashtop.com/blog/powershell-scripts-remotely-unattended-devices",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.535063Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "How To Automate Third Party App Updates On Managed Devices",
+      "url": "https://www.splashtop.com/blog/how-to-automate-third-party-app-updates-on-managed-devices",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.535144Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "Teams Slack Remote Support",
+      "url": "https://www.splashtop.com/blog/teams-slack-remote-support",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.535235Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "How It Set Up Remote Access For Home Office Users",
+      "url": "https://www.splashtop.com/blog/how-it-set-up-remote-access-for-home-office-users",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.535296Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "What Is Silent Patch Installation",
+      "url": "https://www.splashtop.com/blog/what-is-silent-patch-installation",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.535351Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "sourceType": "blog",
+      "sourceUrl": "https://www.splashtop.com/blog",
+      "title": "What Is A Certificate Authority",
+      "url": "https://www.splashtop.com/foxpass/blog/what-is-a-certificate-authority",
+      "publishedDate": null,
+      "market": "US",
+      "collectedAt": "2026-06-21T11:44:52.535416Z",
       "rankedKeywords": []
     },
     {
@@ -6626,19 +6821,7 @@
       "url": "https://rustdesk.com/blog/2025/02/enhanced-acl-in-rustdesk-server-pro-1-5-0",
       "publishedDate": "2025-02-01",
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:28.675683Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "rustdesk",
-      "competitorName": "RustDesk",
-      "sourceType": "blog",
-      "sourceUrl": "https://rustdesk.com/blog/",
-      "title": "Blog",
-      "url": "https://rustdesk.com/blog",
-      "publishedDate": "2025-02-19",
-      "market": "Global",
-      "collectedAt": "2026-06-21T11:28:31.326902Z",
+      "collectedAt": "2026-06-21T11:44:57.654347Z",
       "rankedKeywords": []
     },
     {
@@ -6650,7 +6833,7 @@
       "url": "https://rustdesk.com/blog/2024/12/how-to-make-flutter-3-24-run-on-windows-7",
       "publishedDate": "2024-12-01",
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:31.327151Z",
+      "collectedAt": "2026-06-21T11:45:04.933895Z",
       "rankedKeywords": []
     },
     {
@@ -6662,7 +6845,7 @@
       "url": "https://rustdesk.com/blog/2024/10/rustdesk-web-client-v2-preview",
       "publishedDate": "2024-10-01",
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:31.327233Z",
+      "collectedAt": "2026-06-21T11:45:09.733768Z",
       "rankedKeywords": []
     },
     {
@@ -6674,7 +6857,7 @@
       "url": "https://blog.google/products/chrome",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:35.615118Z",
+      "collectedAt": "2026-06-21T11:45:15.265030Z",
       "rankedKeywords": []
     },
     {
@@ -6686,7 +6869,7 @@
       "url": "https://blog.google",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425266Z",
+      "collectedAt": "2026-06-21T11:45:18.416317Z",
       "rankedKeywords": []
     },
     {
@@ -6698,7 +6881,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425497Z",
+      "collectedAt": "2026-06-21T11:45:20.896211Z",
       "rankedKeywords": []
     },
     {
@@ -6710,7 +6893,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425543Z",
+      "collectedAt": "2026-06-21T11:45:22.175379Z",
       "rankedKeywords": []
     },
     {
@@ -6722,7 +6905,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425594Z",
+      "collectedAt": "2026-06-21T11:45:23.325689Z",
       "rankedKeywords": []
     },
     {
@@ -6734,7 +6917,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425640Z",
+      "collectedAt": "2026-06-21T11:45:23.325859Z",
       "rankedKeywords": []
     },
     {
@@ -6746,7 +6929,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425686Z",
+      "collectedAt": "2026-06-21T11:45:23.325936Z",
       "rankedKeywords": []
     },
     {
@@ -6758,7 +6941,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425726Z",
+      "collectedAt": "2026-06-21T11:45:23.325998Z",
       "rankedKeywords": []
     },
     {
@@ -6770,7 +6953,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425764Z",
+      "collectedAt": "2026-06-21T11:45:23.326059Z",
       "rankedKeywords": []
     },
     {
@@ -6782,7 +6965,7 @@
       "url": "https://blog.google/innovation-and-ai/products/gemini-app",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425806Z",
+      "collectedAt": "2026-06-21T11:45:23.326130Z",
       "rankedKeywords": []
     },
     {
@@ -6794,7 +6977,7 @@
       "url": "https://blog.google/innovation-and-ai/products/notebooklm",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425846Z",
+      "collectedAt": "2026-06-21T11:45:23.326194Z",
       "rankedKeywords": []
     },
     {
@@ -6806,7 +6989,7 @@
       "url": "https://blog.google/innovation-and-ai/products",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425882Z",
+      "collectedAt": "2026-06-21T11:45:23.326252Z",
       "rankedKeywords": []
     },
     {
@@ -6818,7 +7001,7 @@
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425921Z",
+      "collectedAt": "2026-06-21T11:45:23.326323Z",
       "rankedKeywords": []
     },
     {
@@ -6830,7 +7013,7 @@
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.425965Z",
+      "collectedAt": "2026-06-21T11:45:23.326414Z",
       "rankedKeywords": []
     },
     {
@@ -6842,7 +7025,7 @@
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.426005Z",
+      "collectedAt": "2026-06-21T11:45:23.326494Z",
       "rankedKeywords": []
     },
     {
@@ -6854,7 +7037,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/safety-security",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.426043Z",
+      "collectedAt": "2026-06-21T11:45:23.326573Z",
       "rankedKeywords": []
     },
     {
@@ -6866,7 +7049,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/health",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.426083Z",
+      "collectedAt": "2026-06-21T11:45:23.326651Z",
       "rankedKeywords": []
     },
     {
@@ -6878,7 +7061,7 @@
       "url": "https://blog.google/innovation-and-ai/technology",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.426118Z",
+      "collectedAt": "2026-06-21T11:45:23.326721Z",
       "rankedKeywords": []
     },
     {
@@ -6890,7 +7073,7 @@
       "url": "https://blog.google/innovation-and-ai",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-21T11:28:37.426208Z",
+      "collectedAt": "2026-06-21T11:45:23.326893Z",
       "rankedKeywords": []
     },
     {
@@ -6902,7 +7085,7 @@
       "url": "https://deskin.io/resource/blog/rustdesk-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:42.557987Z",
+      "collectedAt": "2026-06-21T11:45:29.889734Z",
       "rankedKeywords": []
     },
     {
@@ -6914,7 +7097,7 @@
       "url": "https://deskin.io/resource/blog/why-should-you-choose-deskin-remote-desktop-instead-of-anydesk",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.518518Z",
+      "collectedAt": "2026-06-21T11:45:33.170141Z",
       "rankedKeywords": []
     },
     {
@@ -6926,7 +7109,7 @@
       "url": "https://deskin.io/resource/blog/the-best-alternative-to-teamviewer-and-anydesk-deskin-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.518672Z",
+      "collectedAt": "2026-06-21T11:45:34.326291Z",
       "rankedKeywords": []
     },
     {
@@ -6938,19 +7121,7 @@
       "url": "https://deskin.io/resource/blog/deskin-vs-chrome-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.518760Z",
-      "rankedKeywords": []
-    },
-    {
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "sourceType": "blog",
-      "sourceUrl": "https://deskin.io/resource/blog",
-      "title": "Chrome Remote Desktop Alternative Free & Paid: Which One Is Best for You?",
-      "url": "https://deskin.io/resource/blog/chrome-remote-desktop-alternative",
-      "publishedDate": null,
-      "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.518817Z",
+      "collectedAt": "2026-06-21T11:45:35.426028Z",
       "rankedKeywords": []
     },
     {
@@ -6962,7 +7133,7 @@
       "url": "https://deskin.io/resource/blog/rdp-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.518871Z",
+      "collectedAt": "2026-06-21T11:45:37.696668Z",
       "rankedKeywords": []
     },
     {
@@ -6974,7 +7145,19 @@
       "url": "https://deskin.io/resource/blog/rdp-security",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.518941Z",
+      "collectedAt": "2026-06-21T11:45:37.696827Z",
+      "rankedKeywords": []
+    },
+    {
+      "competitorId": "deskin",
+      "competitorName": "DeskIn",
+      "sourceType": "blog",
+      "sourceUrl": "https://deskin.io/resource/blog",
+      "title": "Chrome Remote Desktop Alternative Free & Paid: Which One Is Best for You?",
+      "url": "https://deskin.io/resource/blog/chrome-remote-desktop-alternative",
+      "publishedDate": null,
+      "market": "TW",
+      "collectedAt": "2026-06-21T11:45:37.697189Z",
       "rankedKeywords": []
     },
     {
@@ -6986,7 +7169,7 @@
       "url": "https://deskin.io/resource/blog/splashtop-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.519332Z",
+      "collectedAt": "2026-06-21T11:45:37.697257Z",
       "rankedKeywords": []
     },
     {
@@ -6998,7 +7181,7 @@
       "url": "https://deskin.io/resource/blog/why-is-deskin-remote-desktop-better-than-splashtop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.519397Z",
+      "collectedAt": "2026-06-21T11:45:37.697326Z",
       "rankedKeywords": []
     },
     {
@@ -7010,7 +7193,7 @@
       "url": "https://deskin.io/resource/blog/the-best-remote-desktop-software-for-stable-connection-and-low-latency-deskin-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.519525Z",
+      "collectedAt": "2026-06-21T11:45:37.697475Z",
       "rankedKeywords": []
     },
     {
@@ -7022,7 +7205,7 @@
       "url": "https://deskin.io/resource/blog/comparison-of-3-free-remote-desktop-software",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-21T11:28:44.519850Z",
+      "collectedAt": "2026-06-21T11:45:37.697781Z",
       "rankedKeywords": []
     }
   ],

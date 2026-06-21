@@ -22,6 +22,7 @@ import re
 import sys
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Any
@@ -75,7 +76,7 @@ def main() -> int:
     app_data = collect_apps(competitors, review_count=args.review_count)
     integrations.update(app_data["statuses"])
     metrics = merge_metrics(metrics, app_data["metrics"])
-    review_signals = merge_unique(review_signals + app_data["reviewSignals"], signal_key)
+    review_signals = merge_unique(app_data["reviewSignals"] + review_signals, review_signal_key)
     signals.extend(review_to_market_signals(app_data["reviewSignals"]))
 
     youtube = collect_youtube(competitors)
@@ -498,7 +499,10 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
     links = extract_links(html, url)
     items = []
     detail_date_fetches = 0
+    status_checks = 0
     for link in links:
+        if len(items) >= 20:
+            break
         normalized = normalize_url(link["url"])
         if not normalized or normalize_domain(domain_from_url(normalized)) != base_domain:
             continue
@@ -506,7 +510,17 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
             continue
         if not looks_like_content_url(normalized):
             continue
-        published_date = detect_content_published_date(normalized, link["title"], link.get("context", ""))
+        if is_content_index_url(normalized):
+            continue
+        if status_checks < 6:
+            status_checks += 1
+            status = content_url_status(normalized)
+            if status and status >= 400:
+                continue
+        content_title = link["title"] or title_from_url(normalized)
+        if is_generic_content_title(content_title):
+            content_title = title_from_url(normalized)
+        published_date = detect_content_published_date(normalized, content_title, link.get("context", ""))
         if not published_date and detail_date_fetches < 2:
             detail_date_fetches += 1
             published_date = fetch_content_published_date(normalized)
@@ -516,7 +530,7 @@ def collect_content_source(competitor: dict[str, Any], source: dict[str, str]) -
                 "competitorName": competitor["name"],
                 "sourceType": source.get("type", "content"),
                 "sourceUrl": url,
-                "title": link["title"] or title_from_url(normalized),
+                "title": content_title,
                 "url": normalized,
                 "publishedDate": published_date,
                 "market": competitor.get("market", "Global"),
@@ -539,6 +553,63 @@ def extract_links(html: str, base_url: str) -> list[dict[str, str]]:
 def looks_like_content_url(url: str) -> bool:
     lower = url.lower()
     return any(token in lower for token in ("/blog", "/resource", "/resources", "/news", "/article"))
+
+
+def is_content_index_url(url: str) -> bool:
+    path = normalized_content_path(url)
+    index_paths = {
+        "/blog",
+        "/blogs",
+        "/news",
+        "/newsletter",
+        "/resource",
+        "/resources",
+        "/resource/blog",
+        "/resources/news-insights",
+        "/resources/events",
+        "/resources/compare",
+        "/resources/success-stories",
+    }
+    return path in index_paths
+
+
+def normalized_content_path(url: str) -> str:
+    path = urllib.parse.urlparse(url).path.rstrip("/").lower()
+    segments = [segment for segment in path.split("/") if segment]
+    if segments and re.fullmatch(r"[a-z]{2}(?:-[a-z]{2})?", segments[0]):
+        segments = segments[1:]
+    return "/" + "/".join(segments) if segments else "/"
+
+
+def is_generic_content_title(title: str) -> bool:
+    text = clean_compare(title)
+    return text in {
+        "",
+        "learn more",
+        "read more",
+        "view more",
+        "see more",
+        "resources",
+        "blog",
+        "news",
+        "newsletter",
+        "events",
+        "news and insights",
+        "success stories",
+        "trust center",
+        "why teamviewer",
+    }
+
+
+def content_url_status(url: str) -> int | None:
+    try:
+        request = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "AwesunFreeCollector/0.1"})
+        with urllib.request.urlopen(request, timeout=2) as response:
+            return getattr(response, "status", 200)
+    except urllib.error.HTTPError as exc:
+        return exc.code
+    except Exception:
+        return None
 
 
 def detect_content_published_date(*values: str) -> str | None:
@@ -749,9 +820,10 @@ def collect_google_play(
         {
             "competitorId": competitor["id"],
             "source": "Google Play",
-            "title": row.get("reviewCreatedVersion") or "Google Play review",
+            "title": review_title("Google Play", row.get("score")),
             "summary": row.get("content") or "",
             "rating": row.get("score"),
+            "version": row.get("reviewCreatedVersion"),
             "publishedAt": to_iso(row.get("at")),
             "sourceNote": "来源：Google Play scraper，暂无直达链接",
         }
@@ -888,6 +960,18 @@ def review_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]
         published_at = item.get("publishedAt")
         source_note = item.get("sourceNote") if not item.get("url") else ""
         summary = item.get("summary") or ""
+        version = item.get("version")
+        rating = item.get("rating")
+        prefix = "；".join(
+            value
+            for value in (
+                f"版本：{version}" if version else "",
+                f"评分：{rating} 星" if rating is not None else "",
+            )
+            if value
+        )
+        if prefix and prefix not in summary:
+            summary = f"{prefix}。{summary}".strip()
         if source_note and source_note not in summary:
             summary = f"{summary}（{source_note}）".strip()
         signals.append(
@@ -906,6 +990,16 @@ def review_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]
             }
         )
     return signals
+
+
+def review_title(source: str, rating: Any) -> str:
+    try:
+        score = int(rating)
+    except (TypeError, ValueError):
+        score = 0
+    if score and score <= 2:
+        return f"{source} 低星评论"
+    return f"{source} 新评论"
 
 
 def social_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -1074,7 +1168,11 @@ def creative_key(item: dict[str, Any]) -> str:
 
 
 def signal_key(item: dict[str, Any]) -> str:
-    return "|".join(str(item.get(key, "")) for key in ("competitorId", "source", "title", "summary", "url"))
+    return "|".join(str(item.get(key, "")) for key in ("competitorId", "source", "summary", "url"))
+
+
+def review_signal_key(item: dict[str, Any]) -> str:
+    return "|".join(str(item.get(key, "")) for key in ("competitorId", "source", "summary", "publishedAt"))
 
 
 def build_serp_key(market: str, competitor_id: str, keyword: str) -> str:
@@ -1086,7 +1184,7 @@ def normalize_url(value: str | None) -> str:
         return ""
     parsed = urllib.parse.urlparse(value)
     scheme = parsed.scheme or "https"
-    netloc = parsed.netloc.lower().removeprefix("www.")
+    netloc = parsed.netloc.lower()
     path = parsed.path.rstrip("/")
     return urllib.parse.urlunparse((scheme, netloc, path, "", "", ""))
 
