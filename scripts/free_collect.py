@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import email.utils
 import hashlib
 import json
 import os
@@ -24,6 +25,7 @@ import time
 import urllib.parse
 import urllib.error
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
@@ -85,8 +87,11 @@ def main() -> int:
 
     youtube = collect_youtube(competitors)
     integrations["youtubeFree"] = youtube["status"]
-    social_signals = merge_unique(social_signals + youtube["socialSignals"], signal_key)
-    source_signals.extend(social_to_market_signals(youtube["socialSignals"]))
+    news = collect_google_news(config, competitors)
+    integrations["googleNewsRss"] = news["status"]
+    social_updates = youtube["socialSignals"] + news["socialSignals"]
+    social_signals = merge_unique(social_signals + social_updates, signal_key)
+    source_signals.extend(social_to_market_signals(social_updates))
     signals = build_operational_signals(
         competitors,
         source_signals,
@@ -107,6 +112,9 @@ def main() -> int:
         brand_serp_changes,
         content["changes"],
     )
+    ai = build_ai_insights(signals, insights)
+    integrations["aiInsights"] = ai["status"]
+    insights = ai["insights"]
 
     output = {
         **previous,
@@ -896,6 +904,13 @@ def build_operational_signals(
     for review in recent_reviews:
         output.append(review_to_operational_signal(review, competitor_names))
 
+    pr_ops = [
+        signal
+        for signal in source_signals
+        if signal.get("type") == "社媒/PR" and signal.get("source") in {"Google News", "YouTube"}
+    ]
+    output.extend(take_balanced(pr_ops, lambda item: item.get("competitorId"), per_key=2, total=16))
+
     serp_ops: list[dict[str, Any]] = []
     for change in serp_changes:
         if change.get("impact") in {"High", "Medium"} or (
@@ -1321,6 +1336,92 @@ def collect_youtube(competitors: list[dict[str, Any]]) -> dict[str, Any]:
     return {"status": status, "socialSignals": signals}
 
 
+def collect_google_news(config: dict[str, Any], competitors: list[dict[str, Any]]) -> dict[str, Any]:
+    markets = config.get("serpMarkets", {}) or {"US": {"gl": "us", "hl": "en"}}
+    signals: list[dict[str, Any]] = []
+    errors = 0
+    requests = 0
+
+    for competitor in competitors:
+        for market, market_config in markets.items():
+            query = f'"{competitor["name"]}" remote desktop'
+            params = {
+                "q": query,
+                "hl": market_config.get("hl", "en"),
+                "gl": str(market_config.get("gl", "us")).upper(),
+                "ceid": f"{str(market_config.get('gl', 'us')).upper()}:{market_config.get('hl', 'en')}",
+            }
+            try:
+                rss = fetch_text(f"https://news.google.com/rss/search?{urllib.parse.urlencode(params)}", timeout=12)
+                requests += 1
+            except Exception as exc:  # noqa: BLE001
+                errors += 1
+                signals.append(social_error_signal(competitor, "Google News", str(exc)))
+                continue
+            for item in parse_google_news_items(rss)[:3]:
+                if not item.get("title"):
+                    continue
+                signals.append(
+                    {
+                        "competitorId": competitor["id"],
+                        "source": "Google News",
+                        "title": item["title"],
+                        "summary": f"{market} 媒体/PR 线索：{item.get('publisher') or 'Google News'}",
+                        "url": item.get("url") or "",
+                        "publishedAt": item.get("publishedAt"),
+                        "market": market,
+                    }
+                )
+
+    status = f"ok_requests_{requests}_items_{len([item for item in signals if item.get('source') == 'Google News'])}"
+    if errors:
+        status += f"_errors_{errors}"
+    return {"status": status, "socialSignals": signals}
+
+
+def parse_google_news_items(rss: str) -> list[dict[str, Any]]:
+    try:
+        root = ET.fromstring(rss)
+    except ET.ParseError:
+        return []
+
+    items = []
+    for item in root.findall("./channel/item"):
+        title = xml_text(item, "title")
+        url = xml_text(item, "link")
+        published = parse_rss_date(xml_text(item, "pubDate"))
+        source = item.find("source")
+        publisher = source.text.strip() if source is not None and source.text else ""
+        if published and not is_recent_iso(published, days=14):
+            continue
+        items.append(
+            {
+                "title": title,
+                "url": url,
+                "publishedAt": published,
+                "publisher": publisher,
+            }
+        )
+    return items
+
+
+def xml_text(element: ET.Element, tag: str) -> str:
+    child = element.find(tag)
+    return child.text.strip() if child is not None and child.text else ""
+
+
+def parse_rss_date(value: str) -> str | None:
+    if not value:
+        return None
+    try:
+        parsed = email.utils.parsedate_to_datetime(value)
+    except (TypeError, ValueError):
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=dt.timezone.utc)
+    return parsed.astimezone(dt.timezone.utc).isoformat()
+
+
 def collect_serp_ads(data: dict[str, Any]) -> list[dict[str, Any]]:
     results = []
     for key in ("ads", "ad_results", "top_ads", "bottom_ads", "inline_ads"):
@@ -1355,6 +1456,13 @@ def fetch_json(base_url: str, params: dict[str, Any]) -> dict[str, Any]:
     url = f"{base_url}?{query}" if query else base_url
     request = urllib.request.Request(url, headers={"User-Agent": "AwesunFreeCollector/0.1"})
     with urllib.request.urlopen(request, timeout=20) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def post_json(url: str, payload: dict[str, Any], headers: dict[str, str], timeout: int = 20) -> dict[str, Any]:
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    request = urllib.request.Request(url, data=body, headers=headers, method="POST")
+    with urllib.request.urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -1438,6 +1546,7 @@ def social_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]
         {
             "id": f"social-{item.get('source', '').lower()}-{item.get('competitorId')}-{hash_text(item.get('url') or item.get('title') or '')[:8]}",
             "competitorId": item.get("competitorId"),
+            "market": item.get("market"),
             "type": "社媒/PR",
             "source": item.get("source"),
             "impact": "Medium",
@@ -1445,7 +1554,7 @@ def social_to_market_signals(items: list[dict[str, Any]]) -> list[dict[str, Any]
             "url": item.get("url") or "",
             "summary": item.get("summary") or item.get("url") or "",
             "recommendation": "复核内容主题和互动表现，判断是否跟进社媒、PR 或内容选题。",
-            "time": "今日",
+            "time": display_date(item.get("publishedAt")) or "本次采集",
             "detectedAt": item.get("publishedAt") or utc_now(),
         }
         for item in items
@@ -1487,6 +1596,112 @@ def build_free_insights(
             "body": f"当前累计 {len(review_signals)} 条评论和 {len(social_signals)} 条 YouTube 动态；低星评论可沉淀为 Awesun 反击卖点。",
         },
     ]
+
+
+def build_ai_insights(signals: list[dict[str, Any]], fallback_insights: list[dict[str, str]]) -> dict[str, Any]:
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        return {"status": "not_configured", "insights": fallback_insights}
+
+    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+    signal_brief = [
+        {
+            "type": item.get("type"),
+            "source": item.get("source"),
+            "competitor": item.get("competitorId"),
+            "market": item.get("market"),
+            "impact": item.get("impact"),
+            "title": item.get("title"),
+            "summary": item.get("summary"),
+            "time": item.get("time"),
+        }
+        for item in signals[:60]
+    ]
+    prompt = (
+        "你是 Awesun 海外运营的竞品监控分析助手。"
+        "请基于下面的竞品监控动作，输出 4 条中文运营洞察。"
+        "只输出 JSON 数组，每项包含 title、level、body。"
+        "level 只能是 High、Medium、Low。"
+        "body 要指出具体竞品、动作、运营含义和 Awesun 可跟进建议，避免空泛总结。\n\n"
+        f"{json.dumps(signal_brief, ensure_ascii=False)}"
+    )
+
+    try:
+        data = post_json(
+            "https://generativelanguage.googleapis.com/v1beta/interactions",
+            {
+                "model": model,
+                "system_instruction": "你只输出可解析 JSON，不输出 Markdown。",
+                "input": prompt,
+                "generation_config": {"temperature": 0.2, "thinking_level": "low"},
+            },
+            {"x-goog-api-key": api_key, "Content-Type": "application/json"},
+            timeout=30,
+        )
+        text = extract_ai_text(data)
+        parsed = parse_ai_insight_json(text)
+        if not parsed:
+            return {"status": "error_empty_response", "insights": fallback_insights}
+    except Exception as exc:  # noqa: BLE001
+        return {"status": f"error_{str(exc)[:80]}", "insights": fallback_insights}
+
+    return {
+        "status": f"ok_model_{model}",
+        "insights": normalize_ai_insights(parsed) or fallback_insights,
+    }
+
+
+def extract_ai_text(data: dict[str, Any]) -> str:
+    if isinstance(data.get("output_text"), str):
+        return data["output_text"]
+    texts: list[str] = []
+
+    def walk(value: Any) -> None:
+        if isinstance(value, dict):
+            text = value.get("text")
+            if isinstance(text, str):
+                texts.append(text)
+            for child in value.values():
+                walk(child)
+        elif isinstance(value, list):
+            for child in value:
+                walk(child)
+
+    walk(data)
+    return "\n".join(texts)
+
+
+def parse_ai_insight_json(text: str) -> list[dict[str, Any]]:
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(?:json)?", "", cleaned, flags=re.I).strip()
+        cleaned = re.sub(r"```$", "", cleaned).strip()
+    match = re.search(r"\[[\s\S]*\]", cleaned)
+    if match:
+        cleaned = match.group(0)
+    try:
+        parsed = json.loads(cleaned)
+    except json.JSONDecodeError:
+        return []
+    return parsed if isinstance(parsed, list) else []
+
+
+def normalize_ai_insights(items: list[dict[str, Any]]) -> list[dict[str, str]]:
+    output = []
+    for item in items[:4]:
+        title = str(item.get("title") or "").strip()
+        body = str(item.get("body") or "").strip()
+        level = str(item.get("level") or "Medium").strip()
+        if not title or not body:
+            continue
+        output.append(
+            {
+                "title": title[:48],
+                "level": level if level in {"High", "Medium", "Low"} else "Medium",
+                "body": body[:260],
+            }
+        )
+    return output
 
 
 def build_sentiment_pain_points(items: list[dict[str, Any]]) -> list[str]:
