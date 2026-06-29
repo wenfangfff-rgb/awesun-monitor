@@ -1,4 +1,4 @@
-const accentColors = ["#1f8a70", "#d85d3f", "#2388a8", "#c28a12", "#6c5aa8", "#8a6d3b", "#bd3d35", "#2f6f9f"];
+const accentColors = ["#126bff", "#ef4444", "#1687ff", "#16a34a", "#f59e0b", "#06b6d4", "#7c3aed", "#f97316"];
 
 const defaultCompetitors = [
   {
@@ -394,6 +394,18 @@ function marketLabel(market) {
   return { US: "美国", TW: "台湾", Global: "全球" }[market] || market;
 }
 
+function competitorInitial(name) {
+  return String(name || "?").trim().slice(0, 1).toUpperCase();
+}
+
+function domainLabel(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return url || "source";
+  }
+}
+
 function impactClass(level) {
   return level === "High" ? "hot" : level === "Medium" ? "good" : "";
 }
@@ -443,13 +455,16 @@ function renderCompetitors() {
       const active = competitor.id === state.selectedId ? "active" : "";
       return `
         <button class="competitor-item ${active}" style="--accent:${accentFor(competitor.id)}" data-id="${competitor.id}" type="button">
-          <span class="competitor-item-header">
-            <span class="competitor-name">${escapeHtml(competitor.name)}</span>
-            <span class="priority">${priorityText(competitor.priority)}</span>
-          </span>
-          <span class="competitor-meta">
-            <span>${marketLabel(competitor.market)}</span>
-            <span>${competitor.platforms.slice(0, 2).join(" / ")}</span>
+          <span class="competitor-logo" aria-hidden="true">${competitorInitial(competitor.name)}</span>
+          <span class="competitor-copy">
+            <span class="competitor-item-header">
+              <span class="competitor-name">${escapeHtml(competitor.name)}</span>
+              <span class="priority">${priorityText(competitor.priority)}</span>
+            </span>
+            <span class="competitor-meta">
+              <span>${domainLabel(competitor.website)}</span>
+              <span>${marketLabel(competitor.market)}</span>
+            </span>
           </span>
         </button>
       `;
@@ -471,10 +486,10 @@ function renderMetrics() {
   const highKeywords = liveKeywordInsights.filter((item) => item.opportunity === "High").length;
 
   const metrics = [
-    { label: "竞品活跃度", value: `${Math.round(totalAds / Math.max(1, competitors.length))}`, change: "广告/社媒综合指数", accent: "var(--green)" },
-    { label: "排名最大波动", value: topMover.delta > 0 ? `+${topMover.delta}` : `${topMover.delta}`, change: topMover.name, accent: "var(--coral)" },
-    { label: "SEO机会词", value: highKeywords, change: "高优先级内容缺口", accent: "var(--amber)" },
-    { label: "本次采集动作", value: signals.length, change: "来自当前 daily JSON", accent: "var(--cyan)" },
+    { label: "Total Mentions", value: signals.length, change: "本次采集动作", accent: "var(--brand-blue)" },
+    { label: "Product Updates", value: highKeywords, change: "SEO机会词", accent: "var(--sky)" },
+    { label: "Pricing Changes", value: topMover.delta > 0 ? `+${topMover.delta}` : `${topMover.delta}`, change: topMover.name, accent: "var(--green)" },
+    { label: "Avg. Activity", value: `${Math.round(totalAds / Math.max(1, competitors.length))}`, change: "综合活跃指数", accent: "var(--brand-blue)" },
   ];
 
   els.metricGrid.innerHTML = metrics
@@ -503,12 +518,13 @@ function renderSignals() {
       return `
         <article class="signal-card" style="--accent:${accentFor(signal.competitorId)}">
           <span class="signal-dot"></span>
+          <span class="signal-avatar">${competitorInitial(competitor?.name || signal.competitorId || "?")}</span>
           <button type="button" data-signal-id="${signal.id}">
             <span class="signal-meta">
-              <span>${signal.time}</span>
+              <span class="signal-type">${signal.type}</span>
               <span>${competitor?.name || "Unknown"}</span>
+              <span>${signal.time}</span>
               <span>${signal.source}</span>
-              <span>${signal.impact}</span>
             </span>
             <p class="signal-title">${signal.title}</p>
             <p class="signal-summary">${signal.summary}</p>
@@ -534,7 +550,7 @@ function renderRankings() {
       const delta = metric.delta >= 0 ? `+${metric.delta}` : metric.delta;
       return `
         <div class="rank-row" style="--accent:${accentFor(competitor.id)}">
-          <div class="rank-name"><span class="color-pin"></span><span>${escapeHtml(competitor.name)}</span></div>
+          <div class="rank-name"><span class="rank-index">${index + 1}</span><span>${escapeHtml(competitor.name)}</span></div>
           <div class="rank-value">#${metric.rank}</div>
           <div class="rank-delta ${deltaClass}">${delta}</div>
           <div class="bar" aria-label="关键词覆盖"><span style="--width:${Math.min(100, metric.keywords / 2.2)}%"></span></div>
@@ -1009,6 +1025,7 @@ function sourceUrlForSignal(signal) {
 }
 
 document.querySelector("#openAddModal").addEventListener("click", () => openModal());
+document.querySelector("#openAddModalSecondary")?.addEventListener("click", () => openModal());
 document.querySelector("#closeModal").addEventListener("click", closeModal);
 document.querySelector("#cancelModal").addEventListener("click", closeModal);
 document.querySelector("#closeDrawer").addEventListener("click", closeDrawer);
@@ -1020,6 +1037,9 @@ document.querySelector("#refreshSignals").addEventListener("click", () => {
 });
 document.querySelector("#exportReport").addEventListener("click", () => {
   showToast("周报已生成：包含排名波动、SEO机会词、推广动作与建议动作。");
+});
+document.querySelector("#exportReportSecondary")?.addEventListener("click", () => {
+  showToast("简报已生成：包含竞品动态、AI洞察和来源链接。");
 });
 
 document.querySelectorAll('input[name="market"]').forEach((input) => {

@@ -7,93 +7,139 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="product-nav">
+      <a class="brand" href="#" aria-label="Awesun competitor intelligence">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+        </span>
+        <span class="brand-name">Awesun</span>
+      </a>
+      <nav class="nav-tabs" aria-label="主导航">
+        <a class="active" href="#">Dashboard</a>
+        <a href="#">监控</a>
+        <a href="#">分析</a>
+        <a href="#">Alerts</a>
+        <a href="#">Reports</a>
+        <a href="#">设置</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" type="button" aria-label="搜索">⌕</button>
+        <button class="icon-button notify" type="button" aria-label="通知">◇</button>
+        <span class="language-pill">EN</span>
+        <span class="team-pill">Awesun Team</span>
+      </div>
+    </header>
+
     <div class="app-shell">
       <aside class="sidebar" aria-label="竞品管理">
-        <div class="brand">
-          <div class="brand-mark">A</div>
-          <div>
-            <p class="eyebrow">Awesun Overseas</p>
-            <h1>竞品监控</h1>
-          </div>
+        <div class="side-header">
+          <h2>Competitors</h2>
+          <button class="icon-button" id="openAddModal" type="button" aria-label="添加竞品">+</button>
         </div>
-
-        <button class="primary-action" id="openAddModal" type="button">
-          <span aria-hidden="true">+</span>
-          添加竞品
-        </button>
 
         <div class="side-section">
           <div class="side-title">
-            <span>监控对象</span>
+            <span>All Competitors</span>
             <strong id="competitorCount">0</strong>
           </div>
           <div class="competitor-list" id="competitorList"></div>
         </div>
 
+        <button class="primary-action add-competitor-action" id="openAddModalSecondary" type="button">
+          <span aria-hidden="true">+</span>
+          Add competitor
+        </button>
+
         <div class="side-section compact">
           <div class="side-title">
-            <span>快速筛选</span>
+            <span>Categories</span>
           </div>
           <div class="filter-stack" id="platformFilters"></div>
         </div>
+
+        <article class="upgrade-card">
+          <h3>Want deeper insights?</h3>
+          <p>Use AI summaries, SERP checks and source links to turn daily changes into action.</p>
+          <button class="primary-action" id="exportReportSecondary" type="button">Export brief</button>
+        </article>
       </aside>
 
       <main class="main">
         <header class="topbar">
           <div>
-            <p class="eyebrow">每日运营驾驶舱</p>
-            <h2>海外远程控制软件市场动作监控</h2>
+            <p class="eyebrow">Remote access market monitoring</p>
+            <h1>Awesun Competitive Intelligence</h1>
           </div>
           <div class="topbar-actions">
+            <span class="market-label">Market:</span>
             <div class="segmented" aria-label="市场筛选" role="radiogroup">
               <label>
                 <input type="radio" name="market" value="US" checked />
-                <span>美国</span>
+                <span>US</span>
               </label>
               <label>
                 <input type="radio" name="market" value="TW" />
-                <span>台湾</span>
+                <span>Taiwan</span>
               </label>
               <label>
                 <input type="radio" name="market" value="Global" />
-                <span>全球</span>
+                <span>Global</span>
               </label>
             </div>
-            <button class="ghost-button" id="exportReport" type="button">导出周报</button>
           </div>
         </header>
 
-        <section class="live-strip" aria-label="实时状态">
+        <section class="hero-panel" aria-label="市场监控中心">
           <div>
-            <span class="pulse"></span>
-            <span>每日汇总监控</span>
+            <span class="status-pill"><span class="pulse"></span> Live</span>
+            <h2>Market Monitoring Command Center</h2>
+            <p>AI-powered competitive intelligence across search, official websites, app stores, reviews and PR sources.</p>
           </div>
-          <p>最后刷新：<time id="lastUpdated">--:--:--</time></p>
+          <div class="hero-visual" aria-hidden="true">
+            <span class="device laptop"></span>
+            <span class="device phone"></span>
+            <span class="device tablet"></span>
+          </div>
         </section>
 
         <section class="metric-grid" id="metricGrid" aria-label="核心指标"></section>
 
-        <section class="dashboard-grid">
+        <section class="activity-layout">
           <article class="panel signal-panel">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">Market Signals</p>
-                <h3>推广动作时间线</h3>
+                <p class="eyebrow">Competitor Activity Timeline</p>
+                <h3>市场动作时间线</h3>
               </div>
-              <button class="text-button" id="refreshSignals" type="button">刷新</button>
+              <div class="panel-tools">
+                <span>最后刷新：<time id="lastUpdated">--:--:--</time></span>
+                <button class="text-button" id="refreshSignals" type="button">刷新</button>
+              </div>
             </div>
             <div class="timeline" id="signalTimeline"></div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Google Search Changes</p>
+                <h3>搜索结果变化</h3>
+              </div>
+              <span class="panel-note">US / Taiwan</span>
+            </div>
+            <div class="change-list" id="serpChangeList"></div>
           </article>
 
           <article class="panel">
             <div class="panel-heading">
               <div>
-                <p class="eyebrow">Ranking Radar</p>
-                <h3>应用商店排名变化</h3>
+                <p class="eyebrow">Official Website & Blog</p>
+                <h3>官网与内容变化</h3>
               </div>
-              <span class="panel-note">App Store / Google Play</span>
             </div>
-            <div class="ranking-table" id="rankingTable"></div>
+            <div class="content-list" id="contentChangeList"></div>
           </article>
 
           <article class="panel">
@@ -111,55 +157,51 @@
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Creative Watch</p>
-                <h3>广告素材与投放主题</h3>
+                <h3>广告素材与主题</h3>
               </div>
             </div>
             <div class="creative-wall" id="creativeWall"></div>
           </article>
-
-          <article class="panel wide-panel">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">SERP Changes</p>
-                <h3>搜索结果变化雷达</h3>
-              </div>
-              <span class="panel-note">Google 前 2 页 / 美国 + 台湾</span>
-            </div>
-            <div class="change-list" id="serpChangeList"></div>
-          </article>
-
-          <article class="panel">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Content Pulse</p>
-                <h3>内容发现与效果</h3>
-              </div>
-            </div>
-            <div class="content-list" id="contentChangeList"></div>
-          </article>
-
-          <article class="panel wide-panel">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Insight Engine</p>
-                <h3>Awesun 机会洞察</h3>
-              </div>
-              <span class="panel-note">基于模拟信号生成</span>
-            </div>
-            <div class="insight-grid" id="insightGrid"></div>
-          </article>
-
-          <article class="panel">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Sentiment</p>
-                <h3>口碑舆情与痛点</h3>
-              </div>
-            </div>
-            <div class="sentiment-box" id="sentimentBox"></div>
-          </article>
         </section>
       </main>
+
+      <aside class="insight-rail" aria-label="AI洞察与趋势">
+        <article class="rail-card ai-brief-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">AI Insights</p>
+              <h3>AI Daily Brief</h3>
+            </div>
+            <span class="spark">✦</span>
+          </div>
+          <div class="insight-grid" id="insightGrid"></div>
+        </article>
+
+        <article class="rail-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Top Rising Competitors</p>
+              <h3>竞品排名与热度</h3>
+            </div>
+          </div>
+          <div class="ranking-table" id="rankingTable"></div>
+        </article>
+
+        <article class="rail-card">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Reviews & Sentiment</p>
+              <h3>口碑舆情</h3>
+            </div>
+          </div>
+          <div class="sentiment-box" id="sentimentBox"></div>
+        </article>
+
+        <article class="rail-card report-card">
+          <h3>Recommended Reports</h3>
+          <button class="ghost-button" id="exportReport" type="button">Export Report</button>
+        </article>
+      </aside>
     </div>
 
     <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
