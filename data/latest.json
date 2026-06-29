@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "generatedAt": "2026-06-29T16:01:46.909610Z",
+  "generatedAt": "2026-06-29T16:25:12.877446Z",
   "source": "free-collector",
   "competitors": [
     {
@@ -305,19 +305,6 @@
   },
   "signals": [
     {
-      "id": "op-website-teamviewer-a91b56b1",
-      "competitorId": "teamviewer",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "High",
-      "title": "TeamViewer 官网重点页发生变化：TeamViewer—The Digital Workplace Platform",
-      "url": "https://www.teamviewer.com/",
-      "summary": "上一标题：TeamViewer—The Digital Workplace Platform。识别主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Remote desktop access solutions by TeamViewer: connect to remote computers, provide remote support, and collaborate online ➤ Free for personal use!",
-      "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
-      "time": "页面变化",
-      "detectedAt": "2026-06-29T16:04:46.503377Z"
-    },
-    {
       "id": "op-website-chrome-remote-desktop-d0541e74",
       "competitorId": "chrome-remote-desktop",
       "type": "官网动作",
@@ -328,7 +315,7 @@
       "summary": "上一标题：Chrome Remote Desktop。识别主题：折扣、下载入口、安全、远程支持、AI。https://remotedesktop.google.com/",
       "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
       "time": "页面变化",
-      "detectedAt": "2026-06-29T16:04:50.179611Z"
+      "detectedAt": "2026-06-29T16:25:18.965311Z"
     },
     {
       "id": "op-website-snapshot-teamviewer-fc23a969",
@@ -341,150 +328,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Remote desktop access solutions by TeamViewer: connect to remote computers, provide remote support, and collaborate online ➤ Free for personal use!",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:46.503377Z"
-    },
-    {
-      "id": "op-website-snapshot-splashtop-4d063f6c",
-      "competitorId": "splashtop",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "Splashtop 官网重点页进入监控：Splashtop: Secure Remote Access & Remote Support Software",
-      "url": "https://www.splashtop.com/",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Fast and secure solutions for remote work, remote support, remote learning & more at the best value. Splashtop remote access is #1 in user satisfaction.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:47.173298Z"
-    },
-    {
-      "id": "op-website-snapshot-splashtop-1835a68b",
-      "competitorId": "splashtop",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "Splashtop 官网重点页进入监控：Splashtop Pricing | Remote Access, Remote Support, Enterprise",
-      "url": "https://www.splashtop.com/pricing",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Splashtop Pricing: Compare affordable remote desktop, remote access, and remote support software plans for individuals, teams, IT, MSPs, and enterprises.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:47.889031Z"
-    },
-    {
-      "id": "op-website-snapshot-remotepc-c580b973",
-      "competitorId": "remotepc",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "RemotePC 官网重点页进入监控：RemotePC&trade; - Secure Remote Access Software",
-      "url": "https://www.remotepc.com/",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、远程支持、AI。Remote Access solution for your PC, Mac, Linux and mobile devices.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:48.641628Z"
-    },
-    {
-      "id": "op-website-snapshot-remotepc-7e00fb86",
-      "competitorId": "remotepc",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "RemotePC 官网重点页进入监控：RemotePC&trade; - Plans and Pricing",
-      "url": "https://www.remotepc.com/pricing",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Select from different pricing plans - RemotePC Consumer/Soho, RemotePC Team, RemotePC Enterprise - based on your needs",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:48.699857Z"
-    },
-    {
-      "id": "op-website-snapshot-rustdesk-ebe418c8",
-      "competitorId": "rustdesk",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "RustDesk 官网重点页进入监控：RustDesk: Open-Source Remote Desktop with Self-Hosted Server Solutions",
-      "url": "https://rustdesk.com/",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。RustDesk is the best open-source remote desktop software. Secure alternative to TeamViewer and AnyDesk with self-hosted servers. Cross-platform support for Windows, macOS, Linux, and Android.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:49.061181Z"
-    },
-    {
-      "id": "op-website-snapshot-rustdesk-246ce1f5",
-      "competitorId": "rustdesk",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "RustDesk 官网重点页进入监控：RustDesk Pricing - Self-Hosted Remote Desktop Server Plans — RustDesk",
-      "url": "https://rustdesk.com/pricing.html",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、远程支持、无人值守、AI。Choose the right RustDesk self-hosting plan for your organization. Free open-source plan available. Pro plans starting at $11.88/month with advanced features for enterprise use.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:49.778872Z"
-    },
-    {
-      "id": "op-website-snapshot-chrome-remote-desktop-483908c3",
-      "competitorId": "chrome-remote-desktop",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "Chrome Remote Desktop 官网重点页进入监控：Chrome Remote Desktop",
-      "url": "https://remotedesktop.google.com/",
-      "summary": "当前页面主题：折扣、下载入口、安全、远程支持、AI。https://remotedesktop.google.com/",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:50.179611Z"
-    },
-    {
-      "id": "op-website-snapshot-zoho-assist-3a90a052",
-      "competitorId": "zoho-assist",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "Zoho Assist 官网重点页进入监控：Best Remote Access Software | Remote Support Software - Zoho Assist",
-      "url": "https://www.zoho.com/assist/",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Zoho Assist is a secure and easy-to-use remote desktop software for IT and support teams. Access, control, and troubleshoot devices from anywhere with Zoho Assist.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:50.411189Z"
-    },
-    {
-      "id": "op-website-snapshot-zoho-assist-32988660",
-      "competitorId": "zoho-assist",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "Zoho Assist 官网重点页进入监控：Zoho Assist pricing | Free and affordable editions",
-      "url": "https://www.zoho.com/assist/pricing.html",
-      "summary": "当前页面主题：价格/套餐、折扣、免费试用、企业版、安全、远程支持、无人值守、AI。Check out the plans and pricing of Zoho Assist, a free remote support and unattended access software, here.You can choose either Remote Support or Unattended Access or both.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:50.565680Z"
-    },
-    {
-      "id": "op-website-snapshot-deskin-44af725b",
-      "competitorId": "deskin",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "DeskIn 官网重点页进入监控：DeskIn | Best-in-Class Remote Desktop & Cloud Solutions",
-      "url": "https://www.deskin.io/",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、远程支持、AI。Best solution for remote work, support and design. DeskIn gives you the most simple, secure, smooth remote access experience you ever have.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:51.387266Z"
-    },
-    {
-      "id": "op-website-snapshot-deskin-a200a680",
-      "competitorId": "deskin",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "Medium",
-      "title": "DeskIn 官网重点页进入监控：DeskIn Personal Plans and Pricing | Most Affordable, High Performance",
-      "url": "https://deskin.io/pricing/deskin-personal",
-      "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、无人值守、AI。Explore DeskIn Personal pricing, from free to premium plans, featuring high-speed servers, 4K at 60 FPS, and advanced security for seamless remote access.",
-      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
-      "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:51.711876Z"
+      "detectedAt": "2026-06-29T16:25:14.310686Z"
     },
     {
       "id": "op-website-snapshot-teamviewer-d5e0da5c",
@@ -497,7 +341,150 @@
       "summary": "当前页面主题：价格/套餐、折扣、免费试用、企业版、安全、远程支持、无人值守、AI。Find the right TeamViewer license that meets your organization",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:46.757792Z"
+      "detectedAt": "2026-06-29T16:25:14.629605Z"
+    },
+    {
+      "id": "op-website-snapshot-splashtop-4d063f6c",
+      "competitorId": "splashtop",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Splashtop 官网重点页进入监控：Splashtop: Secure Remote Access & Remote Support Software",
+      "url": "https://www.splashtop.com/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Fast and secure solutions for remote work, remote support, remote learning & more at the best value. Splashtop remote access is #1 in user satisfaction.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:15.284357Z"
+    },
+    {
+      "id": "op-website-snapshot-splashtop-1835a68b",
+      "competitorId": "splashtop",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Splashtop 官网重点页进入监控：Splashtop Pricing | Remote Access, Remote Support, Enterprise",
+      "url": "https://www.splashtop.com/pricing",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Splashtop Pricing: Compare affordable remote desktop, remote access, and remote support software plans for individuals, teams, IT, MSPs, and enterprises.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:15.839984Z"
+    },
+    {
+      "id": "op-website-snapshot-remotepc-c580b973",
+      "competitorId": "remotepc",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "RemotePC 官网重点页进入监控：RemotePC&trade; - Secure Remote Access Software",
+      "url": "https://www.remotepc.com/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、远程支持、AI。Remote Access solution for your PC, Mac, Linux and mobile devices.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:16.808647Z"
+    },
+    {
+      "id": "op-website-snapshot-remotepc-7e00fb86",
+      "competitorId": "remotepc",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "RemotePC 官网重点页进入监控：RemotePC&trade; - Plans and Pricing",
+      "url": "https://www.remotepc.com/pricing",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Select from different pricing plans - RemotePC Consumer/Soho, RemotePC Team, RemotePC Enterprise - based on your needs",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:16.889915Z"
+    },
+    {
+      "id": "op-website-snapshot-rustdesk-ebe418c8",
+      "competitorId": "rustdesk",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "RustDesk 官网重点页进入监控：RustDesk: Open-Source Remote Desktop with Self-Hosted Server Solutions",
+      "url": "https://rustdesk.com/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。RustDesk is the best open-source remote desktop software. Secure alternative to TeamViewer and AnyDesk with self-hosted servers. Cross-platform support for Windows, macOS, Linux, and Android.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:17.417624Z"
+    },
+    {
+      "id": "op-website-snapshot-rustdesk-246ce1f5",
+      "competitorId": "rustdesk",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "RustDesk 官网重点页进入监控：RustDesk Pricing - Self-Hosted Remote Desktop Server Plans — RustDesk",
+      "url": "https://rustdesk.com/pricing.html",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、远程支持、无人值守、AI。Choose the right RustDesk self-hosting plan for your organization. Free open-source plan available. Pro plans starting at $11.88/month with advanced features for enterprise use.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:18.435114Z"
+    },
+    {
+      "id": "op-website-snapshot-chrome-remote-desktop-483908c3",
+      "competitorId": "chrome-remote-desktop",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Chrome Remote Desktop 官网重点页进入监控：Chrome Remote Desktop",
+      "url": "https://remotedesktop.google.com/",
+      "summary": "当前页面主题：折扣、下载入口、安全、远程支持、AI。https://remotedesktop.google.com/",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:18.965311Z"
+    },
+    {
+      "id": "op-website-snapshot-zoho-assist-3a90a052",
+      "competitorId": "zoho-assist",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Zoho Assist 官网重点页进入监控：Best Remote Access Software | Remote Support Software - Zoho Assist",
+      "url": "https://www.zoho.com/assist/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Zoho Assist is a secure and easy-to-use remote desktop software for IT and support teams. Access, control, and troubleshoot devices from anywhere with Zoho Assist.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:19.399400Z"
+    },
+    {
+      "id": "op-website-snapshot-zoho-assist-32988660",
+      "competitorId": "zoho-assist",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Zoho Assist 官网重点页进入监控：Zoho Assist pricing | Free and affordable editions",
+      "url": "https://www.zoho.com/assist/pricing.html",
+      "summary": "当前页面主题：价格/套餐、折扣、免费试用、企业版、安全、远程支持、无人值守、AI。Check out the plans and pricing of Zoho Assist, a free remote support and unattended access software, here.You can choose either Remote Support or Unattended Access or both.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:19.730163Z"
+    },
+    {
+      "id": "op-website-snapshot-deskin-44af725b",
+      "competitorId": "deskin",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "DeskIn 官网重点页进入监控：DeskIn | Best-in-Class Remote Desktop & Cloud Solutions",
+      "url": "https://www.deskin.io/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、远程支持、AI。Best solution for remote work, support and design. DeskIn gives you the most simple, secure, smooth remote access experience you ever have.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:20.345178Z"
+    },
+    {
+      "id": "op-website-snapshot-deskin-a200a680",
+      "competitorId": "deskin",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "DeskIn 官网重点页进入监控：DeskIn Personal Plans and Pricing | Most Affordable, High Performance",
+      "url": "https://deskin.io/pricing/deskin-personal",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、无人值守、AI。Explore DeskIn Personal pricing, from free to premium plans, featuring high-speed servers, 4K at 60 FPS, and advanced security for seamless remote access.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:20.514808Z"
     },
     {
       "id": "op-website-snapshot-teamviewer-d2e57c1b",
@@ -510,7 +497,20 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Download the latest version of TeamViewer for Windows. Control and access your devices remotely.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:46.926807Z"
+      "detectedAt": "2026-06-29T16:25:14.860390Z"
+    },
+    {
+      "id": "op-website-snapshot-splashtop-b203b22f",
+      "competitorId": "splashtop",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Splashtop 官网重点页进入监控：Splashtop Blog | Remote Access Trends & Insights",
+      "url": "https://www.splashtop.com/blog",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Learn about today&#x27;s remote access solutions! Get news and updates on how Splashtop is changing the future of remote access.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-06-29T16:25:16.414529Z"
     },
     {
       "id": "op-content-item-deskin-77bf06d9",
@@ -523,7 +523,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.367909Z"
+      "detectedAt": "2026-06-29T16:25:34.875872Z"
     },
     {
       "id": "op-content-item-deskin-cddacfcb",
@@ -536,7 +536,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.367671Z"
+      "detectedAt": "2026-06-29T16:25:34.875654Z"
     },
     {
       "id": "op-content-item-splashtop-2d399eeb",
@@ -549,7 +549,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.splashtop.com/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:58.756461Z"
+      "detectedAt": "2026-06-29T16:25:27.932830Z"
     },
     {
       "id": "op-content-item-splashtop-a1c4cc4a",
@@ -562,7 +562,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.splashtop.com/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:58.756384Z"
+      "detectedAt": "2026-06-29T16:25:27.932774Z"
     },
     {
       "id": "op-content-item-teamviewer-ca5b24e3",
@@ -575,7 +575,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.teamviewer.com/en/resources/",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:53.742924Z"
+      "detectedAt": "2026-06-29T16:25:22.895256Z"
     },
     {
       "id": "op-content-item-teamviewer-c761f2d6",
@@ -588,7 +588,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.teamviewer.com/en/resources/",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:04:53.286912Z"
+      "detectedAt": "2026-06-29T16:25:22.386678Z"
     },
     {
       "id": "op-content-item-deskin-13c5f4b6",
@@ -601,7 +601,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.367550Z"
+      "detectedAt": "2026-06-29T16:25:34.875544Z"
     },
     {
       "id": "op-content-item-deskin-fd4a5778",
@@ -614,7 +614,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.367490Z"
+      "detectedAt": "2026-06-29T16:25:34.875491Z"
     },
     {
       "id": "op-content-item-deskin-416d69bc",
@@ -627,7 +627,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.367431Z"
+      "detectedAt": "2026-06-29T16:25:34.875436Z"
     },
     {
       "id": "op-content-item-deskin-48c36ef0",
@@ -640,7 +640,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.367104Z"
+      "detectedAt": "2026-06-29T16:25:34.875143Z"
     },
     {
       "id": "op-content-item-deskin-3adba951",
@@ -653,7 +653,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.366979Z"
+      "detectedAt": "2026-06-29T16:25:34.875026Z"
     },
     {
       "id": "op-content-item-deskin-455d71bf",
@@ -666,7 +666,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:04.046086Z"
+      "detectedAt": "2026-06-29T16:25:34.313952Z"
     },
     {
       "id": "op-content-item-deskin-1436b3fa",
@@ -679,7 +679,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:03.950713Z"
+      "detectedAt": "2026-06-29T16:25:34.072901Z"
     },
     {
       "id": "op-content-item-deskin-ca235acc",
@@ -692,441 +692,217 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-06-29T16:05:03.845740Z"
+      "detectedAt": "2026-06-29T16:25:33.824342Z"
     },
     {
-      "id": "op-serp-teamviewer-US-aea0c2d8",
-      "competitorId": "teamviewer",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "TeamViewer 在 美国 Google 新增搜索结果",
-      "url": "https://www.trustpilot.com/review/www.teamviewer.com",
-      "summary": "关键词 TeamViewer，结果「Read Customer Service Reviews of www.teamviewer.com」位置 None -> 4。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:35.123004Z"
-    },
-    {
-      "id": "op-serp-teamviewer-US-651ed98a",
-      "competitorId": "teamviewer",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "TeamViewer 在 美国 Google 新增搜索结果",
-      "url": "https://www.reddit.com/r/computers/comments/10ozsja/what_is_teamviewer/",
-      "summary": "关键词 TeamViewer，结果「What is teamviewer : r/computers」位置 None -> 6。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:35.123013Z"
-    },
-    {
-      "id": "op-serp-anydesk-US-9bbb2e41",
-      "competitorId": "anydesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 美国 Google 搜索排名上升",
-      "url": "https://en.wikipedia.org/wiki/AnyDesk",
-      "summary": "关键词 AnyDesk，结果「AnyDesk」位置 3 -> 2。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:40.563540Z"
-    },
-    {
-      "id": "op-serp-anydesk-US-5ac1a504",
-      "competitorId": "anydesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 美国 Google 搜索排名上升",
-      "url": "https://play.google.com/store/apps/details?id=com.anydesk.anydeskandroid&hl=en_US",
-      "summary": "关键词 AnyDesk，结果「AnyDesk Remote Desktop - Apps on Google Play」位置 5 -> 3。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:40.563548Z"
-    },
-    {
-      "id": "op-serp-remotepc-US-aa6f290b",
-      "competitorId": "remotepc",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "RemotePC 在 美国 Google 新增搜索结果",
-      "url": "https://apps.microsoft.com/detail/xp9c7cvt7hw8hs?hl=en-US&gl=US",
-      "summary": "关键词 RemotePC，结果「RemotePC Host - Download and install on Windows」位置 None -> 2。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:03:20.429645Z"
-    },
-    {
-      "id": "op-serp-remotepc-US-b2c4e9bf",
-      "competitorId": "remotepc",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "RemotePC 在 美国 Google 新增搜索结果",
-      "url": "https://www.softwareadvice.com/help-desk/remotepc-profile/",
-      "summary": "关键词 RemotePC，结果「RemotePC 2026: Benefits, Features & Pricing」位置 None -> 4。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:03:20.429656Z"
-    },
-    {
-      "id": "op-serp-rustdesk-US-732b5ba4",
-      "competitorId": "rustdesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "RustDesk 在 美国 Google 搜索排名上升",
-      "url": "https://apps.apple.com/us/app/rustdesk-remote-desktop/id1581225015",
-      "summary": "关键词 RustDesk，结果「RustDesk Remote Desktop - App Store - Apple」位置 3 -> 2。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:03:31.260715Z"
-    },
-    {
-      "id": "op-serp-rustdesk-US-65b5afb3",
-      "competitorId": "rustdesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "RustDesk 在 美国 Google 搜索排名上升",
-      "url": "https://sourceforge.net/projects/rustdesk.mirror/",
-      "summary": "关键词 RustDesk，结果「RustDesk download」位置 5 -> 4。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:03:31.260727Z"
-    },
-    {
-      "id": "op-serp-zoho-assist-US-bf9ddba8",
-      "competitorId": "zoho-assist",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "Zoho Assist 在 美国 Google 搜索排名上升",
-      "url": "https://www.reddit.com/r/sysadmin/comments/1iwxw79/zoho_assist_recent_experience/",
-      "summary": "关键词 Zoho Assist，结果「Zoho assist recent experience : r/sysadmin」位置 5 -> 4。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:01.267732Z"
-    },
-    {
-      "id": "op-serp-zoho-assist-US-1f630e12",
-      "competitorId": "zoho-assist",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "Zoho Assist 在 美国 Google 搜索排名上升",
-      "url": "https://www.splashtop.com/blog/what-is-zoho-assist",
-      "summary": "关键词 Zoho Assist，结果「Zoho Assist: Overview, Challenges & Security Risks」位置 6 -> 5。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:01.267739Z"
-    },
-    {
-      "id": "op-serp-deskin-US-7b1feb8f",
-      "competitorId": "deskin",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "DeskIn 在 美国 Google 新增搜索结果",
-      "url": "https://www.prnewswire.com/ae/news-releases/deskin-redefining-remote-desktop--the-essential-lifestyle-app-for-the-ai-era-302695657.html",
-      "summary": "关键词 DeskIn，结果「DeskIn: Redefining Remote Desktop -- The Essential ...」位置 None -> 5。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:03.850177Z"
-    },
-    {
-      "id": "op-serp-deskin-US-5e185c87",
-      "competitorId": "deskin",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "DeskIn 在 美国 Google 搜索结果消失",
-      "url": "https://finance.yahoo.com/news/deskin-redefining-remote-desktop-essential-110000343.html",
-      "summary": "关键词 DeskIn，结果「DeskIn: Redefining Remote Desktop -- The Essential ...」位置 5 -> None。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:03.850183Z"
-    },
-    {
-      "id": "op-serp-teamviewer-TW-cab77c8e",
-      "competitorId": "teamviewer",
-      "market": "TW",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "TeamViewer 在 台湾 Google 搜索排名上升",
-      "url": "https://free.com.tw/teamviewer-free/",
-      "summary": "关键词 TeamViewer，结果「TeamViewer － 免費遠端控制軟體（繁中免安裝版）」位置 4 -> 3。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:04.877514Z"
-    },
-    {
-      "id": "op-serp-teamviewer-TW-87070335",
-      "competitorId": "teamviewer",
-      "market": "TW",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "TeamViewer 在 台湾 Google 新增搜索结果",
-      "url": "https://teach.cc.ntu.edu.tw/distance/News_Content_n_54256_s_61749.html",
-      "summary": "关键词 TeamViewer，结果「TeamViewer操作手冊 - 計中資訊應用課程」位置 None -> 5。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:04.877528Z"
-    },
-    {
-      "id": "op-serp-anydesk-TW-28f8b17a",
-      "competitorId": "anydesk",
-      "market": "TW",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 台湾 Google 搜索排名上升",
-      "url": "https://www.playpcesor.com/2015/11/anydesk.html",
-      "summary": "关键词 AnyDesk，结果「AnyDesk 最快的遠端桌面軟體，免費免安裝中文教學」位置 5 -> 3。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:06.592815Z"
-    },
-    {
-      "id": "op-serp-anydesk-TW-41bd9775",
-      "competitorId": "anydesk",
-      "market": "TW",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 台湾 Google 新增搜索结果",
-      "url": "https://www.youtube.com/watch?v=s9rgyhhuT7Y",
-      "summary": "关键词 AnyDesk，结果「AnyDesk 使用教學| 遠端協助神器| feat. @micat2350 | 小蛙實測 ...」位置 None -> 4。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:06.592823Z"
-    },
-    {
-      "id": "op-serp-splashtop-TW-112276af",
+      "id": "op-serp-splashtop-US-8cf78eaa",
       "competitorId": "splashtop",
-      "market": "TW",
+      "market": "US",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "Splashtop 在 台湾 Google 新增搜索结果",
-      "url": "https://www.104.com.tw/company/cu8hxnc",
-      "summary": "关键词 Splashtop，结果「美商浪橋科技股份有限公司台灣分公司_Splashtop Inc.」位置 None -> 2。",
+      "impact": "Low",
+      "title": "Splashtop 在 美国 Google 建立搜索基线",
+      "url": "https://www.splashtop.com/",
+      "summary": "关键词 Splashtop，结果「Splashtop: Secure Remote Access & Remote Support Software」当前位置 1。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:08.678725Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.301301Z"
     },
     {
-      "id": "op-serp-splashtop-TW-52ce5f3b",
+      "id": "op-serp-splashtop-US-d335ed36",
       "competitorId": "splashtop",
-      "market": "TW",
+      "market": "US",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "Splashtop 在 台湾 Google 搜索排名上升",
-      "url": "https://leadingmrk.com/splashtop-tutorial/",
-      "summary": "关键词 Splashtop，结果「【Splashtop 評價】你的遠端協作好幫手！簡單連線、即時支援」位置 4 -> 3。",
+      "impact": "Low",
+      "title": "Splashtop 在 美国 Google 建立搜索基线",
+      "url": "https://apps.apple.com/us/app/splashtop-business/id650739354",
+      "summary": "关键词 Splashtop，结果「Splashtop Business - App Store」当前位置 2。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:08.678731Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.301307Z"
     },
     {
-      "id": "op-serp-remotepc-TW-850be309",
-      "competitorId": "remotepc",
-      "market": "TW",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "Medium",
-      "title": "RemotePC 在 台湾 Google 搜索标题变化",
-      "url": "https://apps.microsoft.com/detail/9phf0tdqfvhp?hl=zh-TW&gl=TW",
-      "summary": "关键词 RemotePC，结果「RemotePC - 在Windows 上免費下載並安裝」位置 6 -> 3。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:19.090093Z"
-    },
-    {
-      "id": "op-serp-chrome-remote-desktop-TW-9d92aa8d",
+      "id": "op-serp-chrome-remote-desktop-US-d6544348",
       "competitorId": "chrome-remote-desktop",
-      "market": "TW",
+      "market": "US",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "Chrome Remote Desktop 在 台湾 Google 搜索排名上升",
-      "url": "https://support.google.com/chromebook/answer/1649523?hl=zh-HK&co=GENIE.Platform%3DDesktop",
-      "summary": "关键词 Chrome Remote Desktop，结果「透過Chrome 遠端桌面存取其他電腦」位置 4 -> 3。",
+      "impact": "Low",
+      "title": "Chrome Remote Desktop 在 美国 Google 建立搜索基线",
+      "url": "https://remotedesktop.google.com/",
+      "summary": "关键词 Chrome Remote Desktop，结果「Chrome Remote Desktop」当前位置 1。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:40.073777Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.463870Z"
     },
     {
-      "id": "op-serp-chrome-remote-desktop-TW-8447b824",
+      "id": "op-serp-chrome-remote-desktop-US-ac21b4d9",
       "competitorId": "chrome-remote-desktop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Chrome Remote Desktop 在 美国 Google 建立搜索基线",
+      "url": "https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai?hl=en",
+      "summary": "关键词 Chrome Remote Desktop，结果「Chrome Remote Desktop - Chrome Web Store」当前位置 2。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.463877Z"
+    },
+    {
+      "id": "op-serp-rustdesk-TW-60ce6715",
+      "competitorId": "rustdesk",
       "market": "TW",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "Medium",
-      "title": "Chrome Remote Desktop 在 台湾 Google 搜索标题变化",
-      "url": "https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop",
-      "summary": "关键词 Chrome Remote Desktop，结果「Chrome Remote Desktop - Apps on Google Play」位置 3 -> 4。",
+      "impact": "Low",
+      "title": "RustDesk 在 台湾 Google 建立搜索基线",
+      "url": "https://rustdesk.com/zh-tw",
+      "summary": "关键词 RustDesk，结果「開源遠端桌面與自託管伺服器解決方案」当前位置 1。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:40.073792Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.822255Z"
     },
     {
-      "id": "op-serp-zoho-assist-TW-f5e14373",
-      "competitorId": "zoho-assist",
+      "id": "op-serp-rustdesk-TW-b3ccf01d",
+      "competitorId": "rustdesk",
       "market": "TW",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "Zoho Assist 在 台湾 Google 新增搜索结果",
-      "url": "https://www.softwarereviews.com/products/zoho-assist?c_id=423",
-      "summary": "关键词 Zoho Assist，结果「Zoho Assist Customer Reviews 2026 | Remote Support」位置 None -> 6。",
+      "impact": "Low",
+      "title": "RustDesk 在 台湾 Google 建立搜索基线",
+      "url": "https://ithelp.ithome.com.tw/articles/10341212",
+      "summary": "关键词 RustDesk，结果「開源遠端桌面存取軟體RustDesk - iT 邦幫忙」当前位置 2。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:41.661887Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.822260Z"
     },
     {
-      "id": "op-serp-zoho-assist-TW-c573fada",
-      "competitorId": "zoho-assist",
+      "id": "op-serp-splashtop-US-81ca76ca",
+      "competitorId": "splashtop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Splashtop 在 美国 Google 建立搜索基线",
+      "url": "https://en.wikipedia.org/wiki/Splashtop",
+      "summary": "关键词 Splashtop，结果「Splashtop」当前位置 3。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.301311Z"
+    },
+    {
+      "id": "op-serp-splashtop-US-f1da084b",
+      "competitorId": "splashtop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Splashtop 在 美国 Google 建立搜索基线",
+      "url": "https://play.google.com/store/apps/details?id=com.splashtop.remote.pad.v2&hl=en_US",
+      "summary": "关键词 Splashtop，结果「Splashtop Personal - Apps on Google Play」当前位置 4。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.301314Z"
+    },
+    {
+      "id": "op-serp-splashtop-US-7d374137",
+      "competitorId": "splashtop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Splashtop 在 美国 Google 建立搜索基线",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1op05cl/anyone_using_splashtop_as_their_main_remote/",
+      "summary": "关键词 Splashtop，结果「Anyone using Splashtop as their main remote desktop tool?」当前位置 5。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.301317Z"
+    },
+    {
+      "id": "op-serp-chrome-remote-desktop-US-367cd1e2",
+      "competitorId": "chrome-remote-desktop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Chrome Remote Desktop 在 美国 Google 建立搜索基线",
+      "url": "https://support.google.com/chrome/answer/1649523?hl=en&co=GENIE.Platform%3DAndroid",
+      "summary": "关键词 Chrome Remote Desktop，结果「Access another computer with Chrome Remote Desktop」当前位置 3。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.463882Z"
+    },
+    {
+      "id": "op-serp-chrome-remote-desktop-US-9e62b06b",
+      "competitorId": "chrome-remote-desktop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Chrome Remote Desktop 在 美国 Google 建立搜索基线",
+      "url": "https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop&hl=en_US",
+      "summary": "关键词 Chrome Remote Desktop，结果「Chrome Remote Desktop - Apps on Google Play」当前位置 4。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.463885Z"
+    },
+    {
+      "id": "op-serp-chrome-remote-desktop-US-7ebc092d",
+      "competitorId": "chrome-remote-desktop",
+      "market": "US",
+      "type": "搜索动作",
+      "source": "Google SERP",
+      "impact": "Low",
+      "title": "Chrome Remote Desktop 在 美国 Google 建立搜索基线",
+      "url": "https://support.google.com/chrome/thread/322331292/add-remote-device-to-remote-desktop?hl=en",
+      "summary": "关键词 Chrome Remote Desktop，结果「add remote device to remote desktop」当前位置 5。",
+      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.463887Z"
+    },
+    {
+      "id": "op-serp-rustdesk-TW-3a22bb28",
+      "competitorId": "rustdesk",
       "market": "TW",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "Zoho Assist 在 台湾 Google 新增搜索结果",
-      "url": "https://chromewebstore.google.com/detail/zoho-assist-free-remote-s/ieinjhnflpkoheailbgaickpoaehjoal",
-      "summary": "关键词 Zoho Assist，结果「Zoho Assist - FREE Remote Support Tool - Chrome Web Store」位置 None -> 7。",
+      "impact": "Low",
+      "title": "RustDesk 在 台湾 Google 建立搜索基线",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "summary": "关键词 RustDesk，结果「rustdesk/rustdesk: An open-source remote desktop ...」当前位置 3。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:41.661893Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.822263Z"
     },
     {
-      "id": "op-serp-deskin-TW-e9a813ee",
-      "competitorId": "deskin",
+      "id": "op-serp-rustdesk-TW-36f8ccf5",
+      "competitorId": "rustdesk",
       "market": "TW",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "DeskIn 在 台湾 Google 搜索排名上升",
-      "url": "https://apps.microsoft.com/detail/xp8lgcmlgqbqw1?hl=zh-TW&gl=VN",
-      "summary": "关键词 DeskIn，结果「DeskIn - 在Windows 上下載並安裝」位置 3 -> 2。",
+      "impact": "Low",
+      "title": "RustDesk 在 台湾 Google 建立搜索基线",
+      "url": "https://www.azofreeware.com/2025/06/rustdesk.html",
+      "summary": "关键词 RustDesk，结果「RustDesk 1.4.8 免安裝中文版- 功能齊全的開源免費遠端遙控 ...」当前位置 4。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:46.131966Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.822266Z"
     },
     {
-      "id": "op-serp-deskin-TW-405fc9b1",
-      "competitorId": "deskin",
+      "id": "op-serp-rustdesk-TW-b990c743",
+      "competitorId": "rustdesk",
       "market": "TW",
       "type": "搜索动作",
       "source": "Google SERP",
-      "impact": "High",
-      "title": "DeskIn 在 台湾 Google 搜索排名上升",
-      "url": "https://blog.hungwin.com.tw/deskin/",
-      "summary": "关键词 DeskIn，结果「DeskIn：新一代遠端桌面軟體，以高效能與跨平台兼容性引領 ...」位置 5 -> 3。",
+      "impact": "Low",
+      "title": "RustDesk 在 台湾 Google 建立搜索基线",
+      "url": "https://ivonblog.com/posts/setup-rustdesk/",
+      "summary": "关键词 RustDesk，结果「RustDesk使用教學：開源免費遠端桌面，支援Linux、Windows」当前位置 5。",
       "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:04:46.131974Z"
-    },
-    {
-      "id": "op-serp-teamviewer-US-08d3e09a",
-      "competitorId": "teamviewer",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "TeamViewer 在 美国 Google 搜索结果消失",
-      "url": "https://www.reddit.com/r/teamviewer/",
-      "summary": "关键词 TeamViewer，结果「r/teamviewer」位置 4 -> None。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:35.123020Z"
-    },
-    {
-      "id": "op-serp-anydesk-US-96981e05",
-      "competitorId": "anydesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 美国 Google 搜索排名上升",
-      "url": "https://support.anydesk.com/docs/quick-start-guide",
-      "summary": "关键词 AnyDesk，结果「Quick Start Guide」位置 6 -> 5。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:40.563559Z"
-    },
-    {
-      "id": "op-serp-anydesk-US-351d51de",
-      "competitorId": "anydesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 美国 Google 搜索排名上升",
-      "url": "https://anydesk.en.softonic.com/",
-      "summary": "关键词 AnyDesk，结果「AnyDesk - Download」位置 7 -> 6。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:40.563564Z"
-    },
-    {
-      "id": "op-serp-anydesk-US-043260f9",
-      "competitorId": "anydesk",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "AnyDesk 在 美国 Google 搜索结果消失",
-      "url": "https://www.reddit.com/r/AnyDesk/",
-      "summary": "关键词 AnyDesk，结果「r/AnyDesk」位置 4 -> None。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:02:40.563569Z"
-    },
-    {
-      "id": "op-serp-remotepc-US-c0542029",
-      "competitorId": "remotepc",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "RemotePC 在 美国 Google 新增搜索结果",
-      "url": "https://www.gartner.com/reviews/product/remotepc",
-      "summary": "关键词 RemotePC，结果「RemotePC Reviews & Ratings 2026 | Gartner Peer Insights」位置 None -> 5。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:03:20.429659Z"
-    },
-    {
-      "id": "op-serp-remotepc-US-2aa1f265",
-      "competitorId": "remotepc",
-      "market": "US",
-      "type": "搜索动作",
-      "source": "Google SERP",
-      "impact": "High",
-      "title": "RemotePC 在 美国 Google 搜索结果消失",
-      "url": "https://apps.microsoft.com/detail/9phf0tdqfvhp?hl=en-US&gl=US",
-      "summary": "关键词 RemotePC，结果「RemotePC - Free download and install on Windows」位置 4 -> None。",
-      "recommendation": "复核该结果是否影响品牌词、竞品对比词或下载转化路径，必要时调整 Awesun 内容页和投放关键词。",
-      "time": "2026-06-29",
-      "detectedAt": "2026-06-29T16:03:20.429666Z"
+      "time": "搜索基线",
+      "detectedAt": "2026-06-29T16:25:13.822268Z"
     },
     {
       "id": "op-review-teamviewer-fbe8195f",
@@ -1453,6 +1229,14 @@
       "source": "SerpApi"
     },
     {
+      "keyword": "unattended remote access",
+      "awesunRank": null,
+      "competitorRank": 2,
+      "intent": "B2B采购",
+      "opportunity": "High",
+      "source": "SerpApi"
+    },
+    {
       "keyword": "remote support for business",
       "awesunRank": null,
       "competitorRank": 1,
@@ -1484,24 +1268,24 @@
   ],
   "insights": [
     {
-      "title": "免费 SERP 监控",
+      "title": "TeamViewer 商业化收紧引发用户逃离，开源替代品借势崛起",
       "level": "High",
-      "body": "SerpApi 当前识别到 4 个高优先级关键词机会、54 条高优先级搜索结果变化；优先复核品牌词和竞品词前 20 条。"
+      "body": "监控显示，TeamViewer 近期因频繁误判‘商业用途’并强制断连（5分钟限制），在 Google Play 遭遇大量1星差评，且 MakeUseOf 等主流媒体已开始推荐 RustDesk 等开源替代品。这表明免费用户群正处于剧烈动荡期。建议 Awesun 立即启动‘TeamViewer 免费替代方案’专题营销，在 Google Search Ads 投放相关竞品词，并突出 Awesun 稳定不限时、无商业误判的优势，精准拦截流失用户。"
     },
     {
-      "title": "免费广告素材监控",
+      "title": "DeskIn 密集发布对比型 SEO 内容，精准拦截竞品意向流量",
       "level": "High",
-      "body": "当前累计 1 条 Google SERP 广告素材，可用于提炼竞品 CTA、价格和场景主张。"
+      "body": "DeskIn 官网近期批量上线了针对 AnyDesk、TeamViewer、Chrome Remote Desktop 及 Splashtop 的对比文章（如‘Why Choose DeskIn Instead of Anydesk’）。其运营意图是通过 SEO 抢占‘Alternative’和‘vs’类高意向搜索流量。建议 Awesun 迅速跟进，在官网 Resource 频道建立‘Awesun vs 竞品’的对比矩阵专题页，重点对比连接速度、免费额度及跨平台支持，防止潜在用户被 DeskIn 拦截。"
     },
     {
-      "title": "内容产出与效果",
+      "title": "RustDesk 垄断台湾 Google 搜索前排，本地化内容生态成型",
       "level": "Medium",
-      "body": "当前发现 0 条新增内容，其中 0 条已在监控 SERP 中出现；优先跟进进入前 20 的竞品内容。"
+      "body": "RustDesk 在台湾 Google 搜索‘RustDesk’展现出极强的基线，排名前五的结果涵盖了‘使用教學’、‘免安裝中文版’及‘iT 邦幫忙’社群讨论。这表明其在台湾已通过开源和本地化内容建立了坚实的口碑。建议 Awesun 针对台湾市场，优化繁体中文官网的‘免安装版’下载页，并与台湾本地 IT 博客、科技媒体合作撰写 Awesun 繁体中文教学指南，打破 RustDesk 的搜索垄断。"
     },
     {
-      "title": "免费商店与社媒监控",
-      "level": "High",
-      "body": "当前累计 155 条评论和 6 条 YouTube 动态；低星评论可沉淀为 Awesun 反击卖点。"
+      "title": "AnyDesk 与 Splashtop 暴露安全与功能痛点，可作差异化营销切入点",
+      "level": "Medium",
+      "body": "口碑监控显示，AnyDesk 因被诈骗分子利用遭遇‘DO NOT DOWNLOAD, USED BY SCAMMERS’的严重安全指控，而 Splashtop 则因‘无法传输文件’遭遇功能性差评。这反映出海外用户对远程控制的安全防诈和基础功能体验极度敏感。建议 Awesun 在 Google Play 商店图及官网显眼处，重点宣传‘防诈骗安全提示/防控制锁’安全机制，以及‘大文件高速传输’功能，直击竞品痛点进行差异化获客。"
     }
   ],
   "socialSignals": [
@@ -2890,7 +2674,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:46.503377Z"
+        "collectedAt": "2026-06-29T16:25:14.310686Z"
       },
       "https://www.teamviewer.com/en/pricing/": {
         "url": "https://www.teamviewer.com/en/pricing/",
@@ -2911,7 +2695,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:46.757792Z"
+        "collectedAt": "2026-06-29T16:25:14.629605Z"
       },
       "https://www.teamviewer.com/en/download/": {
         "url": "https://www.teamviewer.com/en/download/",
@@ -2932,7 +2716,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:46.926807Z"
+        "collectedAt": "2026-06-29T16:25:14.860390Z"
       }
     },
     "anydesk": {
@@ -2946,7 +2730,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-06-29T16:04:46.982912Z"
+        "collectedAt": "2026-06-29T16:25:14.941783Z"
       },
       "https://anydesk.com/en/pricing": {
         "url": "https://anydesk.com/en/pricing",
@@ -2958,7 +2742,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-06-29T16:04:47.018828Z"
+        "collectedAt": "2026-06-29T16:25:14.995467Z"
       },
       "https://anydesk.com/en/downloads": {
         "url": "https://anydesk.com/en/downloads",
@@ -2970,7 +2754,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-06-29T16:04:47.061385Z"
+        "collectedAt": "2026-06-29T16:25:15.050332Z"
       }
     },
     "splashtop": {
@@ -2994,7 +2778,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:47.173298Z"
+        "collectedAt": "2026-06-29T16:25:15.284357Z"
       },
       "https://www.splashtop.com/pricing": {
         "url": "https://www.splashtop.com/pricing",
@@ -3016,7 +2800,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:47.889031Z"
+        "collectedAt": "2026-06-29T16:25:15.839984Z"
       },
       "https://www.splashtop.com/blog": {
         "url": "https://www.splashtop.com/blog",
@@ -3038,7 +2822,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:48.556317Z"
+        "collectedAt": "2026-06-29T16:25:16.414529Z"
       }
     },
     "remotepc": {
@@ -3060,7 +2844,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:48.641628Z"
+        "collectedAt": "2026-06-29T16:25:16.808647Z"
       },
       "https://www.remotepc.com/pricing": {
         "url": "https://www.remotepc.com/pricing",
@@ -3081,7 +2865,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:48.699857Z"
+        "collectedAt": "2026-06-29T16:25:16.889915Z"
       },
       "https://www.remotepc.com/download": {
         "url": "https://www.remotepc.com/download",
@@ -3099,7 +2883,7 @@
           "企业版",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:48.756814Z"
+        "collectedAt": "2026-06-29T16:25:16.952848Z"
       }
     },
     "rustdesk": {
@@ -3122,7 +2906,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:49.061181Z"
+        "collectedAt": "2026-06-29T16:25:17.417624Z"
       },
       "https://rustdesk.com/pricing.html": {
         "url": "https://rustdesk.com/pricing.html",
@@ -3143,7 +2927,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:49.778872Z"
+        "collectedAt": "2026-06-29T16:25:18.435114Z"
       },
       "https://rustdesk.com/blog/": {
         "url": "https://rustdesk.com/blog/",
@@ -3161,7 +2945,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:50.021166Z"
+        "collectedAt": "2026-06-29T16:25:18.766698Z"
       }
     },
     "chrome-remote-desktop": {
@@ -3172,8 +2956,8 @@
         "title": "Chrome Remote Desktop",
         "h1": "",
         "description": "",
-        "hash": "01f31aca1854fc6b7a9cfb27cf982d5a1cda0f5815c94fdd5401b009d5f23c4d",
-        "size": 444870,
+        "hash": "0e51631d369deb66a2cb418e981859e80becb3eb53f7a3d40061ae3122e6da4f",
+        "size": 444891,
         "keywords": [
           "折扣",
           "下载入口",
@@ -3181,7 +2965,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:50.179611Z"
+        "collectedAt": "2026-06-29T16:25:18.965311Z"
       }
     },
     "zoho-assist": {
@@ -3205,7 +2989,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:50.411189Z"
+        "collectedAt": "2026-06-29T16:25:19.399400Z"
       },
       "https://www.zoho.com/assist/pricing.html": {
         "url": "https://www.zoho.com/assist/pricing.html",
@@ -3226,7 +3010,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:50.565680Z"
+        "collectedAt": "2026-06-29T16:25:19.730163Z"
       },
       "https://www.zoho.com/assist/resources/": {
         "url": "https://www.zoho.com/assist/resources/",
@@ -3238,7 +3022,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-06-29T16:04:50.680117Z"
+        "collectedAt": "2026-06-29T16:25:19.991161Z"
       }
     },
     "deskin": {
@@ -3260,7 +3044,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:51.387266Z"
+        "collectedAt": "2026-06-29T16:25:20.345178Z"
       },
       "https://deskin.io/pricing/deskin-personal": {
         "url": "https://deskin.io/pricing/deskin-personal",
@@ -3280,7 +3064,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:51.711876Z"
+        "collectedAt": "2026-06-29T16:25:20.514808Z"
       },
       "https://deskin.io/download/deskin-personal": {
         "url": "https://deskin.io/download/deskin-personal",
@@ -3299,7 +3083,7 @@
           "安全",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:51.958978Z"
+        "collectedAt": "2026-06-29T16:25:20.812053Z"
       },
       "https://deskin.io/resource/blog": {
         "url": "https://deskin.io/resource/blog",
@@ -3320,7 +3104,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-06-29T16:04:52.347525Z"
+        "collectedAt": "2026-06-29T16:25:21.140991Z"
       }
     }
   },
@@ -3332,15 +3116,15 @@
     "metaAds": "not_configured",
     "youtube": "not_configured",
     "x": "not_configured",
-    "serpApi": "ok_keywords_4_errors_1",
+    "serpApi": "ok_keywords_5",
     "appStoreScraper": "ok_ios_apps_7",
     "googlePlayScraper": "ok_google_apps_6",
     "youtubeFree": "not_configured",
-    "brandSerp": "ok_searches_13_errors_3",
+    "brandSerp": "ok_searches_16",
     "contentSources": "ok_items_30_errors_3",
     "websitePages": "ok_pages_23_errors_4",
     "googleNewsRss": "ok_requests_16_items_6",
-    "aiInsights": "not_configured"
+    "aiInsights": "ok_model_gemini-3.5-flash"
   },
   "brandSerpSnapshots": {
     "US|teamviewer|TeamViewer": {
@@ -3348,7 +3132,7 @@
       "competitorId": "teamviewer",
       "competitorName": "TeamViewer",
       "keyword": "TeamViewer",
-      "collectedAt": "2026-06-29T16:02:35.122898Z",
+      "collectedAt": "2026-06-29T16:25:13.193141Z",
       "organic": [
         {
           "type": "organic",
@@ -3406,7 +3190,7 @@
       "competitorId": "anydesk",
       "competitorName": "AnyDesk",
       "keyword": "AnyDesk",
-      "collectedAt": "2026-06-29T16:02:40.563442Z",
+      "collectedAt": "2026-06-29T16:25:13.253052Z",
       "organic": [
         {
           "type": "organic",
@@ -3459,12 +3243,87 @@
       ],
       "ads": []
     },
+    "US|splashtop|Splashtop": {
+      "market": "US",
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "keyword": "Splashtop",
+      "collectedAt": "2026-06-29T16:25:13.301282Z",
+      "organic": [
+        {
+          "type": "organic",
+          "position": 1,
+          "title": "Splashtop: Secure Remote Access & Remote Support Software",
+          "url": "https://www.splashtop.com/",
+          "domain": "splashtop.com",
+          "snippet": "Get secure and high-performance access to your computers from any device, anywhere. Work remotely just like you would in-person with Splashtop Remote Access."
+        },
+        {
+          "type": "organic",
+          "position": 2,
+          "title": "Splashtop Business - App Store",
+          "url": "https://apps.apple.com/us/app/splashtop-business/id650739354",
+          "domain": "apps.apple.com",
+          "snippet": "Easily provide secure remote access and support across your organization. Work from anywhere with remote desktop access to your powerful office computer."
+        },
+        {
+          "type": "organic",
+          "position": 3,
+          "title": "Splashtop",
+          "url": "https://en.wikipedia.org/wiki/Splashtop",
+          "domain": "en.wikipedia.org",
+          "snippet": "Splashtop is a family of remote-desktop software and remote support software, developed by Splashtop Inc. Splashtop enables users to remotely access or ..."
+        },
+        {
+          "type": "organic",
+          "position": 4,
+          "title": "Splashtop Personal - Apps on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.splashtop.remote.pad.v2&hl=en_US",
+          "domain": "play.google.com",
+          "snippet": "Remotely access your desktop computer from anywhere to enjoy games, movies, and music on the go. Enjoy high-definition audio and 4K video streaming in real- ..."
+        },
+        {
+          "type": "organic",
+          "position": 5,
+          "title": "Anyone using Splashtop as their main remote desktop tool?",
+          "url": "https://www.reddit.com/r/sysadmin/comments/1op05cl/anyone_using_splashtop_as_their_main_remote/",
+          "domain": "reddit.com",
+          "snippet": "We’ve been testing Splashtop as a replacement for TeamViewer.Performance looks good, but I’m curious how reliable it is for unattended connections ..."
+        }
+      ],
+      "ads": [
+        {
+          "type": "ad",
+          "position": 1,
+          "title": "Request Your Free Demo | Secure IT Remote Access",
+          "url": "https://www.logmein.com/products/rescue/request-a-demo",
+          "domain": "logmein.com",
+          "snippet": "Explore Rescue mobile, lens, and software in a live demo. Secure, scalable..."
+        },
+        {
+          "type": "ad",
+          "position": 2,
+          "title": "Discover N‑able™ IT Solutions | One Platform. Total IT",
+          "url": "https://www.n-able.com/lp/products",
+          "domain": "n-able.com",
+          "snippet": "IT management, security, and data protection for the AI era. Amplify your..."
+        },
+        {
+          "type": "ad",
+          "position": 3,
+          "title": "Access Cloud PC Now | Remote Work With Cloud PC",
+          "url": "https://info.getnerdio.com/avd-vs-windows-365-cloud-desktop-guide",
+          "domain": "info.getnerdio.com",
+          "snippet": "Access Windows Desktops Anywhere With Microsoft 365 Cloud PC And Nerdio. Simplify Remote Work With Microsoft Cloud PC Powered By Nerdio. Modern Platform. Built-In Guardrails. Zero-Touch Deployments. Cut Manual IT Work."
+        }
+      ]
+    },
     "US|remotepc|RemotePC": {
       "market": "US",
       "competitorId": "remotepc",
       "competitorName": "RemotePC",
       "keyword": "RemotePC",
-      "collectedAt": "2026-06-29T16:03:20.429546Z",
+      "collectedAt": "2026-06-29T16:25:13.355089Z",
       "organic": [
         {
           "type": "organic",
@@ -3547,7 +3406,7 @@
       "competitorId": "rustdesk",
       "competitorName": "RustDesk",
       "keyword": "RustDesk",
-      "collectedAt": "2026-06-29T16:03:31.260649Z",
+      "collectedAt": "2026-06-29T16:25:13.411360Z",
       "organic": [
         {
           "type": "organic",
@@ -3592,12 +3451,62 @@
       ],
       "ads": []
     },
+    "US|chrome-remote-desktop|Chrome Remote Desktop": {
+      "market": "US",
+      "competitorId": "chrome-remote-desktop",
+      "competitorName": "Chrome Remote Desktop",
+      "keyword": "Chrome Remote Desktop",
+      "collectedAt": "2026-06-29T16:25:13.463852Z",
+      "organic": [
+        {
+          "type": "organic",
+          "position": 1,
+          "title": "Chrome Remote Desktop",
+          "url": "https://remotedesktop.google.com/",
+          "domain": "remotedesktop.google.com",
+          "snippet": "The easy way to remotely connect with your home or work computer, or provide remote support. Securely access your computer whenever you're away."
+        },
+        {
+          "type": "organic",
+          "position": 2,
+          "title": "Chrome Remote Desktop - Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai?hl=en",
+          "domain": "chromewebstore.google.com",
+          "snippet": "Chrome Remote Desktop allows users to remotely access another computer through Chrome browser or a Chromebook."
+        },
+        {
+          "type": "organic",
+          "position": 3,
+          "title": "Access another computer with Chrome Remote Desktop",
+          "url": "https://support.google.com/chrome/answer/1649523?hl=en&co=GENIE.Platform%3DAndroid",
+          "domain": "support.google.com",
+          "snippet": "Set up remote access to your computer · On your computer, open Chrome. · In the address bar, enter remotedesktop.google.com/access . · Under “Set up Remote ..."
+        },
+        {
+          "type": "organic",
+          "position": 4,
+          "title": "Chrome Remote Desktop - Apps on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop&hl=en_US",
+          "domain": "play.google.com",
+          "snippet": "Securely access your computers from your Android device. On each of your computers, set up remote access using the Chrome Remote Desktop app from Chrome Web ..."
+        },
+        {
+          "type": "organic",
+          "position": 5,
+          "title": "add remote device to remote desktop",
+          "url": "https://support.google.com/chrome/thread/322331292/add-remote-device-to-remote-desktop?hl=en",
+          "domain": "support.google.com",
+          "snippet": "Chrome Remote Desktop doesn't have a button to \"add a device\" in the way you might expect. The process involves setting up the other computer."
+        }
+      ],
+      "ads": []
+    },
     "US|zoho-assist|Zoho Assist": {
       "market": "US",
       "competitorId": "zoho-assist",
       "competitorName": "Zoho Assist",
       "keyword": "Zoho Assist",
-      "collectedAt": "2026-06-29T16:04:01.267643Z",
+      "collectedAt": "2026-06-29T16:25:13.520599Z",
       "organic": [
         {
           "type": "organic",
@@ -3655,7 +3564,7 @@
       "competitorId": "deskin",
       "competitorName": "DeskIn",
       "keyword": "DeskIn",
-      "collectedAt": "2026-06-29T16:04:03.850089Z",
+      "collectedAt": "2026-06-29T16:25:13.573870Z",
       "organic": [
         {
           "type": "organic",
@@ -3705,7 +3614,7 @@
       "competitorId": "teamviewer",
       "competitorName": "TeamViewer",
       "keyword": "TeamViewer",
-      "collectedAt": "2026-06-29T16:04:04.877403Z",
+      "collectedAt": "2026-06-29T16:25:13.620469Z",
       "organic": [
         {
           "type": "organic",
@@ -3787,7 +3696,7 @@
       "competitorId": "anydesk",
       "competitorName": "AnyDesk",
       "keyword": "AnyDesk",
-      "collectedAt": "2026-06-29T16:04:06.592726Z",
+      "collectedAt": "2026-06-29T16:25:13.670293Z",
       "organic": [
         {
           "type": "organic",
@@ -3853,7 +3762,7 @@
       "competitorId": "splashtop",
       "competitorName": "Splashtop",
       "keyword": "Splashtop",
-      "collectedAt": "2026-06-29T16:04:08.678632Z",
+      "collectedAt": "2026-06-29T16:25:13.719389Z",
       "organic": [
         {
           "type": "organic",
@@ -3911,7 +3820,7 @@
       "competitorId": "remotepc",
       "competitorName": "RemotePC",
       "keyword": "RemotePC",
-      "collectedAt": "2026-06-29T16:04:19.089990Z",
+      "collectedAt": "2026-06-29T16:25:13.769202Z",
       "organic": [
         {
           "type": "organic",
@@ -3972,12 +3881,78 @@
       ],
       "ads": []
     },
+    "TW|rustdesk|RustDesk": {
+      "market": "TW",
+      "competitorId": "rustdesk",
+      "competitorName": "RustDesk",
+      "keyword": "RustDesk",
+      "collectedAt": "2026-06-29T16:25:13.822240Z",
+      "organic": [
+        {
+          "type": "organic",
+          "position": 1,
+          "title": "開源遠端桌面與自託管伺服器解決方案",
+          "url": "https://rustdesk.com/zh-tw",
+          "domain": "rustdesk.com",
+          "snippet": "RustDesk是最好的開源遠端桌面軟件。TeamViewer和AnyDesk的安全替代方案，支持自託管伺服器。跨平台支持Windows、macOS、Linux和Android。"
+        },
+        {
+          "type": "organic",
+          "position": 2,
+          "title": "開源遠端桌面存取軟體RustDesk - iT 邦幫忙",
+          "url": "https://ithelp.ithome.com.tw/articles/10341212",
+          "domain": "ithelp.ithome.com.tw",
+          "snippet": "RustDesk 是一款開源的遠端桌面存取軟體，特別為提供跨平台的遠端桌面支援而設計。適用於不同的作業系統以便用戶可以在不同的設備之間輕鬆地共享桌面，使其能夠輕鬆實現遠端 ..."
+        },
+        {
+          "type": "organic",
+          "position": 3,
+          "title": "rustdesk/rustdesk: An open-source remote desktop ...",
+          "url": "https://github.com/rustdesk/rustdesk",
+          "domain": "github.com",
+          "snippet": "Yet another remote desktop solution, written in Rust. Works out of the box with no configuration required. You have full control of your data."
+        },
+        {
+          "type": "organic",
+          "position": 4,
+          "title": "RustDesk 1.4.8 免安裝中文版- 功能齊全的開源免費遠端遙控 ...",
+          "url": "https://www.azofreeware.com/2025/06/rustdesk.html",
+          "domain": "azofreeware.com",
+          "snippet": "功能齊全的開源免費遠端遙控軟體- RustDesk，支援各式平台（Windows、macOS、Linux、iOS、Android、Web），使用起來跟「TeamViewer」、「AnyDesk」一樣簡單，但是實測的連線 ..."
+        },
+        {
+          "type": "organic",
+          "position": 5,
+          "title": "RustDesk使用教學：開源免費遠端桌面，支援Linux、Windows",
+          "url": "https://ivonblog.com/posts/setup-rustdesk/",
+          "domain": "ivonblog.com",
+          "snippet": "請參考： Linux開源免費的遠端桌面列表. RustDesk是一款開源免費的遠端桌面軟體，提供電腦遠端控制電腦、手機遠端控制電腦、電腦遠端控制手機、手機控制 ..."
+        },
+        {
+          "type": "organic",
+          "position": 6,
+          "title": "RustDesk - 維基百科，自由的百科全書",
+          "url": "https://zh.wikipedia.org/zh-tw/RustDesk",
+          "domain": "zh.wikipedia.org",
+          "snippet": "RustDesk 是一款遠端訪問和遠端控制軟體，主要由Rust 編寫，可以遠端維護電腦和其他裝置。 ... RustDesk 客戶端適用於Windows、macOS、iOS、Android 和Linux 等作業系統。"
+        },
+        {
+          "type": "organic",
+          "position": 7,
+          "title": "r/rustdesk",
+          "url": "https://www.reddit.com/r/rustdesk/?tl=zh-hant",
+          "domain": "reddit.com",
+          "snippet": "r/rustdesk: 一個開源的遠端桌面應用程式，設計用於自行託管，作為TeamViewer的替代方案。 https://github.com/rustdesk/rustdesk https://rustdesk.com."
+        }
+      ],
+      "ads": []
+    },
     "TW|chrome-remote-desktop|Chrome Remote Desktop": {
       "market": "TW",
       "competitorId": "chrome-remote-desktop",
       "competitorName": "Chrome Remote Desktop",
       "keyword": "Chrome Remote Desktop",
-      "collectedAt": "2026-06-29T16:04:40.073701Z",
+      "collectedAt": "2026-06-29T16:25:13.872513Z",
       "organic": [
         {
           "type": "organic",
@@ -4043,7 +4018,7 @@
       "competitorId": "zoho-assist",
       "competitorName": "Zoho Assist",
       "keyword": "Zoho Assist",
-      "collectedAt": "2026-06-29T16:04:41.661791Z",
+      "collectedAt": "2026-06-29T16:25:13.923716Z",
       "organic": [
         {
           "type": "organic",
@@ -4109,7 +4084,7 @@
       "competitorId": "deskin",
       "competitorName": "DeskIn",
       "keyword": "DeskIn",
-      "collectedAt": "2026-06-29T16:04:46.131890Z",
+      "collectedAt": "2026-06-29T16:25:13.977788Z",
       "organic": [
         {
           "type": "organic",
@@ -4157,293 +4132,188 @@
   },
   "brandSerpChanges": [
     {
-      "type": "new",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "Read Customer Service Reviews of www.teamviewer.com",
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "keyword": "Splashtop",
+      "title": "Splashtop: Secure Remote Access & Remote Support Software",
       "previousTitle": null,
-      "url": "https://www.trustpilot.com/review/www.teamviewer.com",
-      "domain": "trustpilot.com",
+      "url": "https://www.splashtop.com/",
+      "domain": "splashtop.com",
       "previousPosition": null,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:02:35.123004Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "US",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "What is teamviewer : r/computers",
-      "previousTitle": null,
-      "url": "https://www.reddit.com/r/computers/comments/10ozsja/what_is_teamviewer/",
-      "domain": "reddit.com",
-      "previousPosition": null,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:02:35.123013Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "US",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "r/teamviewer",
-      "previousTitle": null,
-      "url": "https://www.reddit.com/r/teamviewer/",
-      "domain": "reddit.com",
-      "previousPosition": 4,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:02:35.123020Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "US",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk",
-      "previousTitle": null,
-      "url": "https://en.wikipedia.org/wiki/AnyDesk",
-      "domain": "en.wikipedia.org",
-      "previousPosition": 3,
-      "currentPosition": 2,
-      "detectedAt": "2026-06-29T16:02:40.563540Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "US",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk Remote Desktop - Apps on Google Play",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.anydesk.anydeskandroid&hl=en_US",
-      "domain": "play.google.com",
-      "previousPosition": 5,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:02:40.563548Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "US",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk Remote Desktop - App Store - Apple",
-      "previousTitle": null,
-      "url": "https://apps.apple.com/us/app/anydesk-remote-desktop/id1176131273",
-      "domain": "apps.apple.com",
-      "previousPosition": 2,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:02:40.563554Z",
+      "currentPosition": 1,
+      "detectedAt": "2026-06-29T16:25:13.301301Z",
       "impact": "Low"
     },
     {
-      "type": "up",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "Quick Start Guide",
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "keyword": "Splashtop",
+      "title": "Splashtop Business - App Store",
       "previousTitle": null,
-      "url": "https://support.anydesk.com/docs/quick-start-guide",
-      "domain": "support.anydesk.com",
-      "previousPosition": 6,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:02:40.563559Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "US",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk - Download",
-      "previousTitle": null,
-      "url": "https://anydesk.en.softonic.com/",
-      "domain": "anydesk.en.softonic.com",
-      "previousPosition": 7,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:02:40.563564Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "US",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "r/AnyDesk",
-      "previousTitle": null,
-      "url": "https://www.reddit.com/r/AnyDesk/",
-      "domain": "reddit.com",
-      "previousPosition": 4,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:02:40.563569Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Host - Download and install on Windows",
-      "previousTitle": null,
-      "url": "https://apps.microsoft.com/detail/xp9c7cvt7hw8hs?hl=en-US&gl=US",
-      "domain": "apps.microsoft.com",
+      "url": "https://apps.apple.com/us/app/splashtop-business/id650739354",
+      "domain": "apps.apple.com",
       "previousPosition": null,
       "currentPosition": 2,
-      "detectedAt": "2026-06-29T16:03:20.429645Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC",
-      "previousTitle": null,
-      "url": "https://en.wikipedia.org/wiki/RemotePC",
-      "domain": "en.wikipedia.org",
-      "previousPosition": 2,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:03:20.429651Z",
+      "detectedAt": "2026-06-29T16:25:13.301307Z",
       "impact": "Low"
     },
     {
-      "type": "new",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC 2026: Benefits, Features & Pricing",
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "keyword": "Splashtop",
+      "title": "Splashtop",
       "previousTitle": null,
-      "url": "https://www.softwareadvice.com/help-desk/remotepc-profile/",
-      "domain": "softwareadvice.com",
+      "url": "https://en.wikipedia.org/wiki/Splashtop",
+      "domain": "en.wikipedia.org",
+      "previousPosition": null,
+      "currentPosition": 3,
+      "detectedAt": "2026-06-29T16:25:13.301311Z",
+      "impact": "Low"
+    },
+    {
+      "type": "baseline",
+      "market": "US",
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "keyword": "Splashtop",
+      "title": "Splashtop Personal - Apps on Google Play",
+      "previousTitle": null,
+      "url": "https://play.google.com/store/apps/details?id=com.splashtop.remote.pad.v2&hl=en_US",
+      "domain": "play.google.com",
       "previousPosition": null,
       "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:03:20.429656Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Reviews & Ratings 2026 | Gartner Peer Insights",
-      "previousTitle": null,
-      "url": "https://www.gartner.com/reviews/product/remotepc",
-      "domain": "gartner.com",
-      "previousPosition": null,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:03:20.429659Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Remote Desktop - App Store - Apple",
-      "previousTitle": null,
-      "url": "https://apps.apple.com/us/app/remotepc-remote-desktop/id405038711",
-      "domain": "apps.apple.com",
-      "previousPosition": 3,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:03:20.429661Z",
+      "detectedAt": "2026-06-29T16:25:13.301314Z",
       "impact": "Low"
     },
     {
-      "type": "gone",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC - Free download and install on Windows",
+      "competitorId": "splashtop",
+      "competitorName": "Splashtop",
+      "keyword": "Splashtop",
+      "title": "Anyone using Splashtop as their main remote desktop tool?",
       "previousTitle": null,
-      "url": "https://apps.microsoft.com/detail/9phf0tdqfvhp?hl=en-US&gl=US",
-      "domain": "apps.microsoft.com",
-      "previousPosition": 4,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:03:20.429666Z",
-      "impact": "High"
+      "url": "https://www.reddit.com/r/sysadmin/comments/1op05cl/anyone_using_splashtop_as_their_main_remote/",
+      "domain": "reddit.com",
+      "previousPosition": null,
+      "currentPosition": 5,
+      "detectedAt": "2026-06-29T16:25:13.301317Z",
+      "impact": "Low"
     },
     {
-      "type": "gone",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "Read Customer Service Reviews of remotepc.com",
+      "competitorId": "chrome-remote-desktop",
+      "competitorName": "Chrome Remote Desktop",
+      "keyword": "Chrome Remote Desktop",
+      "title": "Chrome Remote Desktop",
       "previousTitle": null,
-      "url": "https://www.trustpilot.com/review/remotepc.com",
-      "domain": "trustpilot.com",
-      "previousPosition": 5,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:03:20.429669Z",
-      "impact": "High"
+      "url": "https://remotedesktop.google.com/",
+      "domain": "remotedesktop.google.com",
+      "previousPosition": null,
+      "currentPosition": 1,
+      "detectedAt": "2026-06-29T16:25:13.463870Z",
+      "impact": "Low"
     },
     {
-      "type": "gone",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC",
+      "competitorId": "chrome-remote-desktop",
+      "competitorName": "Chrome Remote Desktop",
+      "keyword": "Chrome Remote Desktop",
+      "title": "Chrome Remote Desktop - Chrome Web Store",
       "previousTitle": null,
-      "url": "https://x.com/remotepc",
-      "domain": "x.com",
-      "previousPosition": 6,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:03:20.429672Z",
-      "impact": "High"
+      "url": "https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai?hl=en",
+      "domain": "chromewebstore.google.com",
+      "previousPosition": null,
+      "currentPosition": 2,
+      "detectedAt": "2026-06-29T16:25:13.463877Z",
+      "impact": "Low"
     },
     {
-      "type": "gone",
+      "type": "baseline",
       "market": "US",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Viewer - Apps on Google Play",
+      "competitorId": "chrome-remote-desktop",
+      "competitorName": "Chrome Remote Desktop",
+      "keyword": "Chrome Remote Desktop",
+      "title": "Access another computer with Chrome Remote Desktop",
       "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.prosoftnet.rpcnew&hl=en_US",
+      "url": "https://support.google.com/chrome/answer/1649523?hl=en&co=GENIE.Platform%3DAndroid",
+      "domain": "support.google.com",
+      "previousPosition": null,
+      "currentPosition": 3,
+      "detectedAt": "2026-06-29T16:25:13.463882Z",
+      "impact": "Low"
+    },
+    {
+      "type": "baseline",
+      "market": "US",
+      "competitorId": "chrome-remote-desktop",
+      "competitorName": "Chrome Remote Desktop",
+      "keyword": "Chrome Remote Desktop",
+      "title": "Chrome Remote Desktop - Apps on Google Play",
+      "previousTitle": null,
+      "url": "https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop&hl=en_US",
       "domain": "play.google.com",
-      "previousPosition": 7,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:03:20.429674Z",
-      "impact": "High"
+      "previousPosition": null,
+      "currentPosition": 4,
+      "detectedAt": "2026-06-29T16:25:13.463885Z",
+      "impact": "Low"
     },
     {
-      "type": "up",
+      "type": "baseline",
       "market": "US",
+      "competitorId": "chrome-remote-desktop",
+      "competitorName": "Chrome Remote Desktop",
+      "keyword": "Chrome Remote Desktop",
+      "title": "add remote device to remote desktop",
+      "previousTitle": null,
+      "url": "https://support.google.com/chrome/thread/322331292/add-remote-device-to-remote-desktop?hl=en",
+      "domain": "support.google.com",
+      "previousPosition": null,
+      "currentPosition": 5,
+      "detectedAt": "2026-06-29T16:25:13.463887Z",
+      "impact": "Low"
+    },
+    {
+      "type": "baseline",
+      "market": "TW",
       "competitorId": "rustdesk",
       "competitorName": "RustDesk",
       "keyword": "RustDesk",
-      "title": "RustDesk Remote Desktop - App Store - Apple",
+      "title": "開源遠端桌面與自託管伺服器解決方案",
       "previousTitle": null,
-      "url": "https://apps.apple.com/us/app/rustdesk-remote-desktop/id1581225015",
-      "domain": "apps.apple.com",
-      "previousPosition": 3,
-      "currentPosition": 2,
-      "detectedAt": "2026-06-29T16:03:31.260715Z",
-      "impact": "High"
+      "url": "https://rustdesk.com/zh-tw",
+      "domain": "rustdesk.com",
+      "previousPosition": null,
+      "currentPosition": 1,
+      "detectedAt": "2026-06-29T16:25:13.822255Z",
+      "impact": "Low"
     },
     {
-      "type": "down",
-      "market": "US",
+      "type": "baseline",
+      "market": "TW",
+      "competitorId": "rustdesk",
+      "competitorName": "RustDesk",
+      "keyword": "RustDesk",
+      "title": "開源遠端桌面存取軟體RustDesk - iT 邦幫忙",
+      "previousTitle": null,
+      "url": "https://ithelp.ithome.com.tw/articles/10341212",
+      "domain": "ithelp.ithome.com.tw",
+      "previousPosition": null,
+      "currentPosition": 2,
+      "detectedAt": "2026-06-29T16:25:13.822260Z",
+      "impact": "Low"
+    },
+    {
+      "type": "baseline",
+      "market": "TW",
       "competitorId": "rustdesk",
       "competitorName": "RustDesk",
       "keyword": "RustDesk",
@@ -4451,760 +4321,40 @@
       "previousTitle": null,
       "url": "https://github.com/rustdesk/rustdesk",
       "domain": "github.com",
-      "previousPosition": 2,
+      "previousPosition": null,
       "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:03:31.260723Z",
+      "detectedAt": "2026-06-29T16:25:13.822263Z",
       "impact": "Low"
     },
     {
-      "type": "up",
-      "market": "US",
+      "type": "baseline",
+      "market": "TW",
       "competitorId": "rustdesk",
       "competitorName": "RustDesk",
       "keyword": "RustDesk",
-      "title": "RustDesk download",
+      "title": "RustDesk 1.4.8 免安裝中文版- 功能齊全的開源免費遠端遙控 ...",
       "previousTitle": null,
-      "url": "https://sourceforge.net/projects/rustdesk.mirror/",
-      "domain": "sourceforge.net",
-      "previousPosition": 5,
+      "url": "https://www.azofreeware.com/2025/06/rustdesk.html",
+      "domain": "azofreeware.com",
+      "previousPosition": null,
       "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:03:31.260727Z",
-      "impact": "High"
+      "detectedAt": "2026-06-29T16:25:13.822266Z",
+      "impact": "Low"
     },
     {
-      "type": "down",
-      "market": "US",
+      "type": "baseline",
+      "market": "TW",
       "competitorId": "rustdesk",
       "competitorName": "RustDesk",
       "keyword": "RustDesk",
-      "title": "r/rustdesk",
+      "title": "RustDesk使用教學：開源免費遠端桌面，支援Linux、Windows",
       "previousTitle": null,
-      "url": "https://www.reddit.com/r/rustdesk/",
-      "domain": "reddit.com",
-      "previousPosition": 4,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:03:31.260731Z",
-      "impact": "Low"
-    },
-    {
-      "type": "up",
-      "market": "US",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho assist recent experience : r/sysadmin",
-      "previousTitle": null,
-      "url": "https://www.reddit.com/r/sysadmin/comments/1iwxw79/zoho_assist_recent_experience/",
-      "domain": "reddit.com",
-      "previousPosition": 5,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:01.267732Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "US",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho Assist: Overview, Challenges & Security Risks",
-      "previousTitle": null,
-      "url": "https://www.splashtop.com/blog/what-is-zoho-assist",
-      "domain": "splashtop.com",
-      "previousPosition": 6,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:01.267739Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "US",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho Assist - Free Remote Support Software",
-      "previousTitle": null,
-      "url": "https://www.manageengine.com/assist.html",
-      "domain": "manageengine.com",
-      "previousPosition": 7,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:04:01.267744Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "US",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho Assist - Remote Desktop - Apps on Google Play",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.zoho.assist&hl=en_US",
-      "domain": "play.google.com",
-      "previousPosition": 4,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:01.267748Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "US",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn: Redefining Remote Desktop -- The Essential ...",
-      "previousTitle": null,
-      "url": "https://www.prnewswire.com/ae/news-releases/deskin-redefining-remote-desktop--the-essential-lifestyle-app-for-the-ai-era-302695657.html",
-      "domain": "prnewswire.com",
+      "url": "https://ivonblog.com/posts/setup-rustdesk/",
+      "domain": "ivonblog.com",
       "previousPosition": null,
       "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:03.850177Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "US",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn: Redefining Remote Desktop -- The Essential ...",
-      "previousTitle": null,
-      "url": "https://finance.yahoo.com/news/deskin-redefining-remote-desktop-essential-110000343.html",
-      "domain": "finance.yahoo.com",
-      "previousPosition": 5,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:03.850183Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "US",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn - Download",
-      "previousTitle": null,
-      "url": "https://deskin.en.softonic.com/",
-      "domain": "deskin.en.softonic.com",
-      "previousPosition": 6,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:03.850186Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "TeamViewer － 免費遠端控制軟體（繁中免安裝版）",
-      "previousTitle": null,
-      "url": "https://free.com.tw/teamviewer-free/",
-      "domain": "free.com.tw",
-      "previousPosition": 4,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:04.877514Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "TeamViewer - 維基百科，自由的百科全書",
-      "previousTitle": null,
-      "url": "https://zh.wikipedia.org/zh-tw/TeamViewer",
-      "domain": "zh.wikipedia.org",
-      "previousPosition": 3,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:04.877523Z",
+      "detectedAt": "2026-06-29T16:25:13.822268Z",
       "impact": "Low"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "TeamViewer操作手冊 - 計中資訊應用課程",
-      "previousTitle": null,
-      "url": "https://teach.cc.ntu.edu.tw/distance/News_Content_n_54256_s_61749.html",
-      "domain": "teach.cc.ntu.edu.tw",
-      "previousPosition": null,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:04.877528Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "TeamViewer 遠端控制操作手冊 - 臺灣大學",
-      "previousTitle": null,
-      "url": "https://teach.cc.ntu.edu.tw/distance/001/Upload/974/relfile/57375/61749/f1e4f213-0876-43c1-94be-81f9296e92c1.pdf",
-      "domain": "teach.cc.ntu.edu.tw",
-      "previousPosition": 5,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:04.877539Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "teamviewer",
-      "competitorName": "TeamViewer",
-      "keyword": "TeamViewer",
-      "title": "TeamViewer Host - Google Play 應用程式",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=zh_TW",
-      "domain": "play.google.com",
-      "previousPosition": 10,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:04.877543Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk 最快的遠端桌面軟體，免費免安裝中文教學",
-      "previousTitle": null,
-      "url": "https://www.playpcesor.com/2015/11/anydesk.html",
-      "domain": "playpcesor.com",
-      "previousPosition": 5,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:06.592815Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk 使用教學| 遠端協助神器| feat. @micat2350 | 小蛙實測 ...",
-      "previousTitle": null,
-      "url": "https://www.youtube.com/watch?v=s9rgyhhuT7Y",
-      "domain": "youtube.com",
-      "previousPosition": null,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:06.592823Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk 遠端桌面軟體- 評分與評論 - App Store",
-      "previousTitle": null,
-      "url": "https://apps.apple.com/tw/app/anydesk-%E9%81%A0%E7%AB%AF%E6%A1%8C%E9%9D%A2%E8%BB%9F%E9%AB%94/id1176131273?see-all=reviews&platform=iphone",
-      "domain": "apps.apple.com",
-      "previousPosition": 4,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:06.592826Z",
-      "impact": "Low"
-    },
-    {
-      "type": "title_changed",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk 遠端桌面軟體- 評分與評論 - App Store",
-      "previousTitle": "AnyDesk 遠端桌面軟體 - App Store",
-      "url": "https://apps.apple.com/tw/app/anydesk-%E9%81%A0%E7%AB%AF%E6%A1%8C%E9%9D%A2%E8%BB%9F%E9%AB%94/id1176131273?see-all=reviews&platform=iphone",
-      "domain": "apps.apple.com",
-      "previousPosition": 4,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:06.592832Z",
-      "impact": "Medium"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "AnyDesk - 維基百科，自由的百科全書",
-      "previousTitle": null,
-      "url": "https://zh.wikipedia.org/zh-tw/AnyDesk",
-      "domain": "zh.wikipedia.org",
-      "previousPosition": 3,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:04:06.592835Z",
-      "impact": "Low"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "快速遠端桌面應用程序– AnyDesk",
-      "previousTitle": null,
-      "url": "https://www.anydesktaiwan.com/zht.html",
-      "domain": "anydesktaiwan.com",
-      "previousPosition": null,
-      "currentPosition": 7,
-      "detectedAt": "2026-06-29T16:04:06.592840Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "anydesk",
-      "competitorName": "AnyDesk",
-      "keyword": "AnyDesk",
-      "title": "連接到遠端設備",
-      "previousTitle": null,
-      "url": "https://support.anydesk.com/docs/zh-hant/connect-to-a-remote-client",
-      "domain": "support.anydesk.com",
-      "previousPosition": 6,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:06.592844Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "美商浪橋科技股份有限公司台灣分公司_Splashtop Inc.",
-      "previousTitle": null,
-      "url": "https://www.104.com.tw/company/cu8hxnc",
-      "domain": "104.com.tw",
-      "previousPosition": null,
-      "currentPosition": 2,
-      "detectedAt": "2026-06-29T16:04:08.678725Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "【Splashtop 評價】你的遠端協作好幫手！簡單連線、即時支援",
-      "previousTitle": null,
-      "url": "https://leadingmrk.com/splashtop-tutorial/",
-      "domain": "leadingmrk.com",
-      "previousPosition": 4,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:08.678731Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "Splashtop Business – Secure Remote Access and Support",
-      "previousTitle": null,
-      "url": "https://apps.microsoft.com/detail/9nkvm63j25pb?hl=zh-TW&gl=TW",
-      "domain": "apps.microsoft.com",
-      "previousPosition": 7,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:08.678737Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "Splashtop Enterprise 企業遠端軟體最佳解決方案，遠距工作 ...",
-      "previousTitle": null,
-      "url": "https://www.koc.com.tw/archives/428779",
-      "domain": "koc.com.tw",
-      "previousPosition": null,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:08.678743Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "Splashtop Personal - Google Play 應用程式",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details/Splashtop_Personal?id=com.splashtop.remote.pad.v2&hl=zh_TW",
-      "domain": "play.google.com",
-      "previousPosition": 3,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:04:08.678746Z",
-      "impact": "Low"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "Splashtop Inc.",
-      "previousTitle": null,
-      "url": "https://tw.linkedin.com/company/splashtop",
-      "domain": "tw.linkedin.com",
-      "previousPosition": 2,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:08.678752Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "Splashtop遠端桌面程式» 大頭愛幻想",
-      "previousTitle": null,
-      "url": "http://befungo.com/?p=363",
-      "domain": "befungo.com",
-      "previousPosition": 5,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:08.678755Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "splashtop",
-      "competitorName": "Splashtop",
-      "keyword": "Splashtop",
-      "title": "Splashtop Business - App Store - Apple",
-      "previousTitle": null,
-      "url": "https://apps.apple.com/tw/app/splashtop-business/id650739354",
-      "domain": "apps.apple.com",
-      "previousPosition": 6,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:08.678757Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC - 在Windows 上免費下載並安裝",
-      "previousTitle": null,
-      "url": "https://apps.microsoft.com/detail/9phf0tdqfvhp?hl=zh-TW&gl=TW",
-      "domain": "apps.microsoft.com",
-      "previousPosition": 6,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:19.090085Z",
-      "impact": "High"
-    },
-    {
-      "type": "title_changed",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC - 在Windows 上免費下載並安裝",
-      "previousTitle": "RemotePC - Free download and install on Windows",
-      "url": "https://apps.microsoft.com/detail/9phf0tdqfvhp?hl=zh-TW&gl=TW",
-      "domain": "apps.microsoft.com",
-      "previousPosition": 6,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:19.090093Z",
-      "impact": "Medium"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC",
-      "previousTitle": null,
-      "url": "https://en.wikipedia.org/wiki/RemotePC",
-      "domain": "en.wikipedia.org",
-      "previousPosition": 7,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:19.090097Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Host - Google Play 應用程式",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.remotepc.host&hl=zh_TW",
-      "domain": "play.google.com",
-      "previousPosition": 4,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:19.090100Z",
-      "impact": "Low"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Reviews & Ratings 2026 | Gartner Peer Insights",
-      "previousTitle": null,
-      "url": "https://www.gartner.com/reviews/product/remotepc",
-      "domain": "gartner.com",
-      "previousPosition": null,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:04:19.090106Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "RemotePC Host - Download and install on Windows",
-      "previousTitle": null,
-      "url": "https://apps.microsoft.com/detail/xp9c7cvt7hw8hs?hl=en-US&gl=US",
-      "domain": "apps.microsoft.com",
-      "previousPosition": null,
-      "currentPosition": 7,
-      "detectedAt": "2026-06-29T16:04:19.090109Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "remotepc",
-      "competitorName": "RemotePC",
-      "keyword": "RemotePC",
-      "title": "Chrome Remote Desktop",
-      "previousTitle": null,
-      "url": "https://remotedesktop.google.com/",
-      "domain": "remotedesktop.google.com",
-      "previousPosition": 5,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:19.090112Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "keyword": "Chrome Remote Desktop",
-      "title": "透過Chrome 遠端桌面存取其他電腦",
-      "previousTitle": null,
-      "url": "https://support.google.com/chromebook/answer/1649523?hl=zh-HK&co=GENIE.Platform%3DDesktop",
-      "domain": "support.google.com",
-      "previousPosition": 4,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:40.073777Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "keyword": "Chrome Remote Desktop",
-      "title": "Chrome Remote Desktop - Apps on Google Play",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop",
-      "domain": "play.google.com",
-      "previousPosition": 3,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:40.073787Z",
-      "impact": "Low"
-    },
-    {
-      "type": "title_changed",
-      "market": "TW",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "keyword": "Chrome Remote Desktop",
-      "title": "Chrome Remote Desktop - Apps on Google Play",
-      "previousTitle": "Chrome Remote Desktop - Apps on ...",
-      "url": "https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop",
-      "domain": "play.google.com",
-      "previousPosition": 3,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:40.073792Z",
-      "impact": "Medium"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "keyword": "Chrome Remote Desktop",
-      "title": "Chrome Remote Desktop",
-      "previousTitle": null,
-      "url": "https://en.wikipedia.org/wiki/Chrome_Remote_Desktop",
-      "domain": "en.wikipedia.org",
-      "previousPosition": null,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:04:40.073796Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "chrome-remote-desktop",
-      "competitorName": "Chrome Remote Desktop",
-      "keyword": "Chrome Remote Desktop",
-      "title": "Chrome Remote Desktop 安裝辦法1.在Chrome 瀏覽器輸入 ...",
-      "previousTitle": null,
-      "url": "https://2019-ncov.nkust.edu.tw/var/file/123/1123/img/1062/221451152.pdf",
-      "domain": "2019-ncov.nkust.edu.tw",
-      "previousPosition": 6,
-      "currentPosition": 7,
-      "detectedAt": "2026-06-29T16:04:40.073799Z",
-      "impact": "Low"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho Assist Customer Reviews 2026 | Remote Support",
-      "previousTitle": null,
-      "url": "https://www.softwarereviews.com/products/zoho-assist?c_id=423",
-      "domain": "softwarereviews.com",
-      "previousPosition": null,
-      "currentPosition": 6,
-      "detectedAt": "2026-06-29T16:04:41.661887Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho Assist - FREE Remote Support Tool - Chrome Web Store",
-      "previousTitle": null,
-      "url": "https://chromewebstore.google.com/detail/zoho-assist-free-remote-s/ieinjhnflpkoheailbgaickpoaehjoal",
-      "domain": "chromewebstore.google.com",
-      "previousPosition": null,
-      "currentPosition": 7,
-      "detectedAt": "2026-06-29T16:04:41.661893Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "Zoho Assist (@ZohoAssist) / Posts / X",
-      "previousTitle": null,
-      "url": "https://x.com/ZohoAssist",
-      "domain": "x.com",
-      "previousPosition": 6,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:41.661897Z",
-      "impact": "High"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "zoho-assist",
-      "competitorName": "Zoho Assist",
-      "keyword": "Zoho Assist",
-      "title": "远程控制软件-远程访问软件- Zoho Assist远程",
-      "previousTitle": null,
-      "url": "https://www.zoho.com.cn/assist/",
-      "domain": "zoho.com.cn",
-      "previousPosition": 7,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:41.661900Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn - 在Windows 上下載並安裝",
-      "previousTitle": null,
-      "url": "https://apps.microsoft.com/detail/xp8lgcmlgqbqw1?hl=zh-TW&gl=VN",
-      "domain": "apps.microsoft.com",
-      "previousPosition": 3,
-      "currentPosition": 2,
-      "detectedAt": "2026-06-29T16:04:46.131966Z",
-      "impact": "High"
-    },
-    {
-      "type": "up",
-      "market": "TW",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn：新一代遠端桌面軟體，以高效能與跨平台兼容性引領 ...",
-      "previousTitle": null,
-      "url": "https://blog.hungwin.com.tw/deskin/",
-      "domain": "blog.hungwin.com.tw",
-      "previousPosition": 5,
-      "currentPosition": 3,
-      "detectedAt": "2026-06-29T16:04:46.131974Z",
-      "impact": "High"
-    },
-    {
-      "type": "new",
-      "market": "TW",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn遠端桌面軟體- 安全穩定連接電腦，跨系統傳檔",
-      "previousTitle": null,
-      "url": "https://play.google.com/store/apps/details?id=com.zuler.deskin&hl=zh_TW",
-      "domain": "play.google.com",
-      "previousPosition": null,
-      "currentPosition": 4,
-      "detectedAt": "2026-06-29T16:04:46.131980Z",
-      "impact": "High"
-    },
-    {
-      "type": "down",
-      "market": "TW",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn怎麼用？免費遠端連線工具實測比較優缺點、設定與 ...",
-      "previousTitle": null,
-      "url": "https://mrmad.com.tw/deskin",
-      "domain": "mrmad.com.tw",
-      "previousPosition": 2,
-      "currentPosition": 5,
-      "detectedAt": "2026-06-29T16:04:46.131983Z",
-      "impact": "Low"
-    },
-    {
-      "type": "gone",
-      "market": "TW",
-      "competitorId": "deskin",
-      "competitorName": "DeskIn",
-      "keyword": "DeskIn",
-      "title": "DeskIn遠端桌面軟體- 評分與評論 - App Store",
-      "previousTitle": null,
-      "url": "https://apps.apple.com/tw/app/deskin%E9%81%A0%E7%AB%AF%E6%A1%8C%E9%9D%A2%E8%BB%9F%E9%AB%94/id1617419574?see-all=reviews&platform=ipad",
-      "domain": "apps.apple.com",
-      "previousPosition": 4,
-      "currentPosition": null,
-      "detectedAt": "2026-06-29T16:04:46.131988Z",
-      "impact": "High"
     }
   ],
   "contentItems": [
@@ -5217,7 +4367,7 @@
       "url": "https://www.teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-29T16:04:52.928722Z",
+      "collectedAt": "2026-06-29T16:25:22.019136Z",
       "rankedKeywords": []
     },
     {
@@ -5229,7 +4379,7 @@
       "url": "https://www.teamviewer.com/en/resources/trust-center",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-29T16:04:53.286912Z",
+      "collectedAt": "2026-06-29T16:25:22.386678Z",
       "rankedKeywords": []
     },
     {
@@ -5241,7 +4391,7 @@
       "url": "https://www.teamviewer.com/en/resources/teamviewer-user-focus-program",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-06-29T16:04:53.742924Z",
+      "collectedAt": "2026-06-29T16:25:22.895256Z",
       "rankedKeywords": []
     },
     {
@@ -5253,7 +4403,7 @@
       "url": "https://www.splashtop.com/blog/how-to-prevent-missed-patches",
       "publishedDate": "2026-06-11",
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:55.658849Z",
+      "collectedAt": "2026-06-29T16:25:24.119753Z",
       "rankedKeywords": []
     },
     {
@@ -5265,7 +4415,7 @@
       "url": "https://www.splashtop.com/blog/remote-control-for-pc",
       "publishedDate": "2026-06-24",
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:56.513609Z",
+      "collectedAt": "2026-06-29T16:25:25.413078Z",
       "rankedKeywords": []
     },
     {
@@ -5277,7 +4427,7 @@
       "url": "https://www.splashtop.com/blog/anydesk-price-increase",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:57.263034Z",
+      "collectedAt": "2026-06-29T16:25:26.049969Z",
       "rankedKeywords": []
     },
     {
@@ -5289,7 +4439,7 @@
       "url": "https://www.splashtop.com/blog/how-to-support-soc-2-remote-access",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:57.870293Z",
+      "collectedAt": "2026-06-29T16:25:26.639213Z",
       "rankedKeywords": []
     },
     {
@@ -5301,7 +4451,7 @@
       "url": "https://www.splashtop.com/blog/why-it-stuck-reactive-endpoint-management",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:57.925832Z",
+      "collectedAt": "2026-06-29T16:25:27.238717Z",
       "rankedKeywords": []
     },
     {
@@ -5313,7 +4463,7 @@
       "url": "https://www.splashtop.com/foxpass/blog/simplifying-certificate-based-wifi-for-managed-chromebooks",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.755931Z",
+      "collectedAt": "2026-06-29T16:25:27.932400Z",
       "rankedKeywords": []
     },
     {
@@ -5325,7 +4475,7 @@
       "url": "https://www.splashtop.com/blog/teamviewer-13-14-eol",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756044Z",
+      "collectedAt": "2026-06-29T16:25:27.932505Z",
       "rankedKeywords": []
     },
     {
@@ -5337,7 +4487,7 @@
       "url": "https://www.splashtop.com/blog/patch-tuesday-june-2026",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756111Z",
+      "collectedAt": "2026-06-29T16:25:27.932565Z",
       "rankedKeywords": []
     },
     {
@@ -5349,7 +4499,7 @@
       "url": "https://www.splashtop.com/blog/how-to-enforce-device-security-policies-remotely",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756174Z",
+      "collectedAt": "2026-06-29T16:25:27.932618Z",
       "rankedKeywords": []
     },
     {
@@ -5361,7 +4511,7 @@
       "url": "https://www.splashtop.com/blog/how-to-manage-windows-event-logs-remotely",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756236Z",
+      "collectedAt": "2026-06-29T16:25:27.932671Z",
       "rankedKeywords": []
     },
     {
@@ -5373,7 +4523,7 @@
       "url": "https://www.splashtop.com/blog/powershell-scripts-remotely-unattended-devices",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756297Z",
+      "collectedAt": "2026-06-29T16:25:27.932722Z",
       "rankedKeywords": []
     },
     {
@@ -5385,7 +4535,7 @@
       "url": "https://www.splashtop.com/blog/how-to-automate-third-party-app-updates-on-managed-devices",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756384Z",
+      "collectedAt": "2026-06-29T16:25:27.932774Z",
       "rankedKeywords": []
     },
     {
@@ -5397,7 +4547,7 @@
       "url": "https://www.splashtop.com/blog/teams-slack-remote-support",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-06-29T16:04:58.756461Z",
+      "collectedAt": "2026-06-29T16:25:27.932830Z",
       "rankedKeywords": []
     },
     {
@@ -5409,7 +4559,7 @@
       "url": "https://rustdesk.com/blog/2025/02/enhanced-acl-in-rustdesk-server-pro-1-5-0",
       "publishedDate": "2025-02-01",
       "market": "Global",
-      "collectedAt": "2026-06-29T16:04:59.648728Z",
+      "collectedAt": "2026-06-29T16:25:29.320066Z",
       "rankedKeywords": []
     },
     {
@@ -5421,7 +4571,7 @@
       "url": "https://rustdesk.com/blog/2024/12/how-to-make-flutter-3-24-run-on-windows-7",
       "publishedDate": "2024-12-01",
       "market": "Global",
-      "collectedAt": "2026-06-29T16:05:01.074747Z",
+      "collectedAt": "2026-06-29T16:25:31.220896Z",
       "rankedKeywords": []
     },
     {
@@ -5433,7 +4583,7 @@
       "url": "https://rustdesk.com/blog/2024/10/rustdesk-web-client-v2-preview",
       "publishedDate": "2024-10-01",
       "market": "Global",
-      "collectedAt": "2026-06-29T16:05:02.034672Z",
+      "collectedAt": "2026-06-29T16:25:32.536510Z",
       "rankedKeywords": []
     },
     {
@@ -5445,7 +4595,7 @@
       "url": "https://deskin.io/resource/blog/rustdesk-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:03.413066Z",
+      "collectedAt": "2026-06-29T16:25:33.637581Z",
       "rankedKeywords": []
     },
     {
@@ -5457,7 +4607,7 @@
       "url": "https://deskin.io/resource/blog/why-should-you-choose-deskin-remote-desktop-instead-of-anydesk",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:03.845740Z",
+      "collectedAt": "2026-06-29T16:25:33.824342Z",
       "rankedKeywords": []
     },
     {
@@ -5469,7 +4619,7 @@
       "url": "https://deskin.io/resource/blog/the-best-alternative-to-teamviewer-and-anydesk-deskin-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:03.950713Z",
+      "collectedAt": "2026-06-29T16:25:34.072901Z",
       "rankedKeywords": []
     },
     {
@@ -5481,7 +4631,7 @@
       "url": "https://deskin.io/resource/blog/deskin-vs-chrome-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.046086Z",
+      "collectedAt": "2026-06-29T16:25:34.313952Z",
       "rankedKeywords": []
     },
     {
@@ -5493,7 +4643,7 @@
       "url": "https://deskin.io/resource/blog/rdp-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.366979Z",
+      "collectedAt": "2026-06-29T16:25:34.875026Z",
       "rankedKeywords": []
     },
     {
@@ -5505,7 +4655,7 @@
       "url": "https://deskin.io/resource/blog/rdp-security",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.367104Z",
+      "collectedAt": "2026-06-29T16:25:34.875143Z",
       "rankedKeywords": []
     },
     {
@@ -5517,7 +4667,7 @@
       "url": "https://deskin.io/resource/blog/chrome-remote-desktop-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.367431Z",
+      "collectedAt": "2026-06-29T16:25:34.875436Z",
       "rankedKeywords": []
     },
     {
@@ -5529,7 +4679,7 @@
       "url": "https://deskin.io/resource/blog/splashtop-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.367490Z",
+      "collectedAt": "2026-06-29T16:25:34.875491Z",
       "rankedKeywords": []
     },
     {
@@ -5541,7 +4691,7 @@
       "url": "https://deskin.io/resource/blog/why-is-deskin-remote-desktop-better-than-splashtop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.367550Z",
+      "collectedAt": "2026-06-29T16:25:34.875544Z",
       "rankedKeywords": []
     },
     {
@@ -5553,7 +4703,7 @@
       "url": "https://deskin.io/resource/blog/the-best-remote-desktop-software-for-stable-connection-and-low-latency-deskin-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.367671Z",
+      "collectedAt": "2026-06-29T16:25:34.875654Z",
       "rankedKeywords": []
     },
     {
@@ -5565,7 +4715,7 @@
       "url": "https://deskin.io/resource/blog/comparison-of-3-free-remote-desktop-software",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-06-29T16:05:04.367909Z",
+      "collectedAt": "2026-06-29T16:25:34.875872Z",
       "rankedKeywords": []
     }
   ],
