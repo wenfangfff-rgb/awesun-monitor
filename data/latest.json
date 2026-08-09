@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-08",
-  "generatedAt": "2026-08-08T02:51:40.638973Z",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T02:59:24.854532Z",
   "source": "free-collector",
   "competitors": [
     {
@@ -212,7 +212,7 @@
       "rank": 3,
       "delta": 0,
       "rating": 4.4,
-      "reviews": 20070,
+      "reviews": 20071,
       "keywords": 214,
       "ads": 86,
       "social": 73,
@@ -223,7 +223,7 @@
     "anydesk": {
       "rank": 5,
       "delta": 0,
-      "rating": 2.8,
+      "rating": 2.7,
       "reviews": 3505,
       "keywords": 179,
       "ads": 72,
@@ -315,33 +315,7 @@
       "summary": "上一标题：TeamViewer—The Digital Workplace Platform。识别主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Remote desktop access solutions by TeamViewer: connect to remote computers, provide remote support, and collaborate online ➤ Free for personal use!",
       "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
       "time": "页面变化",
-      "detectedAt": "2026-08-08T02:51:43.246317Z"
-    },
-    {
-      "id": "op-website-splashtop-4f3a9d97",
-      "competitorId": "splashtop",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "High",
-      "title": "Splashtop 官网重点页发生变化：Splashtop: Secure Remote Access & Remote Support Software",
-      "url": "https://www.splashtop.com/",
-      "summary": "上一标题：Splashtop: Secure Remote Access & Remote Support Software。识别主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Fast and secure solutions for remote work, remote support, remote learning & more at the best value. Splashtop remote access is #1 in user satisfaction.",
-      "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
-      "time": "页面变化",
-      "detectedAt": "2026-08-08T02:51:43.744992Z"
-    },
-    {
-      "id": "op-website-splashtop-5684dc29",
-      "competitorId": "splashtop",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "High",
-      "title": "Splashtop 官网重点页发生变化：Splashtop Pricing | Remote Access, Remote Support, Enterprise",
-      "url": "https://www.splashtop.com/pricing",
-      "summary": "上一标题：Splashtop Pricing | Remote Access, Remote Support, Enterprise。识别主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Splashtop Pricing: Compare affordable remote desktop, remote access, and remote support software plans for individuals, teams, IT, MSPs, and enterprises.",
-      "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
-      "time": "页面变化",
-      "detectedAt": "2026-08-08T02:51:44.359543Z"
+      "detectedAt": "2026-08-09T02:59:27.720436Z"
     },
     {
       "id": "op-website-remotepc-a98cb9b7",
@@ -354,7 +328,7 @@
       "summary": "上一标题：RemotePC&trade; - Secure Remote Access Software。识别主题：价格/套餐、折扣、下载入口、企业版、安全、远程支持、AI。Remote Access solution for your PC, Mac, Linux and mobile devices.",
       "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
       "time": "页面变化",
-      "detectedAt": "2026-08-08T02:51:44.845716Z"
+      "detectedAt": "2026-08-09T02:59:29.121287Z"
     },
     {
       "id": "op-website-chrome-remote-desktop-d0541e74",
@@ -367,7 +341,7 @@
       "summary": "上一标题：Chrome Remote Desktop。识别主题：折扣、下载入口、安全、远程支持、AI。https://remotedesktop.google.com/",
       "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
       "time": "页面变化",
-      "detectedAt": "2026-08-08T02:51:46.361761Z"
+      "detectedAt": "2026-08-09T02:59:30.618382Z"
     },
     {
       "id": "op-website-snapshot-teamviewer-fc23a969",
@@ -380,7 +354,33 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Remote desktop access solutions by TeamViewer: connect to remote computers, provide remote support, and collaborate online ➤ Free for personal use!",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:43.246317Z"
+      "detectedAt": "2026-08-09T02:59:27.720436Z"
+    },
+    {
+      "id": "op-website-snapshot-splashtop-4d063f6c",
+      "competitorId": "splashtop",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Splashtop 官网重点页进入监控：Splashtop: Secure Remote Access & Remote Support Software",
+      "url": "https://www.splashtop.com/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Fast and secure solutions for remote work, remote support, remote learning & more at the best value. Splashtop remote access is #1 in user satisfaction.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-08-09T02:59:28.183058Z"
+    },
+    {
+      "id": "op-website-snapshot-splashtop-1835a68b",
+      "competitorId": "splashtop",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "Splashtop 官网重点页进入监控：Splashtop Pricing | Remote Access, Remote Support, Enterprise",
+      "url": "https://www.splashtop.com/pricing",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Splashtop Pricing: Compare affordable remote desktop, remote access, and remote support software plans for individuals, teams, IT, MSPs, and enterprises.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-08-09T02:59:28.989827Z"
     },
     {
       "id": "op-website-snapshot-remotepc-c580b973",
@@ -393,7 +393,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、远程支持、AI。Remote Access solution for your PC, Mac, Linux and mobile devices.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:44.845716Z"
+      "detectedAt": "2026-08-09T02:59:29.121287Z"
     },
     {
       "id": "op-website-snapshot-rustdesk-ebe418c8",
@@ -406,7 +406,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。RustDesk is the best open-source remote desktop software. Secure alternative to TeamViewer and AnyDesk with self-hosted servers. Cross-platform support for Windows, macOS, Linux, and Android.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:45.222056Z"
+      "detectedAt": "2026-08-09T02:59:29.629043Z"
     },
     {
       "id": "op-website-snapshot-rustdesk-246ce1f5",
@@ -419,7 +419,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、远程支持、无人值守、AI。Choose the right RustDesk self-hosting plan for your organization. Free open-source plan available. Pro plans starting at $11.88/month with advanced features for enterprise use.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:45.945791Z"
+      "detectedAt": "2026-08-09T02:59:30.253464Z"
     },
     {
       "id": "op-website-snapshot-chrome-remote-desktop-483908c3",
@@ -432,7 +432,7 @@
       "summary": "当前页面主题：折扣、下载入口、安全、远程支持、AI。https://remotedesktop.google.com/",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:46.361761Z"
+      "detectedAt": "2026-08-09T02:59:30.618382Z"
     },
     {
       "id": "op-website-snapshot-zoho-assist-3a90a052",
@@ -445,7 +445,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Zoho Assist is a secure and easy-to-use remote desktop software for IT and support teams. Access, control, and troubleshoot devices from anywhere with Zoho Assist.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:46.611476Z"
+      "detectedAt": "2026-08-09T02:59:30.833488Z"
     },
     {
       "id": "op-website-snapshot-zoho-assist-32988660",
@@ -458,7 +458,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、免费试用、企业版、安全、远程支持、无人值守、AI。Check out the plans and pricing of Zoho Assist, a free remote support and unattended access software, here.You can choose either Remote Support or Unattended Access or both.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:46.730746Z"
+      "detectedAt": "2026-08-09T02:59:30.976523Z"
     },
     {
       "id": "op-website-snapshot-deskin-44af725b",
@@ -471,7 +471,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Best solution for remote work, support and design. DeskIn gives you the most simple, secure, smooth remote access experience you ever have.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:47.363024Z"
+      "detectedAt": "2026-08-09T02:59:31.606392Z"
     },
     {
       "id": "op-website-snapshot-deskin-a200a680",
@@ -484,20 +484,7 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、企业版、安全、无人值守、AI。Explore DeskIn Personal pricing, from free to premium plans, featuring high-speed servers, 4K at 60 FPS, and advanced security for seamless remote access.",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:47.666624Z"
-    },
-    {
-      "id": "op-website-splashtop-839f5629",
-      "competitorId": "splashtop",
-      "type": "官网动作",
-      "source": "Official Website",
-      "impact": "High",
-      "title": "Splashtop 官网重点页发生变化：Splashtop Blog | Remote Access Trends & Insights",
-      "url": "https://www.splashtop.com/blog",
-      "summary": "上一标题：Splashtop Blog | Remote Access Trends & Insights。识别主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Learn about today&#x27;s remote access solutions! Get news and updates on how Splashtop is changing the future of remote access.",
-      "recommendation": "检查页面是否涉及价格、折扣、下载入口、产品主张或转化路径变化，必要时同步调整 Awesun 对比页和投放落地页。",
-      "time": "页面变化",
-      "detectedAt": "2026-08-08T02:51:44.770939Z"
+      "detectedAt": "2026-08-09T02:59:31.912038Z"
     },
     {
       "id": "op-website-snapshot-teamviewer-d5e0da5c",
@@ -510,7 +497,20 @@
       "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、无人值守、AI。Find the right TeamViewer license that meets your organization",
       "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:43.422588Z"
+      "detectedAt": "2026-08-09T02:59:27.903948Z"
+    },
+    {
+      "id": "op-website-snapshot-teamviewer-d2e57c1b",
+      "competitorId": "teamviewer",
+      "type": "官网动作",
+      "source": "Official Website",
+      "impact": "Medium",
+      "title": "TeamViewer 官网重点页进入监控：Windows download | TeamViewer",
+      "url": "https://www.teamviewer.com/en/download/",
+      "summary": "当前页面主题：价格/套餐、折扣、下载入口、免费试用、企业版、安全、远程支持、AI。Download the latest version of TeamViewer for Windows. Control and access your devices remotely.",
+      "recommendation": "作为官网监控基线，后续页面标题、主张、价格/下载入口变化会进入推广动作时间线。",
+      "time": "监控基线",
+      "detectedAt": "2026-08-09T02:59:28.024711Z"
     },
     {
       "id": "op-content-item-deskin-77bf06d9",
@@ -523,7 +523,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.231004Z"
+      "detectedAt": "2026-08-09T02:59:44.429510Z"
     },
     {
       "id": "op-content-item-deskin-cddacfcb",
@@ -536,7 +536,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.230840Z"
+      "detectedAt": "2026-08-09T02:59:44.429265Z"
     },
     {
       "id": "op-content-item-rustdesk-af54c23b",
@@ -549,7 +549,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://rustdesk.com/blog/",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:58.573621Z"
+      "detectedAt": "2026-08-09T02:59:41.405284Z"
     },
     {
       "id": "op-content-item-rustdesk-db36faaf",
@@ -562,7 +562,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://rustdesk.com/blog/",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:58.573515Z"
+      "detectedAt": "2026-08-09T02:59:41.405154Z"
     },
     {
       "id": "op-content-item-splashtop-f70370c2",
@@ -575,7 +575,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.splashtop.com/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:54.486927Z"
+      "detectedAt": "2026-08-09T02:59:37.371406Z"
     },
     {
       "id": "op-content-item-splashtop-f47aa03b",
@@ -588,7 +588,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.splashtop.com/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:54.486890Z"
+      "detectedAt": "2026-08-09T02:59:37.371355Z"
     },
     {
       "id": "op-content-item-teamviewer-ca5b24e3",
@@ -601,7 +601,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.teamviewer.com/en/resources/",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:49.551722Z"
+      "detectedAt": "2026-08-09T02:59:33.801261Z"
     },
     {
       "id": "op-content-item-teamviewer-c761f2d6",
@@ -614,7 +614,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://www.teamviewer.com/en/resources/",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:51:49.134678Z"
+      "detectedAt": "2026-08-09T02:59:33.419793Z"
     },
     {
       "id": "op-content-item-deskin-13c5f4b6",
@@ -627,7 +627,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.230760Z"
+      "detectedAt": "2026-08-09T02:59:44.429144Z"
     },
     {
       "id": "op-content-item-deskin-fd4a5778",
@@ -640,7 +640,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.230721Z"
+      "detectedAt": "2026-08-09T02:59:44.429082Z"
     },
     {
       "id": "op-content-item-deskin-416d69bc",
@@ -653,7 +653,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.230682Z"
+      "detectedAt": "2026-08-09T02:59:44.429024Z"
     },
     {
       "id": "op-content-item-deskin-48c36ef0",
@@ -666,7 +666,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.230458Z"
+      "detectedAt": "2026-08-09T02:59:44.428680Z"
     },
     {
       "id": "op-content-item-deskin-3adba951",
@@ -679,7 +679,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.230391Z"
+      "detectedAt": "2026-08-09T02:59:44.428579Z"
     },
     {
       "id": "op-content-item-deskin-455d71bf",
@@ -692,7 +692,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:01.147053Z"
+      "detectedAt": "2026-08-09T02:59:44.308294Z"
     },
     {
       "id": "op-content-item-deskin-1436b3fa",
@@ -705,7 +705,7 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:00.875769Z"
+      "detectedAt": "2026-08-09T02:59:43.944346Z"
     },
     {
       "id": "op-content-item-deskin-ca235acc",
@@ -718,7 +718,105 @@
       "summary": "未识别到明确发布时间，按内容资产基线展示。暂未进入监控 SERP。来源列表页：https://deskin.io/resource/blog",
       "recommendation": "把该内容作为竞品内容库基线，后续新增、改版或进入 Google 搜索结果时再升级为重点动作。",
       "time": "监控基线",
-      "detectedAt": "2026-08-08T02:52:00.563399Z"
+      "detectedAt": "2026-08-09T02:59:43.626300Z"
+    },
+    {
+      "id": "op-review-teamviewer-7fcc59d3",
+      "competitorId": "teamviewer",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "TeamViewer 新增 Google Play 用户反馈",
+      "url": "",
+      "summary": "版本 15.80.207；评分 5 星；评论日期 2026-08-08。good working（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-08",
+      "detectedAt": "2026-08-08T02:18:06+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "id": "op-review-teamviewer-6f24c387",
+      "competitorId": "teamviewer",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "TeamViewer 新增 Google Play 用户反馈",
+      "url": "",
+      "summary": "版本 15.80.207；评分 5 星；评论日期 2026-08-08。💯 its actually good 👍 👌 nice app to use（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-08",
+      "detectedAt": "2026-08-08T01:28:49+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "id": "op-review-teamviewer-2d6577dd",
+      "competitorId": "teamviewer",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "TeamViewer 出现低星评论：登录体验",
+      "url": "",
+      "summary": "版本 15.80.207；评分 2 星；评论日期 2026-08-07。Very unreliable. after every few updates it screws up. had to have manual confirmation on my pc to login. then when I got someone to do that, I have two mice on my screen and can't click on anything or pull the keyboard up????? I would rather avoid any updates for both pc and phone but I don't even know if that's possible.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-07",
+      "detectedAt": "2026-08-07T22:48:28+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "id": "op-review-teamviewer-9a786cac",
+      "competitorId": "teamviewer",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "TeamViewer 出现低星评论：用户体验问题",
+      "url": "",
+      "summary": "版本 15.80.207；评分 1 星；评论日期 2026-08-07。The app is intuitive and easy to use. When it works it works great, which is most of the time. Unfortunately there is a bug that keeps logging me out, so that I have to log back in multiple times a day (depending how many times I open the app said day..). It is sometimes a bit unstable, and I have to force stop the app in system settings. Going into the host app and turning off eco mode does wonders for stability, but unfortunately the app still misbehaves.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-07",
+      "detectedAt": "2026-08-07T11:03:54+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "id": "op-review-anydesk-15ea41f0",
+      "competitorId": "anydesk",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "High",
+      "title": "AnyDesk 出现低星评论：用户体验问题",
+      "url": "",
+      "summary": "评分 1 星；评论日期 2026-08-07。this app was used by scam artists to get 2K from me today Aug 08, 2026 in 4 hours. It could have more except I was using public transport. Under no circumstances download this app.（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-07",
+      "detectedAt": "2026-08-07T22:12:43+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "id": "op-review-anydesk-19104da7",
+      "competitorId": "anydesk",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "AnyDesk 新增 Google Play 用户反馈",
+      "url": "",
+      "summary": "评分 5 星；评论日期 2026-08-07。Great（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-07",
+      "detectedAt": "2026-08-07T16:50:02+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "id": "op-review-anydesk-81f3f5e0",
+      "competitorId": "anydesk",
+      "type": "口碑动作",
+      "source": "Google Play",
+      "impact": "Medium",
+      "title": "AnyDesk 新增 Google Play 用户反馈",
+      "url": "",
+      "summary": "版本 8.5.0；评分 5 星；评论日期 2026-08-07。best app ever（来源：Google Play scraper，暂无直达链接）",
+      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
+      "time": "2026-08-07",
+      "detectedAt": "2026-08-07T09:45:56+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
     },
     {
       "id": "op-review-teamviewer-2275a549",
@@ -763,20 +861,6 @@
       "sourceNote": "来源：Google Play scraper，暂无直达链接"
     },
     {
-      "id": "op-review-teamviewer-d5f2acc6",
-      "competitorId": "teamviewer",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "TeamViewer 出现低星评论：用户体验问题",
-      "url": "",
-      "summary": "版本 15.80.207；评分 1 星；评论日期 2026-08-05。horrible experience. the app signs me out every time I close the app, regardless of checking \"keep me signed in\" keep getting kicked off for commercial use warnings, even though I've filled out the form multiple times and am not using the software commercially. all in all just a pain to use. switched to AnyDesk with no issues.（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-05",
-      "detectedAt": "2026-08-05T14:12:11+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
       "id": "op-review-anydesk-c740d475",
       "competitorId": "anydesk",
       "type": "口碑动作",
@@ -788,20 +872,6 @@
       "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
       "time": "2026-08-05",
       "detectedAt": "2026-08-05T19:23:33+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "id": "op-review-anydesk-ec8eacd0",
-      "competitorId": "anydesk",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "AnyDesk 新增 Google Play 用户反馈",
-      "url": "",
-      "summary": "版本 8.5.0；评分 5 星；评论日期 2026-08-05。best remote app（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-05",
-      "detectedAt": "2026-08-05T08:26:18+00:00",
       "sourceNote": "来源：Google Play scraper，暂无直达链接"
     },
     {
@@ -833,62 +903,6 @@
       "detectedAt": "2026-08-05T14:30:12+00:00"
     },
     {
-      "id": "op-review-teamviewer-c6177cc5",
-      "competitorId": "teamviewer",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "High",
-      "title": "TeamViewer 出现低星评论：用户体验问题",
-      "url": "",
-      "summary": "评分 1 星；评论日期 2026-08-04。app not installed in mobile fix problem（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-04",
-      "detectedAt": "2026-08-04T18:04:53+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "id": "op-review-teamviewer-a2c44670",
-      "competitorId": "teamviewer",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "TeamViewer 新增 Google Play 用户反馈",
-      "url": "",
-      "summary": "版本 15.80.207；评分 5 星；评论日期 2026-08-04。Very usefull application（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-04",
-      "detectedAt": "2026-08-04T17:44:39+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "id": "op-review-teamviewer-236b4ada",
-      "competitorId": "teamviewer",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "TeamViewer 新增 Google Play 用户反馈",
-      "url": "",
-      "summary": "版本 15.80.207；评分 5 星；评论日期 2026-08-04。very good 👍（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-04",
-      "detectedAt": "2026-08-04T14:06:00+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "id": "op-review-anydesk-41689e1e",
-      "competitorId": "anydesk",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "AnyDesk 新增 Google Play 用户反馈",
-      "url": "",
-      "summary": "版本 8.5.0；评分 5 星；评论日期 2026-08-04。Good（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-04",
-      "detectedAt": "2026-08-04T11:49:41+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
       "id": "op-review-splashtop-2345a72b",
       "competitorId": "splashtop",
       "type": "口碑动作",
@@ -914,20 +928,6 @@
       "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
       "time": "2026-08-04",
       "detectedAt": "2026-08-04T22:40:05+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "id": "op-review-anydesk-74c2b5c8",
-      "competitorId": "anydesk",
-      "type": "口碑动作",
-      "source": "Google Play",
-      "impact": "Medium",
-      "title": "AnyDesk 新增 Google Play 用户反馈",
-      "url": "",
-      "summary": "评分 5 星；评论日期 2026-08-03。GOOD（来源：Google Play scraper，暂无直达链接）",
-      "recommendation": "提取用户痛点，判断是否可用于 Awesun 商店文案、FAQ、对比页或投放反击素材。",
-      "time": "2026-08-03",
-      "detectedAt": "2026-08-03T07:38:43+00:00",
       "sourceNote": "来源：Google Play scraper，暂无直达链接"
     },
     {
@@ -1416,24 +1416,24 @@
   "creativeThemes": [],
   "insights": [
     {
-      "title": "DeskIn 密集布局“Alternative”对比内容，意图蚕食头部竞品流量",
+      "title": "DeskIn 密集布局竞品拦截内容，Awesun 亟需跟进 Alternative 矩阵建设",
       "level": "High",
-      "body": "竞品 DeskIn 近期在其官网博客（Resource/Blog）密集发布了针对 AnyDesk、TeamViewer、Chrome Remote Desktop、Splashtop 及 RDP 的替代方案（Alternative）与对比分析文章。这表明 DeskIn 正在通过强 SEO 导向的内容营销，精准拦截寻找头部品牌替代品的意向客户。建议 Awesun 立即跟进，针对性撰写“Awesun vs DeskIn”及“Best DeskIn Alternative”的对比专题页，并在 Google Ads 中竞价"
+      "body": "竞品 DeskIn 近期在官网博客密集发布了针对 AnyDesk、TeamViewer、Chrome Remote Desktop 和 Splashtop 的对比与替代方案（Alternative）文章。这表明其正在通过 SEO 强力拦截竞品流失流量。Awesun 应立即针对这些主流竞品撰写“Awesun vs AnyDesk/TeamViewer”等深度对比评测，并在官网增设 Alternative 专题落地页，利用高性价比和核心功能优势进行精准流量拦截。"
     },
     {
-      "title": "TeamViewer 商业化限制与登录故障引发用户出逃，提供精准获客窗口",
+      "title": "TeamViewer 频繁登出故障引发付费用户退订潮，Awesun 可定向吸纳流失客户",
       "level": "High",
-      "body": "竞品 TeamViewer 在 Google Play 遭遇大量一星差评，用户集中抱怨“非商业用途误判警告频繁”以及“即使购买了1500美元年费版仍每5分钟被迫重新登录”。同时，主流科技媒体 MakeUseOf 报道了用户用免费工具替代 TeamViewer 的趋势。这表明其用户粘性正因糟糕的体验和激进的变现策略而瓦解。建议 Awesun 立即在海外社媒（如 Reddit、X）和搜索广告中投放“No Commercial Use Limit”和“Stable Connection”卖点，定向吸纳 TeamViewe"
+      "body": "竞品 TeamViewer 在 Google Play 遭遇大量商业付费用户（如年费 1500 美元用户）的 1 星差评，集中抱怨“每 5 分钟强制登出、更新后连接不稳定”等严重体验问题，同时美媒 MakeUseOf 报道了用户寻找免费替代方案的趋势。Awesun 运营团队应抓住此窗口期，在 Reddit、X 等海外社媒定向投放“连接稳定、不频繁掉线、高性价比”的广告，并针对 TeamViewer 商业流失用户推出专属迁移折扣或免费试用期。"
     },
     {
-      "title": "AnyDesk 频现诈骗相关负面评价，安全与信任营销成突破口",
+      "title": "AnyDesk 陷入诈骗利用舆论危机，Awesun 应强化“安全防诈”品牌心智",
       "level": "Medium",
-      "body": "竞品 AnyDesk 在 Google Play 连续出现因“屏幕共享诈骗、资金被窃”导致的 1 星严重差评。这表明普通用户对远程控制软件的安全信任度正在降低。建议 Awesun 在海外官网首页、应用商店描述及推广素材中，显著放大“防诈骗安全提示、单次安全连接码、黑屏隐私模式”等安全防护功能，树立“最安全的远程控制软件”品牌形象，争取对安全敏感的家庭及企业用户。"
+      "body": "竞品 AnyDesk 在 Google Play 频繁出现因被诈骗分子利用进行屏幕共享并盗取资金的 1 星差评，用户品牌信任度大幅下滑。远程控制软件的安全性与防诈提示已成为用户痛点。Awesun 应在海外版 App 启动页、连接确认弹窗及官网显著位置，增加醒目的“防范陌生人诈骗”安全警示，并以此作为公关宣传点，树立 Awesun 相比竞品更安全、更负责任的品牌形象。"
     },
     {
-      "title": "RustDesk 借力媒体公关与自托管方案崛起，冲击传统订阅模式",
+      "title": "RustDesk 借开源与自建服务器属性获主流媒体推荐，Awesun 需提升技术社区声量",
       "level": "Medium",
-      "body": "竞品 RustDesk 凭借“开源、自托管（Self-Hosted）”属性获得 MakeUseOf 等主流媒体的主动推荐，其官网也重点展示了起步价 11.88 美元/月的自托管服务器方案。这反映出海外极客用户和中小企业对数据自主权及低成本方案的强烈需求。建议 Awesun 针对技术型受众，推出或强调自身的私有化部署能力，并在营销中对比 RustDesk 复杂的部署门槛，主打“免配置、开箱即用”的高性价比企业级方案。"
+      "body": "竞品 RustDesk 凭借“开源、支持自建服务器（Self-Hosted）”的定位，成功获得美国主流科技媒体 MakeUseOf 的专题报道，被推荐为替代 TeamViewer 的首选免费工具。这表明海外技术型用户对数据自主掌控的需求强烈。Awesun 建议在海外运营中，加大对自身安全架构、私有化部署能力的科普内容创作，并在 Reddit、V2EX 等技术社区进行软文推广，吸引极客与中小企业 IT 主管的关注。"
     }
   ],
   "socialSignals": [
@@ -1865,11 +1865,141 @@
     {
       "competitorId": "teamviewer",
       "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "good working",
+      "rating": 5,
+      "version": "15.80.207",
+      "publishedAt": "2026-08-08T02:18:06+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "💯 its actually good 👍 👌 nice app to use",
+      "rating": 5,
+      "version": "15.80.207",
+      "publishedAt": "2026-08-08T01:28:49+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "Very unreliable. after every few updates it screws up. had to have manual confirmation on my pc to login. then when I got someone to do that, I have two mice on my screen and can't click on anything or pull the keyboard up????? I would rather avoid any updates for both pc and phone but I don't even know if that's possible.",
+      "rating": 2,
+      "version": "15.80.207",
+      "publishedAt": "2026-08-07T22:48:28+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "The app is intuitive and easy to use. When it works it works great, which is most of the time. Unfortunately there is a bug that keeps logging me out, so that I have to log back in multiple times a day (depending how many times I open the app said day..). It is sometimes a bit unstable, and I have to force stop the app in system settings. Going into the host app and turning off eco mode does wonders for stability, but unfortunately the app still misbehaves.",
+      "rating": 1,
+      "version": "15.80.207",
+      "publishedAt": "2026-08-07T11:03:54+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "teamviewer",
+      "source": "Google Play",
       "title": "Google Play 低星评论",
       "summary": "Have a commercial $1500 annual license, but the app kicks me out every 5 minutes and makes me login again. I have to login about 30 times a day.",
       "rating": 1,
       "version": "15.80.207",
       "publishedAt": "2026-08-06T19:34:12+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "this app was used by scam artists to get 2K from me today Aug 08, 2026 in 4 hours. It could have more except I was using public transport. Under no circumstances download this app.",
+      "rating": 1,
+      "version": null,
+      "publishedAt": "2026-08-07T22:12:43+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "Great",
+      "rating": 5,
+      "version": null,
+      "publishedAt": "2026-08-07T16:50:02+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "best app ever",
+      "rating": 5,
+      "version": "8.5.0",
+      "publishedAt": "2026-08-07T09:45:56+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "SCAM AND THEY DELETE COMMENTS THEY ASK TO SHARE YOUR SCREEN AND STEAL YOUR MONEY BY BUY GIFT CARDS THREW YOUR APPS!!! AS SOON AS THEY ASK YOU TO DOWN LOAD THIS APP HANG UP!!!",
+      "rating": 1,
+      "version": null,
+      "publishedAt": "2026-08-06T00:11:55+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "anydesk",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "I was defrauded financially by this group under the name AnyDesk Remote Desktop for 9 months running under US Base funds .",
+      "rating": 1,
+      "version": "8.5.0",
+      "publishedAt": "2026-08-05T19:23:33+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "splashtop",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "sometimes not working with NO real explanation",
+      "rating": 1,
+      "version": "3.8.0.22",
+      "publishedAt": "2026-08-04T16:53:27+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "splashtop",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "Far superior to TeamViewer and 80% cheaper. I have been using Splashtop for 4 years now, and cannot fault it.",
+      "rating": 5,
+      "version": "3.8.0.22",
+      "publishedAt": "2026-08-02T22:14:05+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "remotepc",
+      "source": "Google Play",
+      "title": "Google Play 低星评论",
+      "summary": "Good app over all , is there a way to remove the start menu Ctrl alt delete taskbar? since the developers of this app ignore people and their questions I'm lowering my score down to one star until they fix something or respond for that matter",
+      "rating": 1,
+      "version": "5.9.3",
+      "publishedAt": "2026-08-06T01:52:09+00:00",
+      "sourceNote": "来源：Google Play scraper，暂无直达链接"
+    },
+    {
+      "competitorId": "deskin",
+      "source": "Google Play",
+      "title": "Google Play 新评论",
+      "summary": "who made this amazing 🤩😁🤩😁🤩 app thank you",
+      "rating": 5,
+      "version": "3.3.5.0",
+      "publishedAt": "2026-08-04T22:40:05+00:00",
       "sourceNote": "来源：Google Play scraper，暂无直达链接"
     },
     {
@@ -1915,26 +2045,6 @@
     {
       "competitorId": "anydesk",
       "source": "Google Play",
-      "title": "Google Play 低星评论",
-      "summary": "SCAM AND THEY DELETE COMMENTS THEY ASK TO SHARE YOUR SCREEN AND STEAL YOUR MONEY BY BUY GIFT CARDS THREW YOUR APPS!!! AS SOON AS THEY ASK YOU TO DOWN LOAD THIS APP HANG UP!!!",
-      "rating": 1,
-      "version": null,
-      "publishedAt": "2026-08-06T00:11:55+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
-      "title": "Google Play 低星评论",
-      "summary": "I was defrauded financially by this group under the name AnyDesk Remote Desktop for 9 months running under US Base funds .",
-      "rating": 1,
-      "version": "8.5.0",
-      "publishedAt": "2026-08-05T19:23:33+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "anydesk",
-      "source": "Google Play",
       "title": "Google Play 新评论",
       "summary": "best remote app",
       "rating": 5,
@@ -1960,46 +2070,6 @@
       "rating": 5,
       "version": null,
       "publishedAt": "2026-08-03T07:38:43+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "splashtop",
-      "source": "Google Play",
-      "title": "Google Play 低星评论",
-      "summary": "sometimes not working with NO real explanation",
-      "rating": 1,
-      "version": "3.8.0.22",
-      "publishedAt": "2026-08-04T16:53:27+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "splashtop",
-      "source": "Google Play",
-      "title": "Google Play 新评论",
-      "summary": "Far superior to TeamViewer and 80% cheaper. I have been using Splashtop for 4 years now, and cannot fault it.",
-      "rating": 5,
-      "version": "3.8.0.22",
-      "publishedAt": "2026-08-02T22:14:05+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "remotepc",
-      "source": "Google Play",
-      "title": "Google Play 低星评论",
-      "summary": "Good app over all , is there a way to remove the start menu Ctrl alt delete taskbar? since the developers of this app ignore people and their questions I'm lowering my score down to one star until they fix something or respond for that matter",
-      "rating": 1,
-      "version": "5.9.3",
-      "publishedAt": "2026-08-06T01:52:09+00:00",
-      "sourceNote": "来源：Google Play scraper，暂无直达链接"
-    },
-    {
-      "competitorId": "deskin",
-      "source": "Google Play",
-      "title": "Google Play 新评论",
-      "summary": "who made this amazing 🤩😁🤩😁🤩 app thank you",
-      "rating": 5,
-      "version": "3.3.5.0",
-      "publishedAt": "2026-08-04T22:40:05+00:00",
       "sourceNote": "来源：Google Play scraper，暂无直达链接"
     },
     {
@@ -5069,8 +5139,8 @@
         "title": "TeamViewer—The Digital Workplace Platform",
         "h1": "Fix it before they feel it",
         "description": "Remote desktop access solutions by TeamViewer: connect to remote computers, provide remote support, and collaborate online ➤ Free for personal use!",
-        "hash": "e67c276ce47bb6cb189c6accf324955aea7d21de0198450a8e3b1d5ac86c33ac",
-        "size": 453419,
+        "hash": "d192d7cd8668953d016ac5040970a2e4f923d0744e9574f7bd373dbf8fee58fc",
+        "size": 452882,
         "keywords": [
           "价格/套餐",
           "折扣",
@@ -5081,7 +5151,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:43.246317Z"
+        "collectedAt": "2026-08-09T02:59:27.720436Z"
       },
       "https://www.teamviewer.com/en/pricing/": {
         "url": "https://www.teamviewer.com/en/pricing/",
@@ -5103,7 +5173,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:43.422588Z"
+        "collectedAt": "2026-08-09T02:59:27.903948Z"
       },
       "https://www.teamviewer.com/en/download/": {
         "url": "https://www.teamviewer.com/en/download/",
@@ -5124,7 +5194,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:43.542591Z"
+        "collectedAt": "2026-08-09T02:59:28.024711Z"
       }
     },
     "anydesk": {
@@ -5138,7 +5208,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-08-08T02:51:43.599045Z"
+        "collectedAt": "2026-08-09T02:59:28.060508Z"
       },
       "https://anydesk.com/en/pricing": {
         "url": "https://anydesk.com/en/pricing",
@@ -5150,7 +5220,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-08-08T02:51:43.633930Z"
+        "collectedAt": "2026-08-09T02:59:28.090643Z"
       },
       "https://anydesk.com/en/downloads": {
         "url": "https://anydesk.com/en/downloads",
@@ -5162,7 +5232,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-08-08T02:51:43.661645Z"
+        "collectedAt": "2026-08-09T02:59:28.122892Z"
       }
     },
     "splashtop": {
@@ -5186,7 +5256,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:43.744992Z"
+        "collectedAt": "2026-08-09T02:59:28.183058Z"
       },
       "https://www.splashtop.com/pricing": {
         "url": "https://www.splashtop.com/pricing",
@@ -5208,7 +5278,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:44.359543Z"
+        "collectedAt": "2026-08-09T02:59:28.989827Z"
       },
       "https://www.splashtop.com/blog": {
         "url": "https://www.splashtop.com/blog",
@@ -5229,7 +5299,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:44.770939Z"
+        "collectedAt": "2026-08-09T02:59:29.052464Z"
       }
     },
     "remotepc": {
@@ -5240,7 +5310,7 @@
         "title": "RemotePC&trade; - Secure Remote Access Software",
         "h1": "Remote access to your PC or Mac",
         "description": "Remote Access solution for your PC, Mac, Linux and mobile devices.",
-        "hash": "99e55cddda3427f92297a4f314ae8651ac6e6e4dcd57383386fe745c116a0a33",
+        "hash": "6907267d3f541aff3774001414f00ab6fc843fa07bc489458d8f1a419cc134b8",
         "size": 57474,
         "keywords": [
           "价格/套餐",
@@ -5251,7 +5321,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:44.845716Z"
+        "collectedAt": "2026-08-09T02:59:29.121287Z"
       },
       "https://www.remotepc.com/pricing": {
         "url": "https://www.remotepc.com/pricing",
@@ -5272,7 +5342,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:44.893002Z"
+        "collectedAt": "2026-08-09T02:59:29.310846Z"
       },
       "https://www.remotepc.com/download": {
         "url": "https://www.remotepc.com/download",
@@ -5290,7 +5360,7 @@
           "企业版",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:44.935783Z"
+        "collectedAt": "2026-08-09T02:59:29.355706Z"
       }
     },
     "rustdesk": {
@@ -5314,7 +5384,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:45.222056Z"
+        "collectedAt": "2026-08-09T02:59:29.629043Z"
       },
       "https://rustdesk.com/pricing.html": {
         "url": "https://rustdesk.com/pricing.html",
@@ -5335,7 +5405,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:45.945791Z"
+        "collectedAt": "2026-08-09T02:59:30.253464Z"
       },
       "https://rustdesk.com/blog/": {
         "url": "https://rustdesk.com/blog/",
@@ -5356,7 +5426,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:46.185388Z"
+        "collectedAt": "2026-08-09T02:59:30.474853Z"
       }
     },
     "chrome-remote-desktop": {
@@ -5367,8 +5437,8 @@
         "title": "Chrome Remote Desktop",
         "h1": "",
         "description": "",
-        "hash": "7479ff0e294270aa7cf2119a29ceb388ca1ecf61793b0b71edaf04b4ad132df9",
-        "size": 449414,
+        "hash": "aa947393b8304178f749eea2892498bf0572047068939b3c2694d8f40f881e2c",
+        "size": 449430,
         "keywords": [
           "折扣",
           "下载入口",
@@ -5376,7 +5446,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:46.361761Z"
+        "collectedAt": "2026-08-09T02:59:30.618382Z"
       }
     },
     "zoho-assist": {
@@ -5400,7 +5470,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:46.611476Z"
+        "collectedAt": "2026-08-09T02:59:30.833488Z"
       },
       "https://www.zoho.com/assist/pricing.html": {
         "url": "https://www.zoho.com/assist/pricing.html",
@@ -5421,7 +5491,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:46.730746Z"
+        "collectedAt": "2026-08-09T02:59:30.976523Z"
       },
       "https://www.zoho.com/assist/resources/": {
         "url": "https://www.zoho.com/assist/resources/",
@@ -5433,7 +5503,7 @@
         "hash": "",
         "size": 0,
         "keywords": [],
-        "collectedAt": "2026-08-08T02:51:46.826352Z"
+        "collectedAt": "2026-08-09T02:59:31.079422Z"
       }
     },
     "deskin": {
@@ -5456,7 +5526,7 @@
           "远程支持",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:47.363024Z"
+        "collectedAt": "2026-08-09T02:59:31.606392Z"
       },
       "https://deskin.io/pricing/deskin-personal": {
         "url": "https://deskin.io/pricing/deskin-personal",
@@ -5476,7 +5546,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:47.666624Z"
+        "collectedAt": "2026-08-09T02:59:31.912038Z"
       },
       "https://deskin.io/download/deskin-personal": {
         "url": "https://deskin.io/download/deskin-personal",
@@ -5495,7 +5565,7 @@
           "安全",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:47.928123Z"
+        "collectedAt": "2026-08-09T02:59:32.158434Z"
       },
       "https://deskin.io/resource/blog": {
         "url": "https://deskin.io/resource/blog",
@@ -5516,7 +5586,7 @@
           "无人值守",
           "AI"
         ],
-        "collectedAt": "2026-08-08T02:51:48.430363Z"
+        "collectedAt": "2026-08-09T02:59:32.664970Z"
       }
     }
   },
@@ -7435,7 +7505,7 @@
       "url": "https://www.teamviewer.com/en/resources/reports/gartner-magic-quadrant-2026",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:48.923914Z",
+      "collectedAt": "2026-08-09T02:59:33.185236Z",
       "rankedKeywords": []
     },
     {
@@ -7447,7 +7517,7 @@
       "url": "https://www.teamviewer.com/en/resources/trust-center",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:49.134678Z",
+      "collectedAt": "2026-08-09T02:59:33.419793Z",
       "rankedKeywords": []
     },
     {
@@ -7459,7 +7529,7 @@
       "url": "https://www.teamviewer.com/en/resources/teamviewer-user-focus-program",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:49.551722Z",
+      "collectedAt": "2026-08-09T02:59:33.801261Z",
       "rankedKeywords": []
     },
     {
@@ -7471,7 +7541,7 @@
       "url": "https://www.splashtop.com/blog/endpoint-management-small-business-it",
       "publishedDate": "2026-08-04",
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:51.540122Z",
+      "collectedAt": "2026-08-09T02:59:34.483725Z",
       "rankedKeywords": []
     },
     {
@@ -7483,7 +7553,7 @@
       "url": "https://www.splashtop.com/blog/what-is-recovery-mode",
       "publishedDate": "2026-08-06",
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:53.151386Z",
+      "collectedAt": "2026-08-09T02:59:34.578551Z",
       "rankedKeywords": []
     },
     {
@@ -7495,7 +7565,7 @@
       "url": "https://www.splashtop.com/blog/what-makes-endpoint-automation-trustworthy",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:53.572015Z",
+      "collectedAt": "2026-08-09T02:59:35.204008Z",
       "rankedKeywords": []
     },
     {
@@ -7507,7 +7577,7 @@
       "url": "https://www.splashtop.com/blog/how-is-remote-support-software-priced",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:53.607935Z",
+      "collectedAt": "2026-08-09T02:59:36.063369Z",
       "rankedKeywords": []
     },
     {
@@ -7519,7 +7589,7 @@
       "url": "https://www.splashtop.com/blog/tool-sprawl-slows-endpoint-management",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.024804Z",
+      "collectedAt": "2026-08-09T02:59:36.789468Z",
       "rankedKeywords": []
     },
     {
@@ -7531,7 +7601,7 @@
       "url": "https://www.splashtop.com/blog/safest-way-remote-into-work-computer",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486586Z",
+      "collectedAt": "2026-08-09T02:59:37.370992Z",
       "rankedKeywords": []
     },
     {
@@ -7543,7 +7613,7 @@
       "url": "https://www.splashtop.com/blog/top-endpoint-security-risks-smbs",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486686Z",
+      "collectedAt": "2026-08-09T02:59:37.371081Z",
       "rankedKeywords": []
     },
     {
@@ -7555,7 +7625,7 @@
       "url": "https://www.splashtop.com/blog/msp-automation-scripts-patch-deployment",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486732Z",
+      "collectedAt": "2026-08-09T02:59:37.371141Z",
       "rankedKeywords": []
     },
     {
@@ -7567,7 +7637,7 @@
       "url": "https://www.splashtop.com/blog/splashtop-product-recap-h1-2026",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486772Z",
+      "collectedAt": "2026-08-09T02:59:37.371196Z",
       "rankedKeywords": []
     },
     {
@@ -7579,7 +7649,7 @@
       "url": "https://www.splashtop.com/blog/patch-tuesday-july-2026",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486814Z",
+      "collectedAt": "2026-08-09T02:59:37.371251Z",
       "rankedKeywords": []
     },
     {
@@ -7591,7 +7661,7 @@
       "url": "https://www.splashtop.com/blog/msp-remotely-support-multiple-operating-systems",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486854Z",
+      "collectedAt": "2026-08-09T02:59:37.371305Z",
       "rankedKeywords": []
     },
     {
@@ -7603,7 +7673,7 @@
       "url": "https://www.splashtop.com/blog/hipaa-patch-management-software",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486890Z",
+      "collectedAt": "2026-08-09T02:59:37.371355Z",
       "rankedKeywords": []
     },
     {
@@ -7615,7 +7685,7 @@
       "url": "https://www.splashtop.com/blog/endpoint-lifecycle-management",
       "publishedDate": null,
       "market": "US",
-      "collectedAt": "2026-08-08T02:51:54.486927Z",
+      "collectedAt": "2026-08-09T02:59:37.371406Z",
       "rankedKeywords": []
     },
     {
@@ -7627,7 +7697,7 @@
       "url": "https://rustdesk.com/blog/rustdesk-vs-vnc",
       "publishedDate": "2026-07-09",
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:55.805707Z",
+      "collectedAt": "2026-08-09T02:59:38.722220Z",
       "rankedKeywords": []
     },
     {
@@ -7639,7 +7709,7 @@
       "url": "https://rustdesk.com/blog/rustdesk-vs-screenconnect",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:57.675493Z",
+      "collectedAt": "2026-08-09T02:59:40.544730Z",
       "rankedKeywords": []
     },
     {
@@ -7651,7 +7721,7 @@
       "url": "https://rustdesk.com/blog/rustdesk-scale-50000-200000-devices",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:58.573132Z",
+      "collectedAt": "2026-08-09T02:59:41.404607Z",
       "rankedKeywords": []
     },
     {
@@ -7663,7 +7733,7 @@
       "url": "https://rustdesk.com/blog/rustdesk-for-linux",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:58.573295Z",
+      "collectedAt": "2026-08-09T02:59:41.404844Z",
       "rankedKeywords": []
     },
     {
@@ -7675,7 +7745,7 @@
       "url": "https://rustdesk.com/blog/teamviewer-vs-anydesk-for-msps",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:58.573402Z",
+      "collectedAt": "2026-08-09T02:59:41.404998Z",
       "rankedKeywords": []
     },
     {
@@ -7687,7 +7757,7 @@
       "url": "https://rustdesk.com/blog/rustdesk-vs-anydesk",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:58.573515Z",
+      "collectedAt": "2026-08-09T02:59:41.405154Z",
       "rankedKeywords": []
     },
     {
@@ -7699,7 +7769,7 @@
       "url": "https://rustdesk.com/blog/2",
       "publishedDate": null,
       "market": "Global",
-      "collectedAt": "2026-08-08T02:51:58.573621Z",
+      "collectedAt": "2026-08-09T02:59:41.405284Z",
       "rankedKeywords": []
     },
     {
@@ -7711,7 +7781,7 @@
       "url": "https://deskin.io/resource/blog/turn-ipad-into-a-second-monitor-for-windows-and-mac-computers",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:51:59.880169Z",
+      "collectedAt": "2026-08-09T02:59:42.819822Z",
       "rankedKeywords": []
     },
     {
@@ -7723,7 +7793,7 @@
       "url": "https://deskin.io/resource/blog/rustdesk-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:00.242823Z",
+      "collectedAt": "2026-08-09T02:59:43.179475Z",
       "rankedKeywords": []
     },
     {
@@ -7735,7 +7805,7 @@
       "url": "https://deskin.io/resource/blog/why-should-you-choose-deskin-remote-desktop-instead-of-anydesk",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:00.563399Z",
+      "collectedAt": "2026-08-09T02:59:43.626300Z",
       "rankedKeywords": []
     },
     {
@@ -7747,7 +7817,7 @@
       "url": "https://deskin.io/resource/blog/the-best-alternative-to-teamviewer-and-anydesk-deskin-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:00.875769Z",
+      "collectedAt": "2026-08-09T02:59:43.944346Z",
       "rankedKeywords": []
     },
     {
@@ -7759,7 +7829,7 @@
       "url": "https://deskin.io/resource/blog/deskin-vs-chrome-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.147053Z",
+      "collectedAt": "2026-08-09T02:59:44.308294Z",
       "rankedKeywords": []
     },
     {
@@ -7771,7 +7841,7 @@
       "url": "https://deskin.io/resource/blog/rdp-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.230391Z",
+      "collectedAt": "2026-08-09T02:59:44.428579Z",
       "rankedKeywords": []
     },
     {
@@ -7783,7 +7853,7 @@
       "url": "https://deskin.io/resource/blog/rdp-security",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.230458Z",
+      "collectedAt": "2026-08-09T02:59:44.428680Z",
       "rankedKeywords": []
     },
     {
@@ -7795,7 +7865,7 @@
       "url": "https://deskin.io/resource/blog/chrome-remote-desktop-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.230682Z",
+      "collectedAt": "2026-08-09T02:59:44.429024Z",
       "rankedKeywords": []
     },
     {
@@ -7807,7 +7877,7 @@
       "url": "https://deskin.io/resource/blog/splashtop-alternative",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.230721Z",
+      "collectedAt": "2026-08-09T02:59:44.429082Z",
       "rankedKeywords": []
     },
     {
@@ -7819,7 +7889,7 @@
       "url": "https://deskin.io/resource/blog/why-is-deskin-remote-desktop-better-than-splashtop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.230760Z",
+      "collectedAt": "2026-08-09T02:59:44.429144Z",
       "rankedKeywords": []
     },
     {
@@ -7831,7 +7901,7 @@
       "url": "https://deskin.io/resource/blog/the-best-remote-desktop-software-for-stable-connection-and-low-latency-deskin-remote-desktop",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.230840Z",
+      "collectedAt": "2026-08-09T02:59:44.429265Z",
       "rankedKeywords": []
     },
     {
@@ -7843,7 +7913,7 @@
       "url": "https://deskin.io/resource/blog/comparison-of-3-free-remote-desktop-software",
       "publishedDate": null,
       "market": "TW",
-      "collectedAt": "2026-08-08T02:52:01.231004Z",
+      "collectedAt": "2026-08-09T02:59:44.429510Z",
       "rankedKeywords": []
     }
   ],
